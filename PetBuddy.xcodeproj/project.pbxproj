@@ -26,6 +26,7 @@
 		0E8DC32D29AEA00700832E85 /* Click.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0E8DC31529AEA00700832E85 /* Click.mp3 */; };
 		0E8DC32E29AEA00700832E85 /* VolumeObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E8DC31729AEA00700832E85 /* VolumeObserver.swift */; };
 		0E8DC33129AEA10800832E85 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E8DC33029AEA10800832E85 /* Preview Assets.xcassets */; };
+		0E8DC33A29AEAF0600832E85 /* MPVolumeView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E8DC33929AEAF0600832E85 /* MPVolumeView+.swift */; };
 		38619963B688BA55365AABDC /* Pods_PetBuddy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C18390AAA2BD48588A8D389E /* Pods_PetBuddy.framework */; };
 		9280BE55778D69CDB97DE84A /* Pods_PetBuddy_PetBuddyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25D4AD7EC9CA7A3F5893431E /* Pods_PetBuddy_PetBuddyUITests.framework */; };
 		E8AABD427DBA690FCD9BC9D7 /* Pods_PetBuddyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEA58413280FC781246E5778 /* Pods_PetBuddyTests.framework */; };
@@ -72,6 +73,7 @@
 		0E8DC31529AEA00700832E85 /* Click.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Click.mp3; sourceTree = "<group>"; };
 		0E8DC31729AEA00700832E85 /* VolumeObserver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VolumeObserver.swift; sourceTree = "<group>"; };
 		0E8DC33029AEA10800832E85 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0E8DC33929AEAF0600832E85 /* MPVolumeView+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MPVolumeView+.swift"; sourceTree = "<group>"; };
 		1D0135D67B1E359CA377C72A /* Pods-PetBuddy-PetBuddyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PetBuddy-PetBuddyUITests.release.xcconfig"; path = "Target Support Files/Pods-PetBuddy-PetBuddyUITests/Pods-PetBuddy-PetBuddyUITests.release.xcconfig"; sourceTree = "<group>"; };
 		25D4AD7EC9CA7A3F5893431E /* Pods_PetBuddy_PetBuddyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PetBuddy_PetBuddyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF4887F8C731606B8C4EF7F0 /* Pods-PetBuddy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PetBuddy.debug.xcconfig"; path = "Target Support Files/Pods-PetBuddy/Pods-PetBuddy.debug.xcconfig"; sourceTree = "<group>"; };
@@ -138,6 +140,7 @@
 				0E8DC2EC29AEA00700832E85 /* Module */,
 				0E8DC31429AEA00700832E85 /* Resources */,
 				0E8DC31629AEA00700832E85 /* Service */,
+				0E8DC33829AEAEF800832E85 /* Extensions */,
 				0E8DC33229AEA16500832E85 /* Preview Content */,
 				0E8DC2C229AE9E4000832E85 /* PetBuddyApp.swift */,
 				0E8DC2C629AE9E4200832E85 /* Assets.xcassets */,
@@ -282,6 +285,14 @@
 				0E8DC33029AEA10800832E85 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0E8DC33829AEAEF800832E85 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				0E8DC33929AEAF0600832E85 /* MPVolumeView+.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		BBBE7FBCF073495175E8E1F4 /* Frameworks */ = {
@@ -513,6 +524,7 @@
 				0E8DC31B29AEA00700832E85 /* SettingsCoordinator.swift in Sources */,
 				0E8DC31A29AEA00700832E85 /* SettingsCoordinatorView.swift in Sources */,
 				0E8DC32B29AEA00700832E85 /* MainCoordinatorView.swift in Sources */,
+				0E8DC33A29AEAF0600832E85 /* MPVolumeView+.swift in Sources */,
 				0E8DC32529AEA00700832E85 /* ClickerView.swift in Sources */,
 				0E8DC32C29AEA00700832E85 /* MainCoordinator.swift in Sources */,
 				0E8DC32429AEA00700832E85 /* ClickerCoordinatorView.swift in Sources */,
