@@ -3,117 +3,65 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 55;
+	objectVersion = 51;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = AE7B4FB01588B9E6DF09CB79FC7CE7BD /* Build configuration list for PBXAggregateTarget "SwiftLint" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = SwiftLint;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
-		1F341D91E20964EFBE8FF28F976113A8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		43ACAF1026B43B239E1ADB8BE2E7E943 /* Pods-PetBuddyTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD4FC8F4471BF65767A502B6D25406B /* Pods-PetBuddyTests-dummy.m */; };
-		8DBCA2FD4012D8E7EC23E60723918E4E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		97E416CA02CC1EB945001943DF4FC23E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		B0292883DE57887B8DF01E83180DCF6B /* Pods-PetBuddyTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0892D4CFB4D64CF3E71E80F3E58A3C66 /* Pods-PetBuddyTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B8AF079325518E638A7812CEBACB7ADA /* Pods-PetBuddy-PetBuddyUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CE87CDBDB538134CB0C1D8F8F5FC7C68 /* Pods-PetBuddy-PetBuddyUITests-dummy.m */; };
-		BC75C4CC1C498C7067801BA0F012DE3D /* Pods-PetBuddy-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FF53E2F9FBD83D237FF1034E74CA5C77 /* Pods-PetBuddy-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F400B19898AF394AFF14D3BAA21BD04C /* Pods-PetBuddy-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C971E0E534EF83F162C1A3139A5B4C47 /* Pods-PetBuddy-dummy.m */; };
-		FD8A33EAD83B1DA2C51663BA7F0FBE4A /* Pods-PetBuddy-PetBuddyUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ECAA9EDF05DB1AE829F8E042599C2BF0 /* Pods-PetBuddy-PetBuddyUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		15E1B1549FDF24C571F2CB640FD33AE2 /* Pods-PetBuddy-iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D26290E1C5FFCD534698078A5B235E88 /* Pods-PetBuddy-iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2C056425302E47396732E18BCC02E981 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		94A0C0726D7759505B2675A003954CF6 /* Pods-PetBuddy-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BF8F5060F97920852C928409D123841 /* Pods-PetBuddy-iOS-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		AD4D0859ABB2CC33E2163FF437042A3D /* PBXContainerItemProxy */ = {
+		941B58A97728328E323E4FC15DCAF208 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A0D941C987B0AC303F64FE47F2BFC522;
-			remoteInfo = "Pods-PetBuddy";
+			remoteGlobalIDString = 52B60EC2A583F24ACBB69C113F5488B9;
+			remoteInfo = SwiftLint;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0892D4CFB4D64CF3E71E80F3E58A3C66 /* Pods-PetBuddyTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PetBuddyTests-umbrella.h"; sourceTree = "<group>"; };
-		0B141ADCBEC5DB924D3C1EE7E837340B /* Pods-PetBuddy-PetBuddyUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PetBuddy-PetBuddyUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		1DD4FC8F4471BF65767A502B6D25406B /* Pods-PetBuddyTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PetBuddyTests-dummy.m"; sourceTree = "<group>"; };
-		21859BEC54161C6464E6F0D1CCAAB779 /* Pods-PetBuddyTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PetBuddyTests-Info.plist"; sourceTree = "<group>"; };
-		2829BAEC902C3326B07F6D182C0BEE7C /* Pods-PetBuddy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PetBuddy.release.xcconfig"; sourceTree = "<group>"; };
-		38696FBC7487655FC866B9A8DC9E0150 /* Pods-PetBuddy-PetBuddyUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PetBuddy-PetBuddyUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		4907C9210857B222C4D92EF25D13A034 /* Pods-PetBuddy-PetBuddyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PetBuddy-PetBuddyUITests.release.xcconfig"; sourceTree = "<group>"; };
-		4C751F8809C6F0081ED85F8C130F1195 /* Pods-PetBuddyTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PetBuddyTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		600996E760BAAC3A10A0075C09170973 /* Pods-PetBuddy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PetBuddy.debug.xcconfig"; sourceTree = "<group>"; };
+		1E54792706BCFCABE09BD1C159CE75CF /* Pods-PetBuddy-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PetBuddy-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		3BD24AB35074237BC010DC75EF03EE87 /* Pods-PetBuddy-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PetBuddy-iOS.release.xcconfig"; sourceTree = "<group>"; };
+		3EC0124719FE8EF5FDDD72C26F8A2F57 /* SwiftLint.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftLint.debug.xcconfig; sourceTree = "<group>"; };
+		4BF8F5060F97920852C928409D123841 /* Pods-PetBuddy-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PetBuddy-iOS-dummy.m"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		74DFC8C77BE9961691084FB05F2D00B1 /* Pods-PetBuddyTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-PetBuddyTests"; path = Pods_PetBuddyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		76885F5BC43685B566FFF14185BE41D0 /* Pods-PetBuddy */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-PetBuddy"; path = Pods_PetBuddy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		83D7975AF6A61B53268EECE7467096DF /* Pods-PetBuddy-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PetBuddy-acknowledgements.plist"; sourceTree = "<group>"; };
-		9100FAC01D92A0F74CDDACFE87F64C4C /* Pods-PetBuddyTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PetBuddyTests.modulemap"; sourceTree = "<group>"; };
-		9A97DDB73FEFAEA5262F132588AF4222 /* Pods-PetBuddy-PetBuddyUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-PetBuddy-PetBuddyUITests"; path = Pods_PetBuddy_PetBuddyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		75FBF9D765CC1E413299EF4A5382B7CB /* Pods-PetBuddy-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PetBuddy-iOS.modulemap"; sourceTree = "<group>"; };
+		7EAB1DA481EDDC005A251D3A5E6BE4CD /* SwiftLint.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftLint.release.xcconfig; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A3ABE6D9C73829A44F45A83E400BE176 /* Pods-PetBuddy.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PetBuddy.modulemap"; sourceTree = "<group>"; };
-		ABF9CA938A4227F6ABE897FAAEA37A6E /* Pods-PetBuddy-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PetBuddy-Info.plist"; sourceTree = "<group>"; };
-		BBE0A4A5AF01991FDC10FC0B2FE0F4DB /* Pods-PetBuddyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PetBuddyTests.debug.xcconfig"; sourceTree = "<group>"; };
-		C971E0E534EF83F162C1A3139A5B4C47 /* Pods-PetBuddy-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PetBuddy-dummy.m"; sourceTree = "<group>"; };
-		CA549DB4F20314471FB611EE54473B32 /* Pods-PetBuddy-PetBuddyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PetBuddy-PetBuddyUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		CE2994C7E2816FC1EE51910275ED1981 /* Pods-PetBuddyTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PetBuddyTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		CE87CDBDB538134CB0C1D8F8F5FC7C68 /* Pods-PetBuddy-PetBuddyUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PetBuddy-PetBuddyUITests-dummy.m"; sourceTree = "<group>"; };
-		DCFA1634757529BF06332A636B19579E /* Pods-PetBuddy-PetBuddyUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PetBuddy-PetBuddyUITests-Info.plist"; sourceTree = "<group>"; };
-		ECAA9EDF05DB1AE829F8E042599C2BF0 /* Pods-PetBuddy-PetBuddyUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PetBuddy-PetBuddyUITests-umbrella.h"; sourceTree = "<group>"; };
-		EE72A106867B36E8C2EEC86CCECA95DA /* Pods-PetBuddyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PetBuddyTests.release.xcconfig"; sourceTree = "<group>"; };
-		F1B7F851E83A2B446ECB1513313108FF /* Pods-PetBuddy-PetBuddyUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PetBuddy-PetBuddyUITests.modulemap"; sourceTree = "<group>"; };
-		FE8B5EE1C40A36AD933F8682CB155402 /* Pods-PetBuddy-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PetBuddy-acknowledgements.markdown"; sourceTree = "<group>"; };
-		FF53E2F9FBD83D237FF1034E74CA5C77 /* Pods-PetBuddy-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PetBuddy-umbrella.h"; sourceTree = "<group>"; };
+		A230D753F5027907362305D8E54EBCAA /* Pods-PetBuddy-iOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PetBuddy-iOS-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C9F36C1DC79D0077761544FE13C8F175 /* Pods-PetBuddy-iOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PetBuddy-iOS-acknowledgements.plist"; sourceTree = "<group>"; };
+		CA4450065D6ED2D76E43849D1D2F7DA8 /* Pods-PetBuddy-iOS */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-PetBuddy-iOS"; path = Pods_PetBuddy_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB5736C95217DBD06BBE8389FD0FA903 /* Pods-PetBuddy-iOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PetBuddy-iOS-Info.plist"; sourceTree = "<group>"; };
+		D26290E1C5FFCD534698078A5B235E88 /* Pods-PetBuddy-iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PetBuddy-iOS-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		14975EBCA9CB5EC7209B273030C8E31A /* Frameworks */ = {
+		1DD902C67B410D272CD5EDA57BBB3219 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F341D91E20964EFBE8FF28F976113A8 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4E25A2E1B77C0239BF11A05488F98D11 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				97E416CA02CC1EB945001943DF4FC23E /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		59681036B9E785C93A29FF41E37D89BC /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8DBCA2FD4012D8E7EC23E60723918E4E /* Foundation.framework in Frameworks */,
+				2C056425302E47396732E18BCC02E981 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		296FD3C2BA672CB5E66374BDB91532D1 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				76885F5BC43685B566FFF14185BE41D0 /* Pods-PetBuddy */,
-				9A97DDB73FEFAEA5262F132588AF4222 /* Pods-PetBuddy-PetBuddyUITests */,
-				74DFC8C77BE9961691084FB05F2D00B1 /* Pods-PetBuddyTests */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		435EB58424AD0E8B6A3995FD41BC1E81 /* Pods-PetBuddy */ = {
-			isa = PBXGroup;
-			children = (
-				A3ABE6D9C73829A44F45A83E400BE176 /* Pods-PetBuddy.modulemap */,
-				FE8B5EE1C40A36AD933F8682CB155402 /* Pods-PetBuddy-acknowledgements.markdown */,
-				83D7975AF6A61B53268EECE7467096DF /* Pods-PetBuddy-acknowledgements.plist */,
-				C971E0E534EF83F162C1A3139A5B4C47 /* Pods-PetBuddy-dummy.m */,
-				ABF9CA938A4227F6ABE897FAAEA37A6E /* Pods-PetBuddy-Info.plist */,
-				FF53E2F9FBD83D237FF1034E74CA5C77 /* Pods-PetBuddy-umbrella.h */,
-				600996E760BAAC3A10A0075C09170973 /* Pods-PetBuddy.debug.xcconfig */,
-				2829BAEC902C3326B07F6D182C0BEE7C /* Pods-PetBuddy.release.xcconfig */,
-			);
-			name = "Pods-PetBuddy";
-			path = "Target Support Files/Pods-PetBuddy";
-			sourceTree = "<group>";
-		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -122,46 +70,38 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		5B3D5D7A9E4E55BE8A9149F204666459 /* Pods-PetBuddy-PetBuddyUITests */ = {
+		7FDA596DBE0337ACDFE55A210D54EF26 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				F1B7F851E83A2B446ECB1513313108FF /* Pods-PetBuddy-PetBuddyUITests.modulemap */,
-				0B141ADCBEC5DB924D3C1EE7E837340B /* Pods-PetBuddy-PetBuddyUITests-acknowledgements.markdown */,
-				38696FBC7487655FC866B9A8DC9E0150 /* Pods-PetBuddy-PetBuddyUITests-acknowledgements.plist */,
-				CE87CDBDB538134CB0C1D8F8F5FC7C68 /* Pods-PetBuddy-PetBuddyUITests-dummy.m */,
-				DCFA1634757529BF06332A636B19579E /* Pods-PetBuddy-PetBuddyUITests-Info.plist */,
-				ECAA9EDF05DB1AE829F8E042599C2BF0 /* Pods-PetBuddy-PetBuddyUITests-umbrella.h */,
-				CA549DB4F20314471FB611EE54473B32 /* Pods-PetBuddy-PetBuddyUITests.debug.xcconfig */,
-				4907C9210857B222C4D92EF25D13A034 /* Pods-PetBuddy-PetBuddyUITests.release.xcconfig */,
+				3EC0124719FE8EF5FDDD72C26F8A2F57 /* SwiftLint.debug.xcconfig */,
+				7EAB1DA481EDDC005A251D3A5E6BE4CD /* SwiftLint.release.xcconfig */,
 			);
-			name = "Pods-PetBuddy-PetBuddyUITests";
-			path = "Target Support Files/Pods-PetBuddy-PetBuddyUITests";
+			name = "Support Files";
+			path = "../Target Support Files/SwiftLint";
 			sourceTree = "<group>";
 		};
-		96C822B0030933B0E99B7E691412FB75 /* Pods-PetBuddyTests */ = {
+		840635C7FF26E432388D5BBC0F8BA1A5 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				9100FAC01D92A0F74CDDACFE87F64C4C /* Pods-PetBuddyTests.modulemap */,
-				4C751F8809C6F0081ED85F8C130F1195 /* Pods-PetBuddyTests-acknowledgements.markdown */,
-				CE2994C7E2816FC1EE51910275ED1981 /* Pods-PetBuddyTests-acknowledgements.plist */,
-				1DD4FC8F4471BF65767A502B6D25406B /* Pods-PetBuddyTests-dummy.m */,
-				21859BEC54161C6464E6F0D1CCAAB779 /* Pods-PetBuddyTests-Info.plist */,
-				0892D4CFB4D64CF3E71E80F3E58A3C66 /* Pods-PetBuddyTests-umbrella.h */,
-				BBE0A4A5AF01991FDC10FC0B2FE0F4DB /* Pods-PetBuddyTests.debug.xcconfig */,
-				EE72A106867B36E8C2EEC86CCECA95DA /* Pods-PetBuddyTests.release.xcconfig */,
-			);
-			name = "Pods-PetBuddyTests";
-			path = "Target Support Files/Pods-PetBuddyTests";
-			sourceTree = "<group>";
-		};
-		980FC13C4CA74C7DEE9A6ADDE38591D4 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				435EB58424AD0E8B6A3995FD41BC1E81 /* Pods-PetBuddy */,
-				5B3D5D7A9E4E55BE8A9149F204666459 /* Pods-PetBuddy-PetBuddyUITests */,
-				96C822B0030933B0E99B7E691412FB75 /* Pods-PetBuddyTests */,
+				F850D779115C8B0ABF71E1CB4C4FB57F /* Pods-PetBuddy-iOS */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		965877409E01FB3D85D85E90E6B30185 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D96179D43A67C5D5323B0682D32C133C /* SwiftLint */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A168FD9A25C9A764EA080DFCEE0E1D3B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA4450065D6ED2D76E43849D1D2F7DA8 /* Pods-PetBuddy-iOS */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -169,8 +109,9 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				296FD3C2BA672CB5E66374BDB91532D1 /* Products */,
-				980FC13C4CA74C7DEE9A6ADDE38591D4 /* Targets Support Files */,
+				965877409E01FB3D85D85E90E6B30185 /* Pods */,
+				A168FD9A25C9A764EA080DFCEE0E1D3B /* Products */,
+				840635C7FF26E432388D5BBC0F8BA1A5 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -182,89 +123,62 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		D96179D43A67C5D5323B0682D32C133C /* SwiftLint */ = {
+			isa = PBXGroup;
+			children = (
+				7FDA596DBE0337ACDFE55A210D54EF26 /* Support Files */,
+			);
+			name = SwiftLint;
+			path = SwiftLint;
+			sourceTree = "<group>";
+		};
+		F850D779115C8B0ABF71E1CB4C4FB57F /* Pods-PetBuddy-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				75FBF9D765CC1E413299EF4A5382B7CB /* Pods-PetBuddy-iOS.modulemap */,
+				A230D753F5027907362305D8E54EBCAA /* Pods-PetBuddy-iOS-acknowledgements.markdown */,
+				C9F36C1DC79D0077761544FE13C8F175 /* Pods-PetBuddy-iOS-acknowledgements.plist */,
+				4BF8F5060F97920852C928409D123841 /* Pods-PetBuddy-iOS-dummy.m */,
+				CB5736C95217DBD06BBE8389FD0FA903 /* Pods-PetBuddy-iOS-Info.plist */,
+				D26290E1C5FFCD534698078A5B235E88 /* Pods-PetBuddy-iOS-umbrella.h */,
+				1E54792706BCFCABE09BD1C159CE75CF /* Pods-PetBuddy-iOS.debug.xcconfig */,
+				3BD24AB35074237BC010DC75EF03EE87 /* Pods-PetBuddy-iOS.release.xcconfig */,
+			);
+			name = "Pods-PetBuddy-iOS";
+			path = "Target Support Files/Pods-PetBuddy-iOS";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		7989313C2D80BAF9BF24F8BF169863E0 /* Headers */ = {
+		4A7408D287EC1F3A80BB54352E2D6819 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD8A33EAD83B1DA2C51663BA7F0FBE4A /* Pods-PetBuddy-PetBuddyUITests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A0BCA7D1F410AAB52621F3A9CB465711 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BC75C4CC1C498C7067801BA0F012DE3D /* Pods-PetBuddy-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C677EEB43D4B0D9A909A9F9F33B8047C /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B0292883DE57887B8DF01E83180DCF6B /* Pods-PetBuddyTests-umbrella.h in Headers */,
+				15E1B1549FDF24C571F2CB640FD33AE2 /* Pods-PetBuddy-iOS-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		97D40DB248DF9ECF8C5C61E059FE530F /* Pods-PetBuddy-PetBuddyUITests */ = {
+		345F154DD7D3960E61F0BB7B2B93C361 /* Pods-PetBuddy-iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 951C43CAB95C9132F44064BA2970EA67 /* Build configuration list for PBXNativeTarget "Pods-PetBuddy-PetBuddyUITests" */;
+			buildConfigurationList = F1E00C18BF740FD7FF0BDB16B4C21963 /* Build configuration list for PBXNativeTarget "Pods-PetBuddy-iOS" */;
 			buildPhases = (
-				7989313C2D80BAF9BF24F8BF169863E0 /* Headers */,
-				069C0BA2ACFFEED80C6527991BA482E0 /* Sources */,
-				14975EBCA9CB5EC7209B273030C8E31A /* Frameworks */,
-				A3EFB3AD5EF4BB9BF90C99503DF60C12 /* Resources */,
+				4A7408D287EC1F3A80BB54352E2D6819 /* Headers */,
+				9154DCA7F8500D64CB40D107006AECCC /* Sources */,
+				1DD902C67B410D272CD5EDA57BBB3219 /* Frameworks */,
+				914BABB53D17E2EA072074A19ED08C99 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				70723CD520AF0BFD0C90D2AC0FFAB090 /* PBXTargetDependency */,
 			);
-			name = "Pods-PetBuddy-PetBuddyUITests";
-			productName = Pods_PetBuddy_PetBuddyUITests;
-			productReference = 9A97DDB73FEFAEA5262F132588AF4222 /* Pods-PetBuddy-PetBuddyUITests */;
-			productType = "com.apple.product-type.framework";
-		};
-		A0D941C987B0AC303F64FE47F2BFC522 /* Pods-PetBuddy */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 9940A83EC73343852B3145497DC33BBE /* Build configuration list for PBXNativeTarget "Pods-PetBuddy" */;
-			buildPhases = (
-				A0BCA7D1F410AAB52621F3A9CB465711 /* Headers */,
-				30A68FC7297822AA6FF9D3F9B9B6D0AC /* Sources */,
-				4E25A2E1B77C0239BF11A05488F98D11 /* Frameworks */,
-				A3138711F47E5D369F31D612710B0F2C /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-PetBuddy";
-			productName = Pods_PetBuddy;
-			productReference = 76885F5BC43685B566FFF14185BE41D0 /* Pods-PetBuddy */;
-			productType = "com.apple.product-type.framework";
-		};
-		B5AF0983D2704F7763EC5BCB74F6DB15 /* Pods-PetBuddyTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3DAC18EC8A28997AA2986D2854E5A008 /* Build configuration list for PBXNativeTarget "Pods-PetBuddyTests" */;
-			buildPhases = (
-				C677EEB43D4B0D9A909A9F9F33B8047C /* Headers */,
-				4040F383CBB929B18DE2CB8D24541411 /* Sources */,
-				59681036B9E785C93A29FF41E37D89BC /* Frameworks */,
-				1BDBE113B623D65D6A364E65EBE782E7 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				44494B2872E9D0FEDD076092898A1482 /* PBXTargetDependency */,
-			);
-			name = "Pods-PetBuddyTests";
-			productName = Pods_PetBuddyTests;
-			productReference = 74DFC8C77BE9961691084FB05F2D00B1 /* Pods-PetBuddyTests */;
+			name = "Pods-PetBuddy-iOS";
+			productName = Pods_PetBuddy_iOS;
+			productReference = CA4450065D6ED2D76E43849D1D2F7DA8 /* Pods-PetBuddy-iOS */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -277,7 +191,7 @@
 				LastUpgradeCheck = 1240;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 13.0";
+			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -285,33 +199,18 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 296FD3C2BA672CB5E66374BDB91532D1 /* Products */;
+			productRefGroup = A168FD9A25C9A764EA080DFCEE0E1D3B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A0D941C987B0AC303F64FE47F2BFC522 /* Pods-PetBuddy */,
-				97D40DB248DF9ECF8C5C61E059FE530F /* Pods-PetBuddy-PetBuddyUITests */,
-				B5AF0983D2704F7763EC5BCB74F6DB15 /* Pods-PetBuddyTests */,
+				345F154DD7D3960E61F0BB7B2B93C361 /* Pods-PetBuddy-iOS */,
+				52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		1BDBE113B623D65D6A364E65EBE782E7 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A3138711F47E5D369F31D612710B0F2C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A3EFB3AD5EF4BB9BF90C99503DF60C12 /* Resources */ = {
+		914BABB53D17E2EA072074A19ED08C99 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -321,45 +220,29 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		069C0BA2ACFFEED80C6527991BA482E0 /* Sources */ = {
+		9154DCA7F8500D64CB40D107006AECCC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B8AF079325518E638A7812CEBACB7ADA /* Pods-PetBuddy-PetBuddyUITests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		30A68FC7297822AA6FF9D3F9B9B6D0AC /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F400B19898AF394AFF14D3BAA21BD04C /* Pods-PetBuddy-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4040F383CBB929B18DE2CB8D24541411 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				43ACAF1026B43B239E1ADB8BE2E7E943 /* Pods-PetBuddyTests-dummy.m in Sources */,
+				94A0C0726D7759505B2675A003954CF6 /* Pods-PetBuddy-iOS-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		44494B2872E9D0FEDD076092898A1482 /* PBXTargetDependency */ = {
+		70723CD520AF0BFD0C90D2AC0FFAB090 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "Pods-PetBuddy";
-			target = A0D941C987B0AC303F64FE47F2BFC522 /* Pods-PetBuddy */;
-			targetProxy = AD4D0859ABB2CC33E2163FF437042A3D /* PBXContainerItemProxy */;
+			name = SwiftLint;
+			target = 52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */;
+			targetProxy = 941B58A97728328E323E4FC15DCAF208 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		049CBDE64AB9E2B659BBDF51E1115DDF /* Debug */ = {
+		0FBE7B3D3F5D1EED164DEB1FEABE1074 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CA549DB4F20314471FB611EE54473B32 /* Pods-PetBuddy-PetBuddyUITests.debug.xcconfig */;
+			baseConfigurationReference = 1E54792706BCFCABE09BD1C159CE75CF /* Pods-PetBuddy-iOS.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -371,7 +254,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-PetBuddy-PetBuddyUITests/Pods-PetBuddy-PetBuddyUITests-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-PetBuddy-iOS/Pods-PetBuddy-iOS-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -380,7 +263,7 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-PetBuddy-PetBuddyUITests/Pods-PetBuddy-PetBuddyUITests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-PetBuddy-iOS/Pods-PetBuddy-iOS.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -393,44 +276,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		35B016E272B56A44D8CD7139A268D9E5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4907C9210857B222C4D92EF25D13A034 /* Pods-PetBuddy-PetBuddyUITests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-PetBuddy-PetBuddyUITests/Pods-PetBuddy-PetBuddyUITests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-PetBuddy-PetBuddyUITests/Pods-PetBuddy-PetBuddyUITests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		446BA1B9A1F1F2F95D04E5F82EB1B0F4 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -560,9 +405,9 @@
 			};
 			name = Release;
 		};
-		9F21B5E7D60A0BA41030CDD118111DFA /* Release */ = {
+		A462969A7841AA628367125F6F1BD005 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2829BAEC902C3326B07F6D182C0BEE7C /* Pods-PetBuddy.release.xcconfig */;
+			baseConfigurationReference = 3BD24AB35074237BC010DC75EF03EE87 /* Pods-PetBuddy-iOS.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -574,7 +419,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-PetBuddy/Pods-PetBuddy-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-PetBuddy-iOS/Pods-PetBuddy-iOS-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -583,7 +428,7 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-PetBuddy/Pods-PetBuddy.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-PetBuddy-iOS/Pods-PetBuddy-iOS.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -598,130 +443,42 @@
 			};
 			name = Release;
 		};
-		A26239BB48536C853217EA36F7A18788 /* Debug */ = {
+		AD81E62ACCB0B7A923FC8AA288F9921E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BBE0A4A5AF01991FDC10FC0B2FE0F4DB /* Pods-PetBuddyTests.debug.xcconfig */;
+			baseConfigurationReference = 7EAB1DA481EDDC005A251D3A5E6BE4CD /* SwiftLint.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-PetBuddyTests/Pods-PetBuddyTests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
 				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-PetBuddyTests/Pods-PetBuddyTests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		D8FF2B27B7B3B1DAA595AC18372B47A1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 600996E760BAAC3A10A0075C09170973 /* Pods-PetBuddy.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-PetBuddy/Pods-PetBuddy-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-PetBuddy/Pods-PetBuddy.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		F7354AEA885D53736F162D2941B7D769 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = EE72A106867B36E8C2EEC86CCECA95DA /* Pods-PetBuddyTests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-PetBuddyTests/Pods-PetBuddyTests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-PetBuddyTests/Pods-PetBuddyTests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		EADD1F50ABC8096A0D6CB18822BB4EE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3EC0124719FE8EF5FDDD72C26F8A2F57 /* SwiftLint.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3DAC18EC8A28997AA2986D2854E5A008 /* Build configuration list for PBXNativeTarget "Pods-PetBuddyTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A26239BB48536C853217EA36F7A18788 /* Debug */,
-				F7354AEA885D53736F162D2941B7D769 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -731,20 +488,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		951C43CAB95C9132F44064BA2970EA67 /* Build configuration list for PBXNativeTarget "Pods-PetBuddy-PetBuddyUITests" */ = {
+		AE7B4FB01588B9E6DF09CB79FC7CE7BD /* Build configuration list for PBXAggregateTarget "SwiftLint" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				049CBDE64AB9E2B659BBDF51E1115DDF /* Debug */,
-				35B016E272B56A44D8CD7139A268D9E5 /* Release */,
+				EADD1F50ABC8096A0D6CB18822BB4EE4 /* Debug */,
+				AD81E62ACCB0B7A923FC8AA288F9921E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9940A83EC73343852B3145497DC33BBE /* Build configuration list for PBXNativeTarget "Pods-PetBuddy" */ = {
+		F1E00C18BF740FD7FF0BDB16B4C21963 /* Build configuration list for PBXNativeTarget "Pods-PetBuddy-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D8FF2B27B7B3B1DAA595AC18372B47A1 /* Debug */,
-				9F21B5E7D60A0BA41030CDD118111DFA /* Release */,
+				0FBE7B3D3F5D1EED164DEB1FEABE1074 /* Debug */,
+				A462969A7841AA628367125F6F1BD005 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

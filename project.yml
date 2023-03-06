@@ -1,0 +1,29 @@
+name: PetBuddy
+options:
+  bundleIdPrefix: com.pxlborn
+  deploymentTarget:
+    iOS: 16.2
+packages:
+  Drops:
+    url: https://github.com/omaralbeik/Drops.git
+    from: 1.6.1
+targets:
+  PetBuddy-iOS:
+    type: application
+    platform: iOS
+    sources:
+      - path: PetBuddy
+    dependencies:
+      - package: Drops
+    scheme:
+      testTargets:
+      - PetBuddy-Tests
+    preBuildScripts:
+      - name: SwiftLint
+        script: |
+                ${PODS_ROOT}/SwiftLint/swiftlint --config .swiftlint.yml
+  PetBuddy-Tests:
+    type: bundle.unit-test
+    platform: iOS
+    sources:
+      - path: PetBuddyTests
