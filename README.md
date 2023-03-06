@@ -10,4 +10,3 @@ In case of any conflicts regenerate `.pbxproj` with the following command:
 ```
 xcodegen
 ```
-
