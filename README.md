@@ -1,8 +1,12 @@
 # PetBuddy
-Smart companion for you and your pet friend 🐾
+Smart companion for your dog and cat.
 
 ## Project setup
-Install cocoapods dependencies:
-```pod install```
+Install required cocoapods dependencies:
+```
+pod install
+```
 In case of any conflicts regenerate `.pbxproj` with the following command:
-```xcodegen```
+```
+xcodegen
+```
