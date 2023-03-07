@@ -9,6 +9,10 @@ packages:
     from: 1.6.1
 targets:
   PetBuddy-iOS:
+    info:
+      path: PetBuddy/Resources/Info.generated.plist
+      properties:
+        CFBundleDisplayName: "PetBuddy"
     type: application
     platform: iOS
     sources:
@@ -21,8 +25,19 @@ targets:
     preBuildScripts:
       - name: SwiftLint
         script: |
-                ${PODS_ROOT}/SwiftLint/swiftlint --config .swiftlint.yml
+                export PATH="$PATH:/opt/homebrew/bin"
+                if which swiftlint > /dev/null; then
+                  swiftlint
+                else
+                  echo "warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint"
+                fi
+        outputFiles:
+          - $(DERIVED_FILE_DIR)/swiftlint-output
   PetBuddy-Tests:
+    info:
+      path: PetBuddyTests/Resources/Info.generated.plist
+      properties:
+        CFBundleDisplayName: "PetBuddy-Tests"
     type: bundle.unit-test
     platform: iOS
     sources:

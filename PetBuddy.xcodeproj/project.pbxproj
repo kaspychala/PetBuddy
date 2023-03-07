@@ -11,7 +11,6 @@
 		1C0FA20575CD842B6BD3EC12 /* Click.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B35524D3BDEBB8FD8759DDA1 /* Click.mp3 */; };
 		20B1D978C89CC220CD428057 /* SettingsCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A3BF8AFF71C3F2F634CCE78 /* SettingsCoordinator.swift */; };
 		2BE8A4D9E868B16AF756962B /* ClickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78061A1B47DE45F294139F17 /* ClickerView.swift */; };
-		2F7635093872BBCC4D0FB41A /* Pods_PetBuddy_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45F5E1323A79D837EC243A25 /* Pods_PetBuddy_iOS.framework */; };
 		35C1E976D80A9F23860C1033 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADE346AFB9712AE524BB1E8 /* MainCoordinator.swift */; };
 		382292972D8AABD6CB44632B /* SettingsCoordinatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5BBF81AB7DE8DAF2D5D047 /* SettingsCoordinatorView.swift */; };
 		6AFB8635C57A8174CF648815 /* PetBuddyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4027E9DE58E225277E47F77 /* PetBuddyApp.swift */; };
@@ -35,19 +34,18 @@
 		245FFE3C53C65788E133169B /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
 		2800120CFA823C27F0FB2889 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		2D5BBF81AB7DE8DAF2D5D047 /* SettingsCoordinatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsCoordinatorView.swift; sourceTree = "<group>"; };
-		368A453DEF3FE6ADD8F1CBD6 /* Pods-PetBuddy-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PetBuddy-iOS.release.xcconfig"; path = "Target Support Files/Pods-PetBuddy-iOS/Pods-PetBuddy-iOS.release.xcconfig"; sourceTree = "<group>"; };
 		3FBE95342CE684FE1BAA1535 /* ClickerCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClickerCoordinator.swift; sourceTree = "<group>"; };
 		41EEAA99C124CDAA3CCF0C4E /* PetBuddy-iOS.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = "PetBuddy-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		45F5E1323A79D837EC243A25 /* Pods_PetBuddy_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PetBuddy_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E7FED8C0EA5B56143C5D39A /* VolumeObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolumeObserver.swift; sourceTree = "<group>"; };
+		6FF4476468D5330F910BCC94 /* Info.generated.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.generated.plist; sourceTree = "<group>"; };
 		78061A1B47DE45F294139F17 /* ClickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClickerView.swift; sourceTree = "<group>"; };
 		8341C8BBAE52594229A293EC /* PetBuddy-Tests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = "PetBuddy-Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E458978BD2EAB1E1C83FF29 /* ClickerCoordinatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClickerCoordinatorView.swift; sourceTree = "<group>"; };
 		8E772EDE4ACB25AAD11A554A /* MPVolumeView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MPVolumeView+.swift"; sourceTree = "<group>"; };
 		A6CA4D0E1D164209620C1FBB /* ClickerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClickerViewModel.swift; sourceTree = "<group>"; };
 		AD6F29BBFCA6884FFAB1A539 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AE59393451BBCB54715C066C /* Info.generated.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.generated.plist; sourceTree = "<group>"; };
 		B35524D3BDEBB8FD8759DDA1 /* Click.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Click.mp3; sourceTree = "<group>"; };
-		B9C5AE8E3A0E2845E0C4F936 /* Pods-PetBuddy-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PetBuddy-iOS.debug.xcconfig"; path = "Target Support Files/Pods-PetBuddy-iOS/Pods-PetBuddy-iOS.debug.xcconfig"; sourceTree = "<group>"; };
 		C7436651686417965A273AE7 /* PetBuddyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetBuddyTests.swift; sourceTree = "<group>"; };
 		DADE346AFB9712AE524BB1E8 /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
 		E4027E9DE58E225277E47F77 /* PetBuddyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetBuddyApp.swift; sourceTree = "<group>"; };
@@ -61,23 +59,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				A3816627CBFBFCD88B4D2A49 /* Drops in Frameworks */,
-				2F7635093872BBCC4D0FB41A /* Pods_PetBuddy_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		029A614E56B46DC03B95CDA4 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				B9C5AE8E3A0E2845E0C4F936 /* Pods-PetBuddy-iOS.debug.xcconfig */,
-				368A453DEF3FE6ADD8F1CBD6 /* Pods-PetBuddy-iOS.release.xcconfig */,
-			);
-			name = Pods;
-			path = Pods;
-			sourceTree = "<group>";
-		};
 		0A5D13205E349A743F8D246B /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -91,6 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				C7436651686417965A273AE7 /* PetBuddyTests.swift */,
+				4A9FDFA655907BD4517A4303 /* Resources */,
 			);
 			path = PetBuddyTests;
 			sourceTree = "<group>";
@@ -99,6 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				B35524D3BDEBB8FD8759DDA1 /* Click.mp3 */,
+				AE59393451BBCB54715C066C /* Info.generated.plist */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -119,6 +108,14 @@
 				AB1C1E07BD9FCB2AEFA9F6F1 /* ViewModel */,
 			);
 			path = Clicker;
+			sourceTree = "<group>";
+		};
+		4A9FDFA655907BD4517A4303 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6FF4476468D5330F910BCC94 /* Info.generated.plist */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		5B308AE5F5D3E43E45E843D3 /* Coordinator */ = {
@@ -182,14 +179,6 @@
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
-		CA9EA87470DD2325FC499857 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				45F5E1323A79D837EC243A25 /* Pods_PetBuddy_iOS.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		CAD0EAB395E2C1BC74CD2BBF /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
@@ -226,8 +215,6 @@
 				CD0DAAABCFD90E92A46C663F /* PetBuddy */,
 				0E675FE68B29BA34E73315BF /* PetBuddyTests */,
 				0A5D13205E349A743F8D246B /* Products */,
-				029A614E56B46DC03B95CDA4 /* Pods */,
-				CA9EA87470DD2325FC499857 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -280,7 +267,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 58D1973FD2C35235798536C1 /* Build configuration list for PBXNativeTarget "PetBuddy-iOS" */;
 			buildPhases = (
-				8E01E9E5105BF8CA5D18C562 /* [CP] Check Pods Manifest.lock */,
 				AA226B0718B42F949FC81762 /* SwiftLint */,
 				E50FC93930D8018D98807B05 /* Sources */,
 				66A50C627C4E4F6356A9C2A3 /* Resources */,
@@ -318,9 +304,8 @@
 			);
 			mainGroup = E56C68EBC0BBF403A81C6955;
 			packageReferences = (
-				448A2B51695EDCB9BB04B769 /* XCRemoteSwiftPackageReference "Drops.git" */,
+				448A2B51695EDCB9BB04B769 /* XCRemoteSwiftPackageReference "Drops" */,
 			);
-			productRefGroup = 0A5D13205E349A743F8D246B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -344,28 +329,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		8E01E9E5105BF8CA5D18C562 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-PetBuddy-iOS-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 		AA226B0718B42F949FC81762 /* SwiftLint */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -379,10 +342,11 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/swiftlint-output",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "${PODS_ROOT}/SwiftLint/swiftlint --config .swiftlint.yml\n";
+			shellScript = "export PATH=\"$PATH:/opt/homebrew/bin\"\nif which swiftlint > /dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -423,6 +387,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PetBuddyTests/Resources/Info.generated.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -438,6 +403,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PetBuddyTests/Resources/Info.generated.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -451,10 +417,10 @@
 		};
 		36A17492E33B63686EFC751D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 368A453DEF3FE6ADD8F1CBD6 /* Pods-PetBuddy-iOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = PetBuddy/Resources/Info.generated.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -467,10 +433,10 @@
 		};
 		528497BB7044A1BE38E7B9DA /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B9C5AE8E3A0E2845E0C4F936 /* Pods-PetBuddy-iOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = PetBuddy/Resources/Info.generated.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -633,7 +599,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		448A2B51695EDCB9BB04B769 /* XCRemoteSwiftPackageReference "Drops.git" */ = {
+		448A2B51695EDCB9BB04B769 /* XCRemoteSwiftPackageReference "Drops" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/omaralbeik/Drops.git";
 			requirement = {
@@ -646,7 +612,7 @@
 /* Begin XCSwiftPackageProductDependency section */
 		0A277778A4AFB44A00539959 /* Drops */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 448A2B51695EDCB9BB04B769 /* XCRemoteSwiftPackageReference "Drops.git" */;
+			package = 448A2B51695EDCB9BB04B769 /* XCRemoteSwiftPackageReference "Drops" */;
 			productName = Drops;
 		};
 /* End XCSwiftPackageProductDependency section */
