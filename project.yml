@@ -13,6 +13,7 @@ targets:
       path: PetBuddy/Resources/Info.generated.plist
       properties:
         CFBundleDisplayName: "PetBuddy"
+        UILaunchScreen: []
     type: application
     platform: iOS
     sources:
