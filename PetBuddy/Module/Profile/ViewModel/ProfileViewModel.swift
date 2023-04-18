@@ -7,10 +7,10 @@
 
 import Foundation
 
-class SettingsViewModel: ObservableObject {
+class ProfileViewModel: ObservableObject {
 
     @Published var title: String
-    weak var coordinator: SettingsCoordinator?
+    weak var coordinator: ProfileCoordinator?
 
     init(title: String) {
         self.title = title

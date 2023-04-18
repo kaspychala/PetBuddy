@@ -1,8 +1,18 @@
 //
 //  FoodLogViewModel.swift
-//  PetBuddy-Tests
+//  PetBuddy
 //
 //  Created by Kasper Spychala on 18/04/2023.
 //
 
-import Foundation
+import SwiftUI
+
+class FoodLogViewModel: ObservableObject {
+
+    @Published var title: String
+    weak var coordinator: FoodLogCoordinator?
+
+    init(title: String) {
+        self.title = title
+    }
+}

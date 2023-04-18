@@ -1,6 +1,6 @@
 //
 //  HealthBookCoordinatorView.swift
-//  PetBuddy-Tests
+//  PetBuddy
 //
 //  Created by Kasper Spychala on 18/04/2023.
 //

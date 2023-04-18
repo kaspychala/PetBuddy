@@ -1,18 +1,21 @@
 //
 //  CustomTabType.swift
-//  PetBuddy-Tests
+//  PetBuddy
 //
 //  Created by Kasper Spychala on 18/04/2023.
 //
 
 import Foundation
 
-enum CustomTabType: Int, CaseIterable {
+enum CustomAppTab: Int, CaseIterable, Identifiable {
     case home = 0
     case foodLog = 1
     case healthBook = 2
     case profile = 3
 
+    var id: Self {
+        return self
+    }
 
     var tabItem: CustomTabItemData {
         switch self {
@@ -35,7 +38,7 @@ enum CustomTabType: Int, CaseIterable {
             return CustomTabItemData(
                 image: "person.crop.circle",
                 selectedImage: "person.crop.circle.fill",
-                title: "Health Book")
+                title: "Profile")
         }
     }
 }

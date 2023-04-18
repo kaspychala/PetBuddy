@@ -8,19 +8,18 @@
 import Foundation
 import SwiftUI
 
-enum AppTab {
-    case clicker
-    case settings
-}
-
 class MainCoordinator: ObservableObject {
     
-    @Published var tab = AppTab.clicker
-    @Published var clickerCoordinator: ClickerCoordinator
-    @Published var settingsCoordinator: SettingsCoordinator
+    @Published var tab = CustomAppTab.home
+    @Published var homeCoordinator: HomeCoordinator
+    @Published var foodLogCoordinator: FoodLogCoordinator
+    @Published var healthBookCoordinator: HealthBookCoordinator
+    @Published var profileCoordinator: ProfileCoordinator
 
     init() {
-        self.clickerCoordinator = .init(title: "Clicker screen")
-        self.settingsCoordinator = .init(title: "Settings screen")
+        self.homeCoordinator = .init(title: "Home screen")
+        self.foodLogCoordinator = .init(title: "Food Log screen")
+        self.healthBookCoordinator = .init(title: "Health Book screen")
+        self.profileCoordinator = .init(title: "Profile screen")
     }
 }

@@ -14,14 +14,22 @@ struct MainCoordinatorView: View {
 
     // MARK: Views
     var body: some View {
-        TabView(selection: $coordinator.tab) {
-            ClickerCoordinatorView(coordinator: coordinator.clickerCoordinator)
-                .tabItem { Label("Clicker", systemImage: "speaker.wave.1") }
-                .tag(AppTab.clicker)
+        CustomTabView(tabs: CustomAppTab.allCases, selectedTab: $coordinator.tab) { tab in
+            getTabView(for: tab)
+        }
+    }
 
-            SettingsCoordinatorView(coordinator: coordinator.settingsCoordinator)
-                .tabItem { Label("Settings", systemImage: "gear") }
-                .tag(AppTab.settings)
+    @ViewBuilder
+    func getTabView(for tab: CustomAppTab) -> some View {
+        switch tab {
+        case .home:
+            HomeCoordinatorView(coordinator: coordinator.homeCoordinator)
+        case .foodLog:
+            FoodLogCoordinatorView(coordinator: coordinator.foodLogCoordinator)
+        case .healthBook:
+            HealthBookCoordinatorView(coordinator: coordinator.healthBookCoordinator)
+        case .profile:
+            ProfileCoordinatorView(coordinator: coordinator.profileCoordinator)
         }
     }
 }
