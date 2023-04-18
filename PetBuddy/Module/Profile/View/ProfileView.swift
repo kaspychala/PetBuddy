@@ -7,17 +7,17 @@
 
 import SwiftUI
 
-struct SettingsView: View {
+struct ProfileView: View {
 
-    @ObservedObject var viewModel: SettingsViewModel
+    @ObservedObject var viewModel: ProfileViewModel
 
     var body: some View {
         Text(viewModel.title)
     }
 }
 
-struct SettingsView_Previews: PreviewProvider {
+struct ProfileView_Previews: PreviewProvider {
     static var previews: some View {
-        SettingsView(viewModel: .init(title: "Settings"))
+        ProfileView(viewModel: .init(title: "Profile"))
     }
 }

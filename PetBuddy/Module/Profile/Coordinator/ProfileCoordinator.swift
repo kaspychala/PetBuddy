@@ -7,9 +7,9 @@
 
 import SwiftUI
 
-class SettingsCoordinator: ObservableObject, Identifiable {
+class ProfileCoordinator: ObservableObject, Identifiable {
     
-    @Published var viewModel: SettingsViewModel
+    @Published var viewModel: ProfileViewModel
 
     init(title: String) {
         self.viewModel = .init(title: title)

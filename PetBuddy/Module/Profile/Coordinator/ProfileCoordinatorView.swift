@@ -7,15 +7,15 @@
 
 import SwiftUI
 
-struct SettingsCoordinatorView: View {
+struct ProfileCoordinatorView: View {
     
     // MARK: Stored Properties
-    @ObservedObject var coordinator: SettingsCoordinator
+    @ObservedObject var coordinator: ProfileCoordinator
 
     // MARK: Views
     var body: some View {
         NavigationView {
-            SettingsView(viewModel: coordinator.viewModel)
+            ProfileView(viewModel: coordinator.viewModel)
         }
     }
 }
