@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -24,6 +24,9 @@
 		48BDCCA0C0804F116C7B4B16 /* FoodLogCoordinatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5E790326FB357AA29BDE36 /* FoodLogCoordinatorView.swift */; };
 		5204A07EAA2627EEE36F8D5B /* HomeCoordinatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2BD48E33DEB4A1A0B3266D8 /* HomeCoordinatorView.swift */; };
 		62E5979759AB0EBF0F9DCF77 /* HealthBookViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C4904D6BCEB4130B7F67EC /* HealthBookViewModel.swift */; };
+		66D3F85429F8472F00106A4B /* FoodCheckerCoordinatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D3F85329F8472F00106A4B /* FoodCheckerCoordinatorView.swift */; };
+		66D3F85629F8476400106A4B /* FoodCheckerCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D3F85529F8476400106A4B /* FoodCheckerCoordinator.swift */; };
+		66D3F85A29F847CD00106A4B /* FoodCheckerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D3F85929F847CD00106A4B /* FoodCheckerViewModel.swift */; };
 		6AFB8635C57A8174CF648815 /* PetBuddyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4027E9DE58E225277E47F77 /* PetBuddyApp.swift */; };
 		6D397DED611B90FD4170DE0F /* CustomTabItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE420B76FE618F4E181C721 /* CustomTabItemView.swift */; };
 		6F188D53FF1591F393CEECE3 /* HealthBookCoordinatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950852FEADDC1C5CA3F07FCB /* HealthBookCoordinatorView.swift */; };
@@ -61,6 +64,9 @@
 		41EEAA99C124CDAA3CCF0C4E /* PetBuddy-iOS.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = "PetBuddy-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		55820D5280DE3D68133F4088 /* CustomAppTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAppTab.swift; sourceTree = "<group>"; };
 		5D5E790326FB357AA29BDE36 /* FoodLogCoordinatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodLogCoordinatorView.swift; sourceTree = "<group>"; };
+		66D3F85329F8472F00106A4B /* FoodCheckerCoordinatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodCheckerCoordinatorView.swift; sourceTree = "<group>"; };
+		66D3F85529F8476400106A4B /* FoodCheckerCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodCheckerCoordinator.swift; sourceTree = "<group>"; };
+		66D3F85929F847CD00106A4B /* FoodCheckerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodCheckerViewModel.swift; sourceTree = "<group>"; };
 		6E7FED8C0EA5B56143C5D39A /* VolumeObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolumeObserver.swift; sourceTree = "<group>"; };
 		6FF4476468D5330F910BCC94 /* Info.generated.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.generated.plist; sourceTree = "<group>"; };
 		78061A1B47DE45F294139F17 /* ClickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClickerView.swift; sourceTree = "<group>"; };
@@ -252,6 +258,23 @@
 			path = Coordinator;
 			sourceTree = "<group>";
 		};
+		66D3F85729F8479700106A4B /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				66D3F85529F8476400106A4B /* FoodCheckerCoordinator.swift */,
+				66D3F85329F8472F00106A4B /* FoodCheckerCoordinatorView.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		66D3F85829F847BA00106A4B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				66D3F85929F847CD00106A4B /* FoodCheckerViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		67D747E589C92BCBAA235D52 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
@@ -298,7 +321,10 @@
 		87273667DE6E44DFA19C51B7 /* FoodChecker */ = {
 			isa = PBXGroup;
 			children = (
+				66D3F85829F847BA00106A4B /* ViewModel */,
 				BE80FB374CFE9A66A90E8484 /* FoodCheckerView.swift */,
+				2EB20E0FD40E29DC5D704410 /* Components */,
+				66D3F85729F8479700106A4B /* Coordinator */,
 			);
 			path = FoodChecker;
 			sourceTree = "<group>";
@@ -384,7 +410,6 @@
 			children = (
 				AD6F29BBFCA6884FFAB1A539 /* Assets.xcassets */,
 				E4027E9DE58E225277E47F77 /* PetBuddyApp.swift */,
-				2EB20E0FD40E29DC5D704410 /* Components */,
 				3D2E5A33C0F04DF8013C633D /* Custom */,
 				156250E938919EEF6C0B715E /* Extensions */,
 				8E80C38F989048FED6CAFF57 /* Module */,
@@ -484,8 +509,6 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1200;
-				TargetAttributes = {
-				};
 			};
 			buildConfigurationList = EA732A533DCC7C9FFFA1E5F6 /* Build configuration list for PBXProject "PetBuddy" */;
 			compatibilityVersion = "Xcode 10.0";
@@ -566,6 +589,8 @@
 				6D397DED611B90FD4170DE0F /* CustomTabItemView.swift in Sources */,
 				10896CA29E95C2BFFE3C0803 /* CustomTabView.swift in Sources */,
 				6F2C6377920ADE6C342B41BA /* FoodCheckerCardView.swift in Sources */,
+				66D3F85A29F847CD00106A4B /* FoodCheckerViewModel.swift in Sources */,
+				66D3F85629F8476400106A4B /* FoodCheckerCoordinator.swift in Sources */,
 				11F67F235502236B4F59F57E /* FoodCheckerView.swift in Sources */,
 				0185AC7DED4CE0312EFB79F6 /* FoodLogCoordinator.swift in Sources */,
 				48BDCCA0C0804F116C7B4B16 /* FoodLogCoordinatorView.swift in Sources */,
@@ -578,6 +603,7 @@
 				B40A9D7C567912C010B3E91C /* HomeCoordinator.swift in Sources */,
 				5204A07EAA2627EEE36F8D5B /* HomeCoordinatorView.swift in Sources */,
 				30A3D33408EA9F8981E66DDE /* HomeView.swift in Sources */,
+				66D3F85429F8472F00106A4B /* FoodCheckerCoordinatorView.swift in Sources */,
 				3EDE6B0707F1CA1F6E600140 /* HomeViewModel.swift in Sources */,
 				74A2711FBC43D29D68B69684 /* MPView.swift in Sources */,
 				EB1211283C5CD64CF9689AF7 /* MPVolumeView+.swift in Sources */,

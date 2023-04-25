@@ -15,4 +15,8 @@ class HomeViewModel: ObservableObject {
     init(title: String) {
         self.title = title
     }
+    
+    func showFoodChecker() {
+        coordinator?.showFoodChecker()
+    }
 }

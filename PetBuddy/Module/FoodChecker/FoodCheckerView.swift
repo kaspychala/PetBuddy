@@ -12,32 +12,27 @@ struct FoodCheckerView: View {
         case dog, cat
         var id: Self { self }
     }
-    
+
     @State private var selectedAnimalType: AnimalType = .dog
-    @State private var searchText = ""
     
     var body: some View {
         VStack {
-            NavigationStack {
-                Picker("Selected animal type", selection: $selectedAnimalType) {
-                    Text("Dog").tag(AnimalType.dog)
-                    Text("Cat").tag(AnimalType.cat)
+            Picker("Selected animal type", selection: $selectedAnimalType) {
+                Text("Dog").tag(AnimalType.dog)
+                Text("Cat").tag(AnimalType.cat)
+            }.padding([.leading, .trailing], 15.0)
+            
+            List {
+                ForEach(1...5, id:\.self) { _ in
+                    FoodCheckerCardView()
+                        .listRowSeparator(.hidden)
+                        .padding(.bottom, 4.0)
                 }
-                
-                List {
-                    ForEach(1...5, id:\.self) { _ in
-                        FoodCheckerCardView()
-                            .listRowSeparator(.hidden)
-                            .padding(.bottom, 4.0)
-                    }
-                    .listRowBackground(Color.clear)
-                }
-                .listStyle(PlainListStyle())
-                .background(.orange)
-                .scrollContentBackground(.hidden)
+                .listRowBackground(Color.clear)
             }
-            .searchable(text: $searchText)
-            .pickerStyle(.segmented)
+            .listStyle(PlainListStyle())
+            .background(.orange)
+            .scrollContentBackground(.hidden)
         }
     }
 }

@@ -8,11 +8,15 @@
 import SwiftUI
 
 class HomeCoordinator: ObservableObject, Identifiable {
-
     @Published var viewModel: HomeViewModel
+    
+    @Published var foodCheckerCoordinator: FoodCheckerCoordinator = .init(title: "Food Checker")
 
     init(title: String) {
         self.viewModel = .init(title: title)
-        self.viewModel.coordinator = self
+    }
+    
+    func showFoodChecker() {
+        
     }
 }
