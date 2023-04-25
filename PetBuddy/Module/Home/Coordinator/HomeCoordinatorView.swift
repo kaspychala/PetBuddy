@@ -11,15 +11,16 @@ struct HomeCoordinatorView: View {
 
     // MARK: Stored Properties
     @ObservedObject var coordinator: HomeCoordinator
-    @Binding var shouldShowFoodChecker: Bool
 
     // MARK: Views
     var body: some View {
         NavigationStack {
             HomeView(viewModel: coordinator.viewModel)
-        }
-        .navigationDestination(isPresented: $shouldShowFoodChecker) {
-            FoodCheckerCoordinatorView(coordinator: coordinator.foodCheckerCoordinator)
+                .navigationDestination(
+                    isPresented: $coordinator.shouldShowFoodChecker) {
+                    FoodCheckerCoordinatorView(
+                        coordinator: coordinator.foodCheckerCoordinator)
+                }
         }
     }
 }
