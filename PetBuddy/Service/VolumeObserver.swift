@@ -30,7 +30,7 @@ final class VolumeObserver: ObservableObject {
             print("cannot activate session")
         }
 
-        progressObserver = session.observe(\.outputVolume) { [self] (session, value) in
+        progressObserver = session.observe(\.outputVolume) { [self] (session, _) in
             DispatchQueue.main.async {
                 MPVolumeView.setVolume(0.99)
                 self.volume = session.outputVolume
@@ -40,7 +40,7 @@ final class VolumeObserver: ObservableObject {
     }
 
     func playSound() {
-        guard let path = Bundle.main.path(forResource: "Click", ofType:"mp3") else {
+        guard let path = Bundle.main.path(forResource: "Click", ofType: "mp3") else {
             return }
         let url = URL(fileURLWithPath: path)
 

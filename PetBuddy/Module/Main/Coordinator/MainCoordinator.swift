@@ -9,7 +9,6 @@ import Foundation
 import SwiftUI
 
 class MainCoordinator: ObservableObject {
-    
     @Published var tab = CustomAppTab.home
     @Published var homeCoordinator: HomeCoordinator
     @Published var foodLogCoordinator: FoodLogCoordinator

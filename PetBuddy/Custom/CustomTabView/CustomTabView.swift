@@ -21,12 +21,10 @@ struct CustomTabView<Content: View>: View {
                         .tag(tab)
                 }
             }
-
             VStack {
                 Spacer()
                 CustomTabBottomView(tabs: tabs, selectedTab: $selectedTab)
             }
-            .padding(.bottom, 8)
         }
     }
 }

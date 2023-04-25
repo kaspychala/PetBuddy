@@ -8,7 +8,6 @@
 import SwiftUI
 
 class ProfileCoordinator: ObservableObject, Identifiable {
-    
     @Published var viewModel: ProfileViewModel
 
     init(title: String) {

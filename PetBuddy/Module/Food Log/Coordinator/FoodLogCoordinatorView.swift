@@ -15,7 +15,8 @@ struct FoodLogCoordinatorView: View {
     // MARK: Views
     var body: some View {
         NavigationView {
-            FoodLogView(viewModel: coordinator.viewModel)
+//            FoodLogView(viewModel: coordinator.viewModel)
+            FoodCheckerView()
         }
     }
 }

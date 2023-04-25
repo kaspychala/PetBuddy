@@ -15,7 +15,8 @@ struct ClickerCoordinatorView: View {
     // MARK: Views
     var body: some View {
         NavigationView {
-            ClickerView(viewModel: coordinator.viewModel)
+//            ClickerView(viewModel: coordinator.viewModel)
+            FoodCheckerView()
         }
     }
 }

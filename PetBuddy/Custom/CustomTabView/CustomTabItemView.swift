@@ -17,14 +17,15 @@ struct TabItemView: View {
                 .resizable()
                 .tint(Color("PrimaryColor"))
                 .aspectRatio(contentMode: .fit)
-                .frame(width: 32, height: 32)
-                .animation(.default)
+                .frame(width: 24, height: 24)
+                .animation(.easeIn)
 
-            Spacer().frame(height: 4)
+            Spacer().frame(height: 8)
 
             Text(data.title)
                 .foregroundColor(isSelected ? .black : .gray)
-                .font(.system(size: 14))
+                .font(.system(size: 11))
+                .fontWeight(.medium)
         }
     }
 }
