@@ -23,15 +23,25 @@ struct Product: Decodable {
 }
 
 struct Cats: Decodable {
-    var safety_description: String
+    var safetyDescription: String
     var guidance: String
     var safe: Bool
+    
+    private enum CodingKeys: String, CodingKey {
+        case safetyDescription = "safety_description"
+        case guidance, safe
+    }
 }
 
 struct Dogs: Decodable {
-    var safety_description: String
+    var safetyDescription: String
     var guidance: String
     var safe: Bool
+    
+    private enum CodingKeys: String, CodingKey {
+        case safetyDescription = "safety_description"
+        case guidance, safe
+    }
 }
 
 extension Product: Equatable {}

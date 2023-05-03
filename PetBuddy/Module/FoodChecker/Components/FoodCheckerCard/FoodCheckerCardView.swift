@@ -8,7 +8,6 @@
 import SwiftUI
 
 struct FoodCheckerCardView: View {
-    
     @State var product: Product
     @Binding var animalType: AnimalType
     
@@ -26,7 +25,7 @@ struct FoodCheckerCardView: View {
     }
     
     func getSafetyDescriptionByAnimalType() -> String {
-        return animalType == .dog ? product.dogs.safety_description : product.cats.safety_description
+        return animalType == .dog ? product.dogs.safetyDescription : product.cats.safetyDescription
     }
     
     func getGuidanceByAnimalType() -> String {
@@ -75,12 +74,12 @@ struct FoodCheckerCardView_Previews: PreviewProvider {
                                 Product(
                                     name: "Garlic",
                                     dogs: Dogs(
-                                        safety_description: "Garlic is not recommended for dogs, as it can cause digestive issues and anemia if consumed in large amounts.",
+                                        safetyDescription: "Garlic is not recommended for dogs, as it can cause digestive issues and anemia if consumed in large amounts.",
                                         guidance: "Do not feed garlic to dogs.",
                                         safe: false
                                     ),
                                     cats: Cats(
-                                        safety_description: "Garlic is not recommended for cats, as it can cause digestive issues and anemia if consumed in large amounts.",
+                                        safetyDescription: "Garlic is not recommended for cats, as it can cause digestive issues and anemia if consumed in large amounts.",
                                         guidance: "Do not feed garlic to cats.",
                                         safe: false
                                     )
