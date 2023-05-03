@@ -8,7 +8,7 @@ packages:
     url: https://github.com/omaralbeik/Drops.git
     from: 1.6.1
 targets:
-  PetBuddy-iOS:
+  PetBuddy:
     info:
       path: PetBuddy/Resources/Info.generated.plist
       properties:

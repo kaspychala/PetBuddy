@@ -18,7 +18,7 @@ struct TabItemView: View {
                 .tint(Color("PrimaryColor"))
                 .aspectRatio(contentMode: .fit)
                 .frame(width: 24, height: 24)
-                .animation(.easeIn)
+                .animation(.easeIn, value: 0.0)
 
             Spacer().frame(height: 8)
 

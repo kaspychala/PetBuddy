@@ -17,6 +17,7 @@ struct PetBuddyApp: App {
     var body: some Scene {
         WindowGroup {
             MainCoordinatorView(coordinator: coordinator)
+                .tint(Color("PrimaryColor"))
         }
     }
 }

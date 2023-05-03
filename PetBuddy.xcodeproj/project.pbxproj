@@ -3,56 +3,58 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0185AC7DED4CE0312EFB79F6 /* FoodLogCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECADCFF81EB027BBB325C286 /* FoodLogCoordinator.swift */; };
-		092A984BD3AB4A95AA7213AB /* CustomAppTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55820D5280DE3D68133F4088 /* CustomAppTab.swift */; };
-		10896CA29E95C2BFFE3C0803 /* CustomTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9E0C92DF67D6E82C245283 /* CustomTabView.swift */; };
-		11F67F235502236B4F59F57E /* FoodCheckerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE80FB374CFE9A66A90E8484 /* FoodCheckerView.swift */; };
-		12F350C929DDD1F9BD2E7CED /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8676D4CDD3889AF8E0A5C7A /* Preview Assets.xcassets */; };
-		173729F6A2ADCC36F92E08EB /* HealthBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01DBA177230E11C04EB75EE7 /* HealthBookView.swift */; };
-		1C0FA20575CD842B6BD3EC12 /* Click.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B35524D3BDEBB8FD8759DDA1 /* Click.mp3 */; };
-		2BE8A4D9E868B16AF756962B /* ClickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78061A1B47DE45F294139F17 /* ClickerView.swift */; };
-		30A3D33408EA9F8981E66DDE /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8364DC5A74CDB1B9A96748A0 /* HomeView.swift */; };
-		328205ACAB8FBEA95D1F711F /* ProfileCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D9682E3571BB00BD7E560AF /* ProfileCoordinator.swift */; };
-		35C1E976D80A9F23860C1033 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADE346AFB9712AE524BB1E8 /* MainCoordinator.swift */; };
-		3EDE6B0707F1CA1F6E600140 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2BBCF01770C4AA40CA271C /* HomeViewModel.swift */; };
-		428657B572F958C0CA5EBF6C /* ProfileCoordinatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ECDDFED0611D20205E3AA28 /* ProfileCoordinatorView.swift */; };
-		431A6054A0CD97E79BFC9C57 /* FoodLogViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB09AB850F7A38722CBCBBE /* FoodLogViewModel.swift */; };
-		48BDCCA0C0804F116C7B4B16 /* FoodLogCoordinatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5E790326FB357AA29BDE36 /* FoodLogCoordinatorView.swift */; };
-		5204A07EAA2627EEE36F8D5B /* HomeCoordinatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2BD48E33DEB4A1A0B3266D8 /* HomeCoordinatorView.swift */; };
-		62E5979759AB0EBF0F9DCF77 /* HealthBookViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C4904D6BCEB4130B7F67EC /* HealthBookViewModel.swift */; };
-		66D3F85429F8472F00106A4B /* FoodCheckerCoordinatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D3F85329F8472F00106A4B /* FoodCheckerCoordinatorView.swift */; };
-		66D3F85629F8476400106A4B /* FoodCheckerCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D3F85529F8476400106A4B /* FoodCheckerCoordinator.swift */; };
-		66D3F85A29F847CD00106A4B /* FoodCheckerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D3F85929F847CD00106A4B /* FoodCheckerViewModel.swift */; };
-		6AFB8635C57A8174CF648815 /* PetBuddyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4027E9DE58E225277E47F77 /* PetBuddyApp.swift */; };
-		6D397DED611B90FD4170DE0F /* CustomTabItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE420B76FE618F4E181C721 /* CustomTabItemView.swift */; };
-		6F188D53FF1591F393CEECE3 /* HealthBookCoordinatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950852FEADDC1C5CA3F07FCB /* HealthBookCoordinatorView.swift */; };
-		6F2C6377920ADE6C342B41BA /* FoodCheckerCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C76021F88FCE60CC830B1E /* FoodCheckerCardView.swift */; };
-		74A2711FBC43D29D68B69684 /* MPView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1E8FE86B2056AC87CAF04D /* MPView.swift */; };
-		8483E04748CDC8B0D963B4F5 /* HealthBookCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E8F490044A1DD5C5AE6C8D3 /* HealthBookCoordinator.swift */; };
-		9D4B13B3D377E8F7F1EC093A /* ClickerCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBE95342CE684FE1BAA1535 /* ClickerCoordinator.swift */; };
-		A3816627CBFBFCD88B4D2A49 /* Drops in Frameworks */ = {isa = PBXBuildFile; productRef = 0A277778A4AFB44A00539959 /* Drops */; };
-		A43510235B860FF896D5ED43 /* CustomTabBottomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1D9B5D825C8540D69FEBC3 /* CustomTabBottomView.swift */; };
-		A6ECFB5CC0C9D9A38E445F74 /* FoodLogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072ADDCA79982AC025354C89 /* FoodLogView.swift */; };
+		02490AD1D98E337EF35226F1 /* CustomTabItemData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F2CBE12167038FF5795678D /* CustomTabItemData.swift */; };
+		02B457C71E2AEB17482A5A86 /* HealthBookViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C4904D6BCEB4130B7F67EC /* HealthBookViewModel.swift */; };
+		040C832891315E27828F7E0D /* ClickerCoordinatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E458978BD2EAB1E1C83FF29 /* ClickerCoordinatorView.swift */; };
+		04FE85D8CF37B56CEEDA3655 /* FoodLogCoordinatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5E790326FB357AA29BDE36 /* FoodLogCoordinatorView.swift */; };
+		06BAB5821A2640ABE1EF91BF /* FoodCheckerCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7321DD761CC0B5F2BDEE95B /* FoodCheckerCoordinator.swift */; };
+		0DDD5A3769F0C5EA9990A0A4 /* ClickerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6CA4D0E1D164209620C1FBB /* ClickerViewModel.swift */; };
+		0DF3C83E5EBBA51A5D921523 /* ProfileCoordinatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ECDDFED0611D20205E3AA28 /* ProfileCoordinatorView.swift */; };
+		10EE9AC8CF8297CD83CD665C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD6F29BBFCA6884FFAB1A539 /* Assets.xcassets */; };
+		199A8368CEA47EB5E4233C03 /* CustomAppTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55820D5280DE3D68133F4088 /* CustomAppTab.swift */; };
+		1C305841D38475A56748E1F3 /* FoodLogCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECADCFF81EB027BBB325C286 /* FoodLogCoordinator.swift */; };
+		217D7ECA523B4F3082BD7086 /* FoodCheckerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE80FB374CFE9A66A90E8484 /* FoodCheckerView.swift */; };
+		3ADE52F7AC6721953E0DCA5D /* FoodLogViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB09AB850F7A38722CBCBBE /* FoodLogViewModel.swift */; };
+		3E8BC07EC82D8A645EC2A5D7 /* ClickerCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBE95342CE684FE1BAA1535 /* ClickerCoordinator.swift */; };
+		4BC6760CA71274B920AF564E /* VolumeObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E7FED8C0EA5B56143C5D39A /* VolumeObserver.swift */; };
+		51A12B1142BDDEB27F2BFA45 /* MPView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1E8FE86B2056AC87CAF04D /* MPView.swift */; };
+		53D1E9A7C119B5984A733BDC /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2BBCF01770C4AA40CA271C /* HomeViewModel.swift */; };
+		5DD571A9A9B53DCFE750D340 /* FoodCheckerCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF415DB46A037EC82BD5C598 /* FoodCheckerCardView.swift */; };
+		630C9127EF048DEF5DB32DB5 /* ProfileCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D9682E3571BB00BD7E560AF /* ProfileCoordinator.swift */; };
+		79FB28D9724C3C70B0791294 /* FoodCheckerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F0B0AB3248B68E38304047 /* FoodCheckerViewModel.swift */; };
+		7B84FE0FD86D9D3B860473EA /* Drops in Frameworks */ = {isa = PBXBuildFile; productRef = 6279F9475ABA106599C8D9A9 /* Drops */; };
+		80F5D2E17ABDBB1F85E13553 /* HomeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156189B4902A739BBF12D7FE /* HomeCoordinator.swift */; };
+		8180720074107713DA2E682E /* CustomTabBottomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1D9B5D825C8540D69FEBC3 /* CustomTabBottomView.swift */; };
+		87D005EDAA8AC38A450721B8 /* MPVolumeView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E772EDE4ACB25AAD11A554A /* MPVolumeView+.swift */; };
+		998CFAB853EA7D94B11F832B /* products.json in Resources */ = {isa = PBXBuildFile; fileRef = 08FA5C73D9C09605141C4C27 /* products.json */; };
+		A1CE3A97F2050912E09317F5 /* Click.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B35524D3BDEBB8FD8759DDA1 /* Click.mp3 */; };
 		AA9B2FC705D25B297B32189E /* PetBuddyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7436651686417965A273AE7 /* PetBuddyTests.swift */; };
-		AB664DC9A0B86A7E82CBEACA /* CustomTabItemData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F2CBE12167038FF5795678D /* CustomTabItemData.swift */; };
-		B40A9D7C567912C010B3E91C /* HomeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156189B4902A739BBF12D7FE /* HomeCoordinator.swift */; };
-		B877ED2BD510A4DA54BE811B /* MainCoordinatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E83AB4AC7F61E4F02DFB5B2 /* MainCoordinatorView.swift */; };
-		CC05EA2E96976D7C18870548 /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFA9CFF02E4DEC6161A9CBB /* ProfileViewModel.swift */; };
-		D0C7AC3E6DF77CE5CC35B22D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD6F29BBFCA6884FFAB1A539 /* Assets.xcassets */; };
-		D141BD86086B0619C5457CF7 /* ClickerCoordinatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E458978BD2EAB1E1C83FF29 /* ClickerCoordinatorView.swift */; };
-		D3B8DF6214AC90A17D5ADDDA /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A15E2B8716A9D2A20B67EA /* ProfileView.swift */; };
-		DAFF9C35F2BB2738F6DFA01F /* VolumeObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E7FED8C0EA5B56143C5D39A /* VolumeObserver.swift */; };
-		EB1211283C5CD64CF9689AF7 /* MPVolumeView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E772EDE4ACB25AAD11A554A /* MPVolumeView+.swift */; };
-		FEA64994B23126EE200470C5 /* ClickerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6CA4D0E1D164209620C1FBB /* ClickerViewModel.swift */; };
+		AD032165FF929ECCE2BD4E61 /* HomeCoordinatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2BD48E33DEB4A1A0B3266D8 /* HomeCoordinatorView.swift */; };
+		B2C447F4C9DEAABA3D7FA782 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A15E2B8716A9D2A20B67EA /* ProfileView.swift */; };
+		BCC48FB0FDD6B9A576087D83 /* CustomTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9E0C92DF67D6E82C245283 /* CustomTabView.swift */; };
+		BE0E8B9862E35B2B1F54528C /* CustomTabItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE420B76FE618F4E181C721 /* CustomTabItemView.swift */; };
+		BFFA733E5786C4E2A8F2ABE7 /* ClickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78061A1B47DE45F294139F17 /* ClickerView.swift */; };
+		C4F1AFCF3FD9FBD711060F88 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8676D4CDD3889AF8E0A5C7A /* Preview Assets.xcassets */; };
+		C5EBA7C2B33508F7177CDEF3 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADE346AFB9712AE524BB1E8 /* MainCoordinator.swift */; };
+		C8EF1F6D615BCA4E34C96011 /* FoodCheckerCoordinatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E523E55F4C9EE398BF285C /* FoodCheckerCoordinatorView.swift */; };
+		CF0B6635494D1BF37D5D5046 /* HealthBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01DBA177230E11C04EB75EE7 /* HealthBookView.swift */; };
+		CFF546459BB9F2CE1C0E91BB /* PetBuddyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4027E9DE58E225277E47F77 /* PetBuddyApp.swift */; };
+		D4702DFD9F2AF00609E02AA2 /* MainCoordinatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E83AB4AC7F61E4F02DFB5B2 /* MainCoordinatorView.swift */; };
+		D5668C0605103037719B2974 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8364DC5A74CDB1B9A96748A0 /* HomeView.swift */; };
+		E6492027ACDDCFF6E025B56A /* FoodLogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072ADDCA79982AC025354C89 /* FoodLogView.swift */; };
+		E8030E4701B521E7E926048D /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFA9CFF02E4DEC6161A9CBB /* ProfileViewModel.swift */; };
+		F37254C8A79C7E1F05051911 /* HealthBookCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E8F490044A1DD5C5AE6C8D3 /* HealthBookCoordinator.swift */; };
+		F532E875CB44244E62E1D616 /* HealthBookCoordinatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950852FEADDC1C5CA3F07FCB /* HealthBookCoordinatorView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		01DBA177230E11C04EB75EE7 /* HealthBookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthBookView.swift; sourceTree = "<group>"; };
 		072ADDCA79982AC025354C89 /* FoodLogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodLogView.swift; sourceTree = "<group>"; };
+		08FA5C73D9C09605141C4C27 /* products.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = products.json; sourceTree = "<group>"; };
 		13C4904D6BCEB4130B7F67EC /* HealthBookViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthBookViewModel.swift; sourceTree = "<group>"; };
 		156189B4902A739BBF12D7FE /* HomeCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCoordinator.swift; sourceTree = "<group>"; };
 		1D9682E3571BB00BD7E560AF /* ProfileCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCoordinator.swift; sourceTree = "<group>"; };
@@ -61,18 +63,14 @@
 		2E9E0C92DF67D6E82C245283 /* CustomTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabView.swift; sourceTree = "<group>"; };
 		3FBE95342CE684FE1BAA1535 /* ClickerCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClickerCoordinator.swift; sourceTree = "<group>"; };
 		3FFA9CFF02E4DEC6161A9CBB /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
-		41EEAA99C124CDAA3CCF0C4E /* PetBuddy-iOS.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = "PetBuddy-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		55820D5280DE3D68133F4088 /* CustomAppTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAppTab.swift; sourceTree = "<group>"; };
 		5D5E790326FB357AA29BDE36 /* FoodLogCoordinatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodLogCoordinatorView.swift; sourceTree = "<group>"; };
-		66D3F85329F8472F00106A4B /* FoodCheckerCoordinatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodCheckerCoordinatorView.swift; sourceTree = "<group>"; };
-		66D3F85529F8476400106A4B /* FoodCheckerCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodCheckerCoordinator.swift; sourceTree = "<group>"; };
-		66D3F85929F847CD00106A4B /* FoodCheckerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodCheckerViewModel.swift; sourceTree = "<group>"; };
 		6E7FED8C0EA5B56143C5D39A /* VolumeObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolumeObserver.swift; sourceTree = "<group>"; };
 		6FF4476468D5330F910BCC94 /* Info.generated.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.generated.plist; sourceTree = "<group>"; };
+		75F0B0AB3248B68E38304047 /* FoodCheckerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodCheckerViewModel.swift; sourceTree = "<group>"; };
 		78061A1B47DE45F294139F17 /* ClickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClickerView.swift; sourceTree = "<group>"; };
 		7DB09AB850F7A38722CBCBBE /* FoodLogViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodLogViewModel.swift; sourceTree = "<group>"; };
 		7ECDDFED0611D20205E3AA28 /* ProfileCoordinatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCoordinatorView.swift; sourceTree = "<group>"; };
-		81C76021F88FCE60CC830B1E /* FoodCheckerCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodCheckerCardView.swift; sourceTree = "<group>"; };
 		8341C8BBAE52594229A293EC /* PetBuddy-Tests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = "PetBuddy-Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8364DC5A74CDB1B9A96748A0 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		8E458978BD2EAB1E1C83FF29 /* ClickerCoordinatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClickerCoordinatorView.swift; sourceTree = "<group>"; };
@@ -80,6 +78,7 @@
 		8F2CBE12167038FF5795678D /* CustomTabItemData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabItemData.swift; sourceTree = "<group>"; };
 		950852FEADDC1C5CA3F07FCB /* HealthBookCoordinatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthBookCoordinatorView.swift; sourceTree = "<group>"; };
 		A6CA4D0E1D164209620C1FBB /* ClickerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClickerViewModel.swift; sourceTree = "<group>"; };
+		A7321DD761CC0B5F2BDEE95B /* FoodCheckerCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodCheckerCoordinator.swift; sourceTree = "<group>"; };
 		AD6F29BBFCA6884FFAB1A539 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AE59393451BBCB54715C066C /* Info.generated.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.generated.plist; sourceTree = "<group>"; };
 		B2BD48E33DEB4A1A0B3266D8 /* HomeCoordinatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCoordinatorView.swift; sourceTree = "<group>"; };
@@ -90,19 +89,22 @@
 		BF2BBCF01770C4AA40CA271C /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		C2A15E2B8716A9D2A20B67EA /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		C7436651686417965A273AE7 /* PetBuddyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetBuddyTests.swift; sourceTree = "<group>"; };
+		CF415DB46A037EC82BD5C598 /* FoodCheckerCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodCheckerCardView.swift; sourceTree = "<group>"; };
 		DADE346AFB9712AE524BB1E8 /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
+		E1E5F68641D95BB5D0FE395D /* PetBuddy.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = PetBuddy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4027E9DE58E225277E47F77 /* PetBuddyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetBuddyApp.swift; sourceTree = "<group>"; };
+		E9E523E55F4C9EE398BF285C /* FoodCheckerCoordinatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodCheckerCoordinatorView.swift; sourceTree = "<group>"; };
 		ECADCFF81EB027BBB325C286 /* FoodLogCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodLogCoordinator.swift; sourceTree = "<group>"; };
 		ED1E8FE86B2056AC87CAF04D /* MPView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MPView.swift; sourceTree = "<group>"; };
 		F8676D4CDD3889AF8E0A5C7A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0F5A8A577CD0E509654EF5C7 /* Frameworks */ = {
+		C1C51597216940EE97844F8E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A3816627CBFBFCD88B4D2A49 /* Drops in Frameworks */,
+				7B84FE0FD86D9D3B860473EA /* Drops in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,8 +134,8 @@
 		0A5D13205E349A743F8D246B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				41EEAA99C124CDAA3CCF0C4E /* PetBuddy-iOS.app */,
 				8341C8BBAE52594229A293EC /* PetBuddy-Tests.xctest */,
+				E1E5F68641D95BB5D0FE395D /* PetBuddy.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -181,14 +183,6 @@
 			path = Coordinator;
 			sourceTree = "<group>";
 		};
-		2EB20E0FD40E29DC5D704410 /* Components */ = {
-			isa = PBXGroup;
-			children = (
-				3FD0A5B9663F75B07550DAFD /* FoodCheckerCard */,
-			);
-			path = Components;
-			sourceTree = "<group>";
-		};
 		35FDFA52CA6A685545C4C1C6 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
@@ -215,14 +209,6 @@
 			path = Custom;
 			sourceTree = "<group>";
 		};
-		3FD0A5B9663F75B07550DAFD /* FoodCheckerCard */ = {
-			isa = PBXGroup;
-			children = (
-				81C76021F88FCE60CC830B1E /* FoodCheckerCardView.swift */,
-			);
-			path = FoodCheckerCard;
-			sourceTree = "<group>";
-		};
 		4A9FDFA655907BD4517A4303 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -241,6 +227,14 @@
 			path = Profile;
 			sourceTree = "<group>";
 		};
+		5C3053B1C4523CF5F65DF713 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				A86090C74FF5921140FF7E28 /* FoodCheckerCard */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
 		5D09ABB9030849604A1A1B9F /* View */ = {
 			isa = PBXGroup;
 			children = (
@@ -256,23 +250,6 @@
 				950852FEADDC1C5CA3F07FCB /* HealthBookCoordinatorView.swift */,
 			);
 			path = Coordinator;
-			sourceTree = "<group>";
-		};
-		66D3F85729F8479700106A4B /* Coordinator */ = {
-			isa = PBXGroup;
-			children = (
-				66D3F85529F8476400106A4B /* FoodCheckerCoordinator.swift */,
-				66D3F85329F8472F00106A4B /* FoodCheckerCoordinatorView.swift */,
-			);
-			path = Coordinator;
-			sourceTree = "<group>";
-		};
-		66D3F85829F847BA00106A4B /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-				66D3F85929F847CD00106A4B /* FoodCheckerViewModel.swift */,
-			);
-			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		67D747E589C92BCBAA235D52 /* ViewModel */ = {
@@ -318,13 +295,22 @@
 			path = Coordinator;
 			sourceTree = "<group>";
 		};
+		860E796F6E75DCD9BC29B0AC /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				A7321DD761CC0B5F2BDEE95B /* FoodCheckerCoordinator.swift */,
+				E9E523E55F4C9EE398BF285C /* FoodCheckerCoordinatorView.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
 		87273667DE6E44DFA19C51B7 /* FoodChecker */ = {
 			isa = PBXGroup;
 			children = (
-				66D3F85829F847BA00106A4B /* ViewModel */,
 				BE80FB374CFE9A66A90E8484 /* FoodCheckerView.swift */,
-				2EB20E0FD40E29DC5D704410 /* Components */,
-				66D3F85729F8479700106A4B /* Coordinator */,
+				5C3053B1C4523CF5F65DF713 /* Components */,
+				860E796F6E75DCD9BC29B0AC /* Coordinator */,
+				B0A8668B5AB428D89BE1C0C0 /* ViewModel */,
 			);
 			path = FoodChecker;
 			sourceTree = "<group>";
@@ -371,6 +357,14 @@
 			path = "Health Book";
 			sourceTree = "<group>";
 		};
+		A86090C74FF5921140FF7E28 /* FoodCheckerCard */ = {
+			isa = PBXGroup;
+			children = (
+				CF415DB46A037EC82BD5C598 /* FoodCheckerCardView.swift */,
+			);
+			path = FoodCheckerCard;
+			sourceTree = "<group>";
+		};
 		A9A7860658F00CEDE6D2711C /* Home */ = {
 			isa = PBXGroup;
 			children = (
@@ -385,6 +379,14 @@
 			isa = PBXGroup;
 			children = (
 				A6CA4D0E1D164209620C1FBB /* ClickerViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		B0A8668B5AB428D89BE1C0C0 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				75F0B0AB3248B68E38304047 /* FoodCheckerViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -410,6 +412,7 @@
 			children = (
 				AD6F29BBFCA6884FFAB1A539 /* Assets.xcassets */,
 				E4027E9DE58E225277E47F77 /* PetBuddyApp.swift */,
+				08FA5C73D9C09605141C4C27 /* products.json */,
 				3D2E5A33C0F04DF8013C633D /* Custom */,
 				156250E938919EEF6C0B715E /* Extensions */,
 				8E80C38F989048FED6CAFF57 /* Module */,
@@ -466,6 +469,27 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		7A60AA270D5526FE63E0AED8 /* PetBuddy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D72E91DA1473597038999DA6 /* Build configuration list for PBXNativeTarget "PetBuddy" */;
+			buildPhases = (
+				76BEE904182083D311EB0361 /* SwiftLint */,
+				0F4B1E3CBA785BACECC0FA9C /* Sources */,
+				76021B5D9D24E5807C8A856E /* Resources */,
+				C1C51597216940EE97844F8E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PetBuddy;
+			packageProductDependencies = (
+				6279F9475ABA106599C8D9A9 /* Drops */,
+			);
+			productName = PetBuddy;
+			productReference = E1E5F68641D95BB5D0FE395D /* PetBuddy.app */;
+			productType = "com.apple.product-type.application";
+		};
 		E754BA64539BD1B2E92389BA /* PetBuddy-Tests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3B1144E24FFBBA7B6FF14524 /* Build configuration list for PBXNativeTarget "PetBuddy-Tests" */;
@@ -481,27 +505,6 @@
 			productReference = 8341C8BBAE52594229A293EC /* PetBuddy-Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		E7E1D15251840B9F1E1D578B /* PetBuddy-iOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 58D1973FD2C35235798536C1 /* Build configuration list for PBXNativeTarget "PetBuddy-iOS" */;
-			buildPhases = (
-				AA226B0718B42F949FC81762 /* SwiftLint */,
-				E50FC93930D8018D98807B05 /* Sources */,
-				66A50C627C4E4F6356A9C2A3 /* Resources */,
-				0F5A8A577CD0E509654EF5C7 /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "PetBuddy-iOS";
-			packageProductDependencies = (
-				0A277778A4AFB44A00539959 /* Drops */,
-			);
-			productName = "PetBuddy-iOS";
-			productReference = 41EEAA99C124CDAA3CCF0C4E /* PetBuddy-iOS.app */;
-			productType = "com.apple.product-type.application";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -509,6 +512,8 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+				};
 			};
 			buildConfigurationList = EA732A533DCC7C9FFFA1E5F6 /* Build configuration list for PBXProject "PetBuddy" */;
 			compatibilityVersion = "Xcode 10.0";
@@ -525,27 +530,28 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				7A60AA270D5526FE63E0AED8 /* PetBuddy */,
 				E754BA64539BD1B2E92389BA /* PetBuddy-Tests */,
-				E7E1D15251840B9F1E1D578B /* PetBuddy-iOS */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		66A50C627C4E4F6356A9C2A3 /* Resources */ = {
+		76021B5D9D24E5807C8A856E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0C7AC3E6DF77CE5CC35B22D /* Assets.xcassets in Resources */,
-				1C0FA20575CD842B6BD3EC12 /* Click.mp3 in Resources */,
-				12F350C929DDD1F9BD2E7CED /* Preview Assets.xcassets in Resources */,
+				10EE9AC8CF8297CD83CD665C /* Assets.xcassets in Resources */,
+				A1CE3A97F2050912E09317F5 /* Click.mp3 in Resources */,
+				C4F1AFCF3FD9FBD711060F88 /* Preview Assets.xcassets in Resources */,
+				998CFAB853EA7D94B11F832B /* products.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		AA226B0718B42F949FC81762 /* SwiftLint */ = {
+		76BEE904182083D311EB0361 /* SwiftLint */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -567,54 +573,54 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		0F4B1E3CBA785BACECC0FA9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E8BC07EC82D8A645EC2A5D7 /* ClickerCoordinator.swift in Sources */,
+				040C832891315E27828F7E0D /* ClickerCoordinatorView.swift in Sources */,
+				BFFA733E5786C4E2A8F2ABE7 /* ClickerView.swift in Sources */,
+				0DDD5A3769F0C5EA9990A0A4 /* ClickerViewModel.swift in Sources */,
+				199A8368CEA47EB5E4233C03 /* CustomAppTab.swift in Sources */,
+				8180720074107713DA2E682E /* CustomTabBottomView.swift in Sources */,
+				02490AD1D98E337EF35226F1 /* CustomTabItemData.swift in Sources */,
+				BE0E8B9862E35B2B1F54528C /* CustomTabItemView.swift in Sources */,
+				BCC48FB0FDD6B9A576087D83 /* CustomTabView.swift in Sources */,
+				5DD571A9A9B53DCFE750D340 /* FoodCheckerCardView.swift in Sources */,
+				06BAB5821A2640ABE1EF91BF /* FoodCheckerCoordinator.swift in Sources */,
+				C8EF1F6D615BCA4E34C96011 /* FoodCheckerCoordinatorView.swift in Sources */,
+				217D7ECA523B4F3082BD7086 /* FoodCheckerView.swift in Sources */,
+				79FB28D9724C3C70B0791294 /* FoodCheckerViewModel.swift in Sources */,
+				1C305841D38475A56748E1F3 /* FoodLogCoordinator.swift in Sources */,
+				04FE85D8CF37B56CEEDA3655 /* FoodLogCoordinatorView.swift in Sources */,
+				E6492027ACDDCFF6E025B56A /* FoodLogView.swift in Sources */,
+				3ADE52F7AC6721953E0DCA5D /* FoodLogViewModel.swift in Sources */,
+				F37254C8A79C7E1F05051911 /* HealthBookCoordinator.swift in Sources */,
+				F532E875CB44244E62E1D616 /* HealthBookCoordinatorView.swift in Sources */,
+				CF0B6635494D1BF37D5D5046 /* HealthBookView.swift in Sources */,
+				02B457C71E2AEB17482A5A86 /* HealthBookViewModel.swift in Sources */,
+				80F5D2E17ABDBB1F85E13553 /* HomeCoordinator.swift in Sources */,
+				AD032165FF929ECCE2BD4E61 /* HomeCoordinatorView.swift in Sources */,
+				D5668C0605103037719B2974 /* HomeView.swift in Sources */,
+				53D1E9A7C119B5984A733BDC /* HomeViewModel.swift in Sources */,
+				51A12B1142BDDEB27F2BFA45 /* MPView.swift in Sources */,
+				87D005EDAA8AC38A450721B8 /* MPVolumeView+.swift in Sources */,
+				C5EBA7C2B33508F7177CDEF3 /* MainCoordinator.swift in Sources */,
+				D4702DFD9F2AF00609E02AA2 /* MainCoordinatorView.swift in Sources */,
+				CFF546459BB9F2CE1C0E91BB /* PetBuddyApp.swift in Sources */,
+				630C9127EF048DEF5DB32DB5 /* ProfileCoordinator.swift in Sources */,
+				0DF3C83E5EBBA51A5D921523 /* ProfileCoordinatorView.swift in Sources */,
+				B2C447F4C9DEAABA3D7FA782 /* ProfileView.swift in Sources */,
+				E8030E4701B521E7E926048D /* ProfileViewModel.swift in Sources */,
+				4BC6760CA71274B920AF564E /* VolumeObserver.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E2FA8296C897B040128E984D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				AA9B2FC705D25B297B32189E /* PetBuddyTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E50FC93930D8018D98807B05 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9D4B13B3D377E8F7F1EC093A /* ClickerCoordinator.swift in Sources */,
-				D141BD86086B0619C5457CF7 /* ClickerCoordinatorView.swift in Sources */,
-				2BE8A4D9E868B16AF756962B /* ClickerView.swift in Sources */,
-				FEA64994B23126EE200470C5 /* ClickerViewModel.swift in Sources */,
-				092A984BD3AB4A95AA7213AB /* CustomAppTab.swift in Sources */,
-				A43510235B860FF896D5ED43 /* CustomTabBottomView.swift in Sources */,
-				AB664DC9A0B86A7E82CBEACA /* CustomTabItemData.swift in Sources */,
-				6D397DED611B90FD4170DE0F /* CustomTabItemView.swift in Sources */,
-				10896CA29E95C2BFFE3C0803 /* CustomTabView.swift in Sources */,
-				6F2C6377920ADE6C342B41BA /* FoodCheckerCardView.swift in Sources */,
-				66D3F85A29F847CD00106A4B /* FoodCheckerViewModel.swift in Sources */,
-				66D3F85629F8476400106A4B /* FoodCheckerCoordinator.swift in Sources */,
-				11F67F235502236B4F59F57E /* FoodCheckerView.swift in Sources */,
-				0185AC7DED4CE0312EFB79F6 /* FoodLogCoordinator.swift in Sources */,
-				48BDCCA0C0804F116C7B4B16 /* FoodLogCoordinatorView.swift in Sources */,
-				A6ECFB5CC0C9D9A38E445F74 /* FoodLogView.swift in Sources */,
-				431A6054A0CD97E79BFC9C57 /* FoodLogViewModel.swift in Sources */,
-				8483E04748CDC8B0D963B4F5 /* HealthBookCoordinator.swift in Sources */,
-				6F188D53FF1591F393CEECE3 /* HealthBookCoordinatorView.swift in Sources */,
-				173729F6A2ADCC36F92E08EB /* HealthBookView.swift in Sources */,
-				62E5979759AB0EBF0F9DCF77 /* HealthBookViewModel.swift in Sources */,
-				B40A9D7C567912C010B3E91C /* HomeCoordinator.swift in Sources */,
-				5204A07EAA2627EEE36F8D5B /* HomeCoordinatorView.swift in Sources */,
-				30A3D33408EA9F8981E66DDE /* HomeView.swift in Sources */,
-				66D3F85429F8472F00106A4B /* FoodCheckerCoordinatorView.swift in Sources */,
-				3EDE6B0707F1CA1F6E600140 /* HomeViewModel.swift in Sources */,
-				74A2711FBC43D29D68B69684 /* MPView.swift in Sources */,
-				EB1211283C5CD64CF9689AF7 /* MPVolumeView+.swift in Sources */,
-				35C1E976D80A9F23860C1033 /* MainCoordinator.swift in Sources */,
-				B877ED2BD510A4DA54BE811B /* MainCoordinatorView.swift in Sources */,
-				6AFB8635C57A8174CF648815 /* PetBuddyApp.swift in Sources */,
-				328205ACAB8FBEA95D1F711F /* ProfileCoordinator.swift in Sources */,
-				428657B572F958C0CA5EBF6C /* ProfileCoordinatorView.swift in Sources */,
-				D3B8DF6214AC90A17D5ADDDA /* ProfileView.swift in Sources */,
-				CC05EA2E96976D7C18870548 /* ProfileViewModel.swift in Sources */,
-				DAFF9C35F2BB2738F6DFA01F /* VolumeObserver.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -653,7 +659,7 @@
 			};
 			name = Debug;
 		};
-		36A17492E33B63686EFC751D /* Release */ = {
+		4CA67A9C430DFB25FEDFB73E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -663,27 +669,11 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.pxlborn.PetBuddy-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pxlborn.PetBuddy;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
-		};
-		528497BB7044A1BE38E7B9DA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				INFOPLIST_FILE = PetBuddy/Resources/Info.generated.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.pxlborn.PetBuddy-iOS";
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
 		};
 		6994CC0D2E0D1AECA712779B /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -804,6 +794,22 @@
 			};
 			name = Debug;
 		};
+		EC6886BCB123B0E2666C4A46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = PetBuddy/Resources/Info.generated.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pxlborn.PetBuddy;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -816,11 +822,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		58D1973FD2C35235798536C1 /* Build configuration list for PBXNativeTarget "PetBuddy-iOS" */ = {
+		D72E91DA1473597038999DA6 /* Build configuration list for PBXNativeTarget "PetBuddy" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				528497BB7044A1BE38E7B9DA /* Debug */,
-				36A17492E33B63686EFC751D /* Release */,
+				EC6886BCB123B0E2666C4A46 /* Debug */,
+				4CA67A9C430DFB25FEDFB73E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
@@ -848,7 +854,7 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		0A277778A4AFB44A00539959 /* Drops */ = {
+		6279F9475ABA106599C8D9A9 /* Drops */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 448A2B51695EDCB9BB04B769 /* XCRemoteSwiftPackageReference "Drops" */;
 			productName = Drops;

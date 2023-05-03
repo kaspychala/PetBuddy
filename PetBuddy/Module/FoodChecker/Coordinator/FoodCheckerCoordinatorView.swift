@@ -15,12 +15,10 @@ struct FoodCheckerCoordinatorView: View {
 
     // MARK: Views
     var body: some View {
-        NavigationView {
-            FoodCheckerView()
-                .navigationTitle("Food Checker")
-                .navigationBarTitleDisplayMode(.inline)
-                .searchable(text: $searchText)
-                .pickerStyle(.segmented)
-        }
+        FoodCheckerView(viewModel: coordinator.viewModel)
+            .navigationBarTitleDisplayMode(.automatic)
+            .searchable(text: $searchText)
+            .pickerStyle(.segmented)
+            .navigationTitle("Food Checker")
     }
 }
