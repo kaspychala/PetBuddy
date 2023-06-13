@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -25,6 +25,7 @@
 		53D1E9A7C119B5984A733BDC /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2BBCF01770C4AA40CA271C /* HomeViewModel.swift */; };
 		5DD571A9A9B53DCFE750D340 /* FoodCheckerCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF415DB46A037EC82BD5C598 /* FoodCheckerCardView.swift */; };
 		630C9127EF048DEF5DB32DB5 /* ProfileCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D9682E3571BB00BD7E560AF /* ProfileCoordinator.swift */; };
+		66E983172A38F4C8001CBF3E /* PBNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E983162A38F4C8001CBF3E /* PBNavigationBar.swift */; };
 		79FB28D9724C3C70B0791294 /* FoodCheckerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F0B0AB3248B68E38304047 /* FoodCheckerViewModel.swift */; };
 		7B84FE0FD86D9D3B860473EA /* Drops in Frameworks */ = {isa = PBXBuildFile; productRef = 6279F9475ABA106599C8D9A9 /* Drops */; };
 		80F5D2E17ABDBB1F85E13553 /* HomeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156189B4902A739BBF12D7FE /* HomeCoordinator.swift */; };
@@ -65,6 +66,7 @@
 		3FFA9CFF02E4DEC6161A9CBB /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
 		55820D5280DE3D68133F4088 /* CustomAppTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAppTab.swift; sourceTree = "<group>"; };
 		5D5E790326FB357AA29BDE36 /* FoodLogCoordinatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodLogCoordinatorView.swift; sourceTree = "<group>"; };
+		66E983162A38F4C8001CBF3E /* PBNavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PBNavigationBar.swift; sourceTree = "<group>"; };
 		6E7FED8C0EA5B56143C5D39A /* VolumeObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolumeObserver.swift; sourceTree = "<group>"; };
 		6FF4476468D5330F910BCC94 /* Info.generated.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.generated.plist; sourceTree = "<group>"; };
 		75F0B0AB3248B68E38304047 /* FoodCheckerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodCheckerViewModel.swift; sourceTree = "<group>"; };
@@ -252,6 +254,14 @@
 			path = Coordinator;
 			sourceTree = "<group>";
 		};
+		66E983152A38F493001CBF3E /* PBNavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				66E983162A38F4C8001CBF3E /* PBNavigationBar.swift */,
+			);
+			path = PBNavigationBar;
+			sourceTree = "<group>";
+		};
 		67D747E589C92BCBAA235D52 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
@@ -318,6 +328,7 @@
 		8E80C38F989048FED6CAFF57 /* Module */ = {
 			isa = PBXGroup;
 			children = (
+				66E983152A38F493001CBF3E /* PBNavigationBar */,
 				378E801648179151D218AB59 /* Clicker */,
 				901CC4A8AE9664ED4B19EBD6 /* Food Log */,
 				87273667DE6E44DFA19C51B7 /* FoodChecker */,
@@ -512,8 +523,6 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1200;
-				TargetAttributes = {
-				};
 			};
 			buildConfigurationList = EA732A533DCC7C9FFFA1E5F6 /* Build configuration list for PBXProject "PetBuddy" */;
 			compatibilityVersion = "Xcode 10.0";
@@ -613,6 +622,7 @@
 				B2C447F4C9DEAABA3D7FA782 /* ProfileView.swift in Sources */,
 				E8030E4701B521E7E926048D /* ProfileViewModel.swift in Sources */,
 				4BC6760CA71274B920AF564E /* VolumeObserver.swift in Sources */,
+				66E983172A38F4C8001CBF3E /* PBNavigationBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

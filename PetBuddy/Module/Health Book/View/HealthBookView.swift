@@ -12,7 +12,10 @@ struct HealthBookView: View {
     @ObservedObject var viewModel: HealthBookViewModel
 
     var body: some View {
-        Text(viewModel.title)
+        VStack {
+            PBNavigationBar(title: "Health Book", subtitle: nil)
+            Spacer()
+        }
     }
 }
 

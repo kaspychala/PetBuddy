@@ -12,7 +12,10 @@ struct FoodLogView: View {
     @ObservedObject var viewModel: FoodLogViewModel
 
     var body: some View {
-        Text(viewModel.title)
+        VStack {
+            PBNavigationBar(title: "Food Log", subtitle: nil)
+            Spacer()
+        }
     }
 }
 

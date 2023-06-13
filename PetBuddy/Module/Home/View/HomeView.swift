@@ -11,8 +11,12 @@ struct HomeView: View {
     @ObservedObject var viewModel: HomeViewModel
 
     var body: some View {
-        Button("Food Checker") {
-            viewModel.showFoodChecker()
+        VStack {
+            PBNavigationBar(title: "Home", subtitle: "Wednesday, 8 March 2023")
+            Button("Food Checker") {
+                viewModel.showFoodChecker()
+            }
+            Spacer()
         }
     }
 }
