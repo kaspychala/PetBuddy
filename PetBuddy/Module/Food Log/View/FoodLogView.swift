@@ -14,6 +14,7 @@ struct FoodLogView: View {
     var body: some View {
         VStack {
             PBNavigationBar(title: viewModel.title, subtitle: nil)
+            CalendarView()
             Spacer()
         }
     }
