@@ -12,7 +12,7 @@ struct HomeView: View {
 
     var body: some View {
         VStack {
-            PBNavigationBar(title: "Home", subtitle: "Wednesday, 8 March 2023")
+            PBNavigationBar(title: viewModel.title, subtitle: "Wednesday, 8 March 2023")
             Button("Food Checker") {
                 viewModel.showFoodChecker()
             }

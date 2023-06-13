@@ -13,7 +13,7 @@ struct ProfileView: View {
 
     var body: some View {
         VStack {
-            PBNavigationBar(title: "Profile", subtitle: nil)
+            PBNavigationBar(title: viewModel.title, subtitle: nil)
             Spacer()
         }
     }

@@ -16,9 +16,9 @@ class MainCoordinator: ObservableObject {
     @Published var profileCoordinator: ProfileCoordinator
 
     init() {
-        self.homeCoordinator = .init(title: "Home screen")
-        self.foodLogCoordinator = .init(title: "Food Log screen")
-        self.healthBookCoordinator = .init(title: "Health Book screen")
-        self.profileCoordinator = .init(title: "Profile screen")
+        self.homeCoordinator = .init(title: "Home")
+        self.foodLogCoordinator = .init(title: "Food Log")
+        self.healthBookCoordinator = .init(title: "Health Book")
+        self.profileCoordinator = .init(title: "Profile")
     }
 }
