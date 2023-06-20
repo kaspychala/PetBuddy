@@ -14,6 +14,7 @@ targets:
       properties:
         CFBundleDisplayName: "PetBuddy"
         UILaunchScreen: []
+        UIUserInterfaceStyle: "Light"
     type: application
     platform: iOS
     sources:
