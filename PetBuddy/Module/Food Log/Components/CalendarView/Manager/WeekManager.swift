@@ -61,7 +61,7 @@ class WeekManager: ObservableObject {
         let today = Calendar.current.date(byAdding: .day, value: 7 * value , to: self.currentDate)!
         self.currentDate = today
 
-        calendar.firstWeekday = 7
+        calendar.firstWeekday = 1
         let startOfWeek = calendar.date(from: calendar.dateComponents([.yearForWeekOfYear, .weekOfYear], from: today))!
 
         (1...7).forEach{ day in
@@ -87,7 +87,7 @@ class WeekManager: ObservableObject {
         let today = currentDate
 
         var calendar = Calendar(identifier: .gregorian)
-        calendar.firstWeekday = 7
+        calendar.firstWeekday = 1
 
         let startOfWeek = calendar.date(from: calendar.dateComponents([.yearForWeekOfYear, .weekOfYear], from: today))!
 
@@ -103,7 +103,7 @@ class WeekManager: ObservableObject {
         let nextWeekToday = Calendar.current.date(byAdding: .day, value: 7, to: currentDate )!
 
         var calendar = Calendar(identifier: .gregorian)
-        calendar.firstWeekday = 7
+        calendar.firstWeekday = 1
 
         let startOfWeekNext = calendar.date(from: calendar.dateComponents([.yearForWeekOfYear, .weekOfYear], from: nextWeekToday))!
 
