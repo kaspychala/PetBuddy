@@ -23,17 +23,30 @@ struct CalendarWeekView: View {
                         ForEach(0..<7) { index in
                             VStack(spacing: 20) {
                                 Text(weekManager.dateToString(date: week.date[index], format: "EEE"))
-                                    .font(.system(size:14))
+                                    .font(.system(size: 14))
                                     .fontWeight(.semibold)
-                                    .frame(maxWidth:.infinity)
+                                    .frame(maxWidth: .infinity)
 
-                                Text(weekManager.dateToString(date: week.date[index], format: "d"))
-                                    .font(.system(size:14))
-                                    .frame(maxWidth:.infinity)
+                                if weekManager.dateToString(date: weekManager.tappedDate, format: "dd-MM-YYYY")
+                                    == weekManager.dateToString(date: week.date[index], format: "dd-MM-YYYY") {
+                                    Text(weekManager.dateToString(date: week.date[index], format: "d"))
+                                        .font(.system(size: 14))
+                                        .frame(maxWidth: .infinity)
+                                        .padding(6)
+                                        .background(Color("PrimaryColor"))
+                                        .clipShape(Circle())
+                                } else {
+                                    Text(weekManager.dateToString(date: week.date[index], format: "d"))
+                                        .font(.system(size: 14))
+                                        .padding(6)
+                                        .frame(maxWidth: .infinity)
+                                }
+
+
                             }
                             .onTapGesture {
                                 // Updating Current Day
-                                weekManager.currentDate = week.date[index]
+                                weekManager.tappedDate = week.date[index]
                             }
                         }
                     }
