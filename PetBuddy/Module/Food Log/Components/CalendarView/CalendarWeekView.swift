@@ -60,8 +60,8 @@ struct CalendarWeekView: View {
                 .padding(.horizontal, 20)
             }
         }
-        .frame(maxHeight: .infinity, alignment : .top)
-        .padding(.top, 50)
+        .frame(alignment : .top)
+        .padding([.top, .bottom], 16)
         .gesture(
             DragGesture()
                 .onChanged { value in

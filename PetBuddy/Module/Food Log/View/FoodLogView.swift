@@ -15,7 +15,11 @@ struct FoodLogView: View {
         VStack {
             PBNavigationBar(title: viewModel.title, subtitle: nil)
             CalendarView()
-            Spacer()
+            List {
+                PetFoodCardView()
+                PetFoodCardView()
+                PetFoodCardView()
+            }
         }
     }
 }
