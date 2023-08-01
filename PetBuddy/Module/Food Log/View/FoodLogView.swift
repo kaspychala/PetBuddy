@@ -16,9 +16,9 @@ struct FoodLogView: View {
             PBNavigationBar(title: viewModel.title, subtitle: nil)
             CalendarView()
             List {
-                PetFoodCardView()
-                PetFoodCardView()
-                PetFoodCardView()
+                FoodCardView()
+                FoodCardView()
+                FoodCardView()
             }
         }
     }

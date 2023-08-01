@@ -1,5 +1,5 @@
 //
-//  PetFoodCardView.swift
+//  FoodCardView.swift
 //  PetBuddy
 //
 //  Created by Kasper Spychala on 12/07/2023.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct PetFoodCardView: View {
+struct FoodCardView: View {
     var body: some View {
         VStack(alignment: .leading, spacing: 16) {
             HStack(alignment: .bottom, spacing: 16) {
@@ -44,13 +44,13 @@ struct PetFoodCardView: View {
             }
 
         }
-        .padding([.leading, .trailing], 16)
+        .padding([.leading, .trailing, .top, .bottom], 16)
 
     }
 }
 
-struct PetFoodCardView_Previews: PreviewProvider {
+struct FoodCardView_Previews: PreviewProvider {
     static var previews: some View {
-        PetFoodCardView()
+        FoodCardView()
     }
 }

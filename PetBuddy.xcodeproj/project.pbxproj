@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,16 @@
 		06BAB5821A2640ABE1EF91BF /* FoodCheckerCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7321DD761CC0B5F2BDEE95B /* FoodCheckerCoordinator.swift */; };
 		0DDD5A3769F0C5EA9990A0A4 /* ClickerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6CA4D0E1D164209620C1FBB /* ClickerViewModel.swift */; };
 		0DF3C83E5EBBA51A5D921523 /* ProfileCoordinatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ECDDFED0611D20205E3AA28 /* ProfileCoordinatorView.swift */; };
+		0E7C3D3B2A794DC8006DE130 /* PetModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E7C3D3A2A794DC8006DE130 /* PetModel.swift */; };
+		0E7C3D3E2A7957F8006DE130 /* FoodModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E7C3D3D2A7957F8006DE130 /* FoodModel.swift */; };
+		0E7C3D402A795817006DE130 /* MealModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E7C3D3F2A795817006DE130 /* MealModel.swift */; };
+		0E7C3D432A795A36006DE130 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 0E7C3D422A795A36006DE130 /* Realm */; };
+		0E7C3D452A795A36006DE130 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 0E7C3D442A795A36006DE130 /* RealmSwift */; };
+		0E7C3D492A79602F006DE130 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E7C3D482A79602F006DE130 /* Repository.swift */; };
+		0E7C3D4B2A79629A006DE130 /* FoodRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E7C3D4A2A79629A006DE130 /* FoodRepository.swift */; };
+		0E7C3D4D2A7962A6006DE130 /* MealRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E7C3D4C2A7962A6006DE130 /* MealRepository.swift */; };
+		0E7C3D4F2A7962CA006DE130 /* PetRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E7C3D4E2A7962CA006DE130 /* PetRepository.swift */; };
+		0E93B1EF2A5EE5EB0050B7D7 /* FoodCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E93B1EE2A5EE5EB0050B7D7 /* FoodCardView.swift */; };
 		10EE9AC8CF8297CD83CD665C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD6F29BBFCA6884FFAB1A539 /* Assets.xcassets */; };
 		199A8368CEA47EB5E4233C03 /* CustomAppTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55820D5280DE3D68133F4088 /* CustomAppTab.swift */; };
 		1C305841D38475A56748E1F3 /* FoodLogCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECADCFF81EB027BBB325C286 /* FoodLogCoordinator.swift */; };
@@ -61,6 +71,14 @@
 		01DBA177230E11C04EB75EE7 /* HealthBookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthBookView.swift; sourceTree = "<group>"; };
 		072ADDCA79982AC025354C89 /* FoodLogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodLogView.swift; sourceTree = "<group>"; };
 		08FA5C73D9C09605141C4C27 /* products.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = products.json; sourceTree = "<group>"; };
+		0E7C3D3A2A794DC8006DE130 /* PetModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetModel.swift; sourceTree = "<group>"; };
+		0E7C3D3D2A7957F8006DE130 /* FoodModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodModel.swift; sourceTree = "<group>"; };
+		0E7C3D3F2A795817006DE130 /* MealModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealModel.swift; sourceTree = "<group>"; };
+		0E7C3D482A79602F006DE130 /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
+		0E7C3D4A2A79629A006DE130 /* FoodRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodRepository.swift; sourceTree = "<group>"; };
+		0E7C3D4C2A7962A6006DE130 /* MealRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealRepository.swift; sourceTree = "<group>"; };
+		0E7C3D4E2A7962CA006DE130 /* PetRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetRepository.swift; sourceTree = "<group>"; };
+		0E93B1EE2A5EE5EB0050B7D7 /* FoodCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodCardView.swift; sourceTree = "<group>"; };
 		0EFC5C87B83EC22136D698B7 /* WeekManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekManager.swift; sourceTree = "<group>"; };
 		13C4904D6BCEB4130B7F67EC /* HealthBookViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthBookViewModel.swift; sourceTree = "<group>"; };
 		156189B4902A739BBF12D7FE /* HomeCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCoordinator.swift; sourceTree = "<group>"; };
@@ -103,7 +121,7 @@
 		C7436651686417965A273AE7 /* PetBuddyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetBuddyTests.swift; sourceTree = "<group>"; };
 		CF415DB46A037EC82BD5C598 /* FoodCheckerCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodCheckerCardView.swift; sourceTree = "<group>"; };
 		DADE346AFB9712AE524BB1E8 /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
-		E1E5F68641D95BB5D0FE395D /* PetBuddy.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = PetBuddy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1E5F68641D95BB5D0FE395D /* PetBuddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PetBuddy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4027E9DE58E225277E47F77 /* PetBuddyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetBuddyApp.swift; sourceTree = "<group>"; };
 		E9E523E55F4C9EE398BF285C /* FoodCheckerCoordinatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodCheckerCoordinatorView.swift; sourceTree = "<group>"; };
 		ECADCFF81EB027BBB325C286 /* FoodLogCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodLogCoordinator.swift; sourceTree = "<group>"; };
@@ -116,6 +134,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E7C3D452A795A36006DE130 /* RealmSwift in Frameworks */,
+				0E7C3D432A795A36006DE130 /* Realm in Frameworks */,
 				7B84FE0FD86D9D3B860473EA /* Drops in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -168,6 +188,50 @@
 				AE59393451BBCB54715C066C /* Info.generated.plist */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		0E7C3D382A794D43006DE130 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				0E7C3D392A794D5E006DE130 /* Models */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		0E7C3D392A794D5E006DE130 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0E7C3D3A2A794DC8006DE130 /* PetModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0E7C3D3C2A79575A006DE130 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0E7C3D3D2A7957F8006DE130 /* FoodModel.swift */,
+				0E7C3D3F2A795817006DE130 /* MealModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0E7C3D462A795AEC006DE130 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				0E7C3D472A795AFF006DE130 /* Repository */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		0E7C3D472A795AFF006DE130 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				0E7C3D482A79602F006DE130 /* Repository.swift */,
+				0E7C3D4E2A7962CA006DE130 /* PetRepository.swift */,
+				0E7C3D4A2A79629A006DE130 /* FoodRepository.swift */,
+				0E7C3D4C2A7962A6006DE130 /* MealRepository.swift */,
+			);
+			path = Repository;
 			sourceTree = "<group>";
 		};
 		149421028D350EE19771CAE3 /* ViewModel */ = {
@@ -382,6 +446,7 @@
 				17DB13154ACC74B1162C25D7 /* Coordinator */,
 				E7FE7FC41353478131FC428E /* View */,
 				73B9522A80CE958EF484B7F9 /* ViewModel */,
+				0E7C3D3C2A79575A006DE130 /* Model */,
 			);
 			path = "Food Log";
 			sourceTree = "<group>";
@@ -471,12 +536,14 @@
 				AD6F29BBFCA6884FFAB1A539 /* Assets.xcassets */,
 				E4027E9DE58E225277E47F77 /* PetBuddyApp.swift */,
 				08FA5C73D9C09605141C4C27 /* products.json */,
+				EEF7C9A2F257E047405AC6E3 /* Service */,
 				3D2E5A33C0F04DF8013C633D /* Custom */,
-				156250E938919EEF6C0B715E /* Extensions */,
+				0E7C3D382A794D43006DE130 /* Shared */,
+				0E7C3D462A795AEC006DE130 /* Database */,
 				8E80C38F989048FED6CAFF57 /* Module */,
+				156250E938919EEF6C0B715E /* Extensions */,
 				CAD0EAB395E2C1BC74CD2BBF /* Preview Content */,
 				0E6931B2A9DF01BF2B56FFB3 /* Resources */,
-				EEF7C9A2F257E047405AC6E3 /* Service */,
 			);
 			path = PetBuddy;
 			sourceTree = "<group>";
@@ -503,6 +570,7 @@
 			isa = PBXGroup;
 			children = (
 				072ADDCA79982AC025354C89 /* FoodLogView.swift */,
+				0E93B1EE2A5EE5EB0050B7D7 /* FoodCardView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -543,6 +611,8 @@
 			name = PetBuddy;
 			packageProductDependencies = (
 				6279F9475ABA106599C8D9A9 /* Drops */,
+				0E7C3D422A795A36006DE130 /* Realm */,
+				0E7C3D442A795A36006DE130 /* RealmSwift */,
 			);
 			productName = PetBuddy;
 			productReference = E1E5F68641D95BB5D0FE395D /* PetBuddy.app */;
@@ -570,8 +640,6 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1200;
-				TargetAttributes = {
-				};
 			};
 			buildConfigurationList = EA732A533DCC7C9FFFA1E5F6 /* Build configuration list for PBXProject "PetBuddy" */;
 			compatibilityVersion = "Xcode 11.0";
@@ -584,6 +652,7 @@
 			mainGroup = E56C68EBC0BBF403A81C6955;
 			packageReferences = (
 				448A2B51695EDCB9BB04B769 /* XCRemoteSwiftPackageReference "Drops" */,
+				0E7C3D412A795A35006DE130 /* XCRemoteSwiftPackageReference "realm-swift" */,
 			);
 			projectDirPath = "";
 			projectRoot = "";
@@ -638,6 +707,8 @@
 				6AF2184D69F09F43922C7BA2 /* CalendarView.swift in Sources */,
 				21475E37B62B9E37C86C3DEA /* CalendarWeekView.swift in Sources */,
 				3E8BC07EC82D8A645EC2A5D7 /* ClickerCoordinator.swift in Sources */,
+				0E7C3D4D2A7962A6006DE130 /* MealRepository.swift in Sources */,
+				0E7C3D3B2A794DC8006DE130 /* PetModel.swift in Sources */,
 				040C832891315E27828F7E0D /* ClickerCoordinatorView.swift in Sources */,
 				BFFA733E5786C4E2A8F2ABE7 /* ClickerView.swift in Sources */,
 				0DDD5A3769F0C5EA9990A0A4 /* ClickerViewModel.swift in Sources */,
@@ -646,13 +717,17 @@
 				02490AD1D98E337EF35226F1 /* CustomTabItemData.swift in Sources */,
 				BE0E8B9862E35B2B1F54528C /* CustomTabItemView.swift in Sources */,
 				BCC48FB0FDD6B9A576087D83 /* CustomTabView.swift in Sources */,
+				0E93B1EF2A5EE5EB0050B7D7 /* FoodCardView.swift in Sources */,
 				77F1D5AFBFE63E00902B0857 /* DragDirection.swift in Sources */,
 				5DD571A9A9B53DCFE750D340 /* FoodCheckerCardView.swift in Sources */,
+				0E7C3D3E2A7957F8006DE130 /* FoodModel.swift in Sources */,
 				06BAB5821A2640ABE1EF91BF /* FoodCheckerCoordinator.swift in Sources */,
+				0E7C3D492A79602F006DE130 /* Repository.swift in Sources */,
 				C8EF1F6D615BCA4E34C96011 /* FoodCheckerCoordinatorView.swift in Sources */,
 				217D7ECA523B4F3082BD7086 /* FoodCheckerView.swift in Sources */,
 				79FB28D9724C3C70B0791294 /* FoodCheckerViewModel.swift in Sources */,
 				1C305841D38475A56748E1F3 /* FoodLogCoordinator.swift in Sources */,
+				0E7C3D4F2A7962CA006DE130 /* PetRepository.swift in Sources */,
 				04FE85D8CF37B56CEEDA3655 /* FoodLogCoordinatorView.swift in Sources */,
 				E6492027ACDDCFF6E025B56A /* FoodLogView.swift in Sources */,
 				3ADE52F7AC6721953E0DCA5D /* FoodLogViewModel.swift in Sources */,
@@ -666,9 +741,11 @@
 				53D1E9A7C119B5984A733BDC /* HomeViewModel.swift in Sources */,
 				51A12B1142BDDEB27F2BFA45 /* MPView.swift in Sources */,
 				87D005EDAA8AC38A450721B8 /* MPVolumeView+.swift in Sources */,
+				0E7C3D402A795817006DE130 /* MealModel.swift in Sources */,
 				C5EBA7C2B33508F7177CDEF3 /* MainCoordinator.swift in Sources */,
 				D4702DFD9F2AF00609E02AA2 /* MainCoordinatorView.swift in Sources */,
 				9005B0E5453F88DBC01165F9 /* PBNavigationBar.swift in Sources */,
+				0E7C3D4B2A79629A006DE130 /* FoodRepository.swift in Sources */,
 				CFF546459BB9F2CE1C0E91BB /* PetBuddyApp.swift in Sources */,
 				630C9127EF048DEF5DB32DB5 /* ProfileCoordinator.swift in Sources */,
 				0DF3C83E5EBBA51A5D921523 /* ProfileCoordinatorView.swift in Sources */,
@@ -728,12 +805,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = F6N6BU583P;
 				INFOPLIST_FILE = PetBuddy/Resources/Info.generated.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.pxlborn.PetBuddy;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pxlborn.PetBuddy2;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -863,12 +941,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = F6N6BU583P;
 				INFOPLIST_FILE = PetBuddy/Resources/Info.generated.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.pxlborn.PetBuddy;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pxlborn.PetBuddy2;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -907,6 +986,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		0E7C3D412A795A35006DE130 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.42.0;
+			};
+		};
 		448A2B51695EDCB9BB04B769 /* XCRemoteSwiftPackageReference "Drops" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/omaralbeik/Drops.git";
@@ -918,6 +1005,16 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		0E7C3D422A795A36006DE130 /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0E7C3D412A795A35006DE130 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+		0E7C3D442A795A36006DE130 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0E7C3D412A795A35006DE130 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
 		6279F9475ABA106599C8D9A9 /* Drops */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 448A2B51695EDCB9BB04B769 /* XCRemoteSwiftPackageReference "Drops" */;
