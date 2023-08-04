@@ -7,6 +7,12 @@ packages:
   Drops:
     url: https://github.com/omaralbeik/Drops.git
     from: 1.6.1
+  Realm:
+    url: https://github.com/realm/realm-core.git
+    from: 13.17.1
+  RealmSwift:
+    url: https://github.com/realm/realm-swift.git
+    from: 10.42.0
 targets:
   PetBuddy:
     info:
@@ -15,12 +21,17 @@ targets:
         CFBundleDisplayName: "PetBuddy"
         UILaunchScreen: []
         UIUserInterfaceStyle: "Light"
+        NSCameraUsageDescription: "Your app would like to access the camera to capture photos and videos."
+        NSPhotoLibraryUsageDescription: "Your app would like to access your photo library to select and import photos."
+        NSPhotoLibraryAddUsageDescription: "Your app would like to save photos to your photo library."
     type: application
     platform: iOS
     sources:
       - path: PetBuddy
     dependencies:
       - package: Drops
+      - package: Realm
+      - package: RealmSwift
     scheme:
       testTargets:
       - PetBuddy-Tests
