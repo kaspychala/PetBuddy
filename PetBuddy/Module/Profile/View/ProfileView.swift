@@ -10,28 +10,13 @@ import SwiftUI
 struct ProfileView: View {
 
     @ObservedObject var viewModel: ProfileViewModel
-    @State private var image: UIImage?
-    @State private var showImagePicker: Bool = false
 
     var body: some View {
         VStack {
             PBNavigationBar(title: viewModel.title, subtitle: nil)
-            if let image = image {
-               Image(uiImage: image)
-                   .resizable()
-                   .aspectRatio(contentMode: .fit)
-            } else {
-               Text("No image selected")
+            Button("Add new pet") {
+                viewModel.showAddPet()
             }
-
-            Button("Select Image") {
-               self.showImagePicker = true
-            }
-            .fullScreenCover(isPresented: $showImagePicker, content: {
-                ImagePicker(image: self.$image, sourceType: .camera)
-                   .edgesIgnoringSafeArea(.all)
-             })
-            .padding()
             Spacer()
        }
     }

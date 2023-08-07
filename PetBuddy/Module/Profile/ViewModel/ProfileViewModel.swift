@@ -15,4 +15,8 @@ class ProfileViewModel: ObservableObject {
     init(title: String) {
         self.title = title
     }
+
+    func showAddPet() {
+        coordinator?.showAddPet()
+    }
 }

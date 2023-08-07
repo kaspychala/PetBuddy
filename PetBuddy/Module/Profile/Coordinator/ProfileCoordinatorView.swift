@@ -14,8 +14,13 @@ struct ProfileCoordinatorView: View {
 
     // MARK: Views
     var body: some View {
-        NavigationView {
+        NavigationStack {
             ProfileView(viewModel: coordinator.viewModel)
+                .navigationDestination(
+                    isPresented: $coordinator.shouldShowAddPet) {
+                    AddPetCoordinatorView(
+                        coordinator: coordinator.addPetCoordinator)
+                }
         }
     }
 }

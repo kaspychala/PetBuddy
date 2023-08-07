@@ -11,14 +11,13 @@ struct PBNavigationBar: View {
     let title: String
     let subtitle: String?
         
-        init(title: String, subtitle: String?) {
-            self.title = title
-            self.subtitle = subtitle
-        }
+    init(title: String, subtitle: String?) {
+        self.title = title
+        self.subtitle = subtitle
+    }
     
     var body: some View {
         VStack(alignment: .leading, spacing: 4) {
-            Spacer()
             if(subtitle != nil) {
                 Text(subtitle!)
                     .fontWeight(.regular)
