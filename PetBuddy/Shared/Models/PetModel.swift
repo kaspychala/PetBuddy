@@ -8,11 +8,11 @@
 import Foundation
 import RealmSwift
 
-class PetModel: Object {
-    @Persisted(primaryKey: true) var id: Int
-    @Persisted var name: String
-    @Persisted var birthday: Date
-    @Persisted var weight: Double
-    @Persisted var dailyKcal: Double
-    @Persisted var dailyMeals: Int
+class PetModel: Object, Identifiable {
+    @Persisted(primaryKey: true) var id: String = UUID().uuidString
+    @Persisted var name: String?
+    @Persisted var birthday: Date?
+    @Persisted var weight: Double?
+    @Persisted var dailyKcal: Double?
+    @Persisted var dailyMeals: Int?
 }

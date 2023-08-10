@@ -10,10 +10,9 @@ import Foundation
 protocol Repository {
     associatedtype T
 
-    func create(object: T)
-    func replace(id: String, object: T)
+    func add(object: T)
     func update(object: T)
     func delete(id: String)
     func get(id: String) -> T?
-    func getAll(id: String) -> [T?]
+    func getAll() -> [T]?
 }

@@ -11,12 +11,14 @@ class AddPetViewModel: ObservableObject {
 
     @Published var title: String
     weak var coordinator: AddPetCoordinator?
+    let petRepository: PetRepository
 
     init(title: String) {
         self.title = title
+        self.petRepository = PetRepository()
     }
 
-    func addPet() {
-        // TODO
+    func addPet(pet: PetModel) {
+        petRepository.add(object: pet)
     }
 }

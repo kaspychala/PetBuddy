@@ -6,33 +6,67 @@
 //
 
 import Foundation
+import RealmSwift
 
 class PetRepository: Repository {
     typealias T = PetModel
-    
-    func create(object: PetModel) {
-        // TODO
-    }
 
-    func replace(id: String, object: PetModel) {
-        // TODO
+    private let realm: Realm
+
+    init() {
+        realm = try! Realm()
+    }
+    
+    func add(object: PetModel) {
+        try! realm.write {
+            realm.add(object)
+        }
     }
 
     func update(object: PetModel) {
-        // TODO
+        let pets = realm.objects(PetModel.self)
+        guard let pet = pets.first(where: {
+            $0.id == object.id
+        }) else {
+            return
+        }
+        try! realm.write {
+            pet.name = object.name
+            pet.birthday = object.birthday
+            pet.weight = object.weight
+            pet.dailyKcal = object.dailyKcal
+            pet.dailyMeals = object.dailyMeals
+        }
     }
 
     func delete(id: String) {
-        // TODO
+        let pets = realm.objects(PetModel.self)
+        guard let pet = pets.first(where: {
+            $0.id == id
+        }) else {
+            return
+        }
+        try! realm.write {
+            realm.delete(pet)
+        }
     }
 
     func get(id: String) -> PetModel? {
-        // TODO
-        return nil
+        let pets = realm.objects(PetModel.self)
+        guard let pet = pets.first(where: {
+            $0.id == id
+        }) else {
+            return nil
+        }
+        return pet
     }
 
-    func getAll(id: String) -> [PetModel?] {
-        // TODO
-        return [nil]
+    func getAll() -> [PetModel]? {
+        let objects = realm.objects(PetModel.self)
+        let pets = objects.toArray()
+        guard !pets.isEmpty else {
+            return nil
+        }
+        return pets
     }
 }

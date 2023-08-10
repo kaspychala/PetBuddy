@@ -18,6 +18,8 @@
 		0EBF7FD52A814A2F00FA7D0E /* AddPetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EBF7FD42A814A2F00FA7D0E /* AddPetView.swift */; };
 		0EBF7FD72A814A3C00FA7D0E /* AddPetCoordinatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EBF7FD62A814A3C00FA7D0E /* AddPetCoordinatorView.swift */; };
 		0EBF7FD92A814A4A00FA7D0E /* AddPetViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EBF7FD82A814A4A00FA7D0E /* AddPetViewModel.swift */; };
+		0EBF808A2A85387000FA7D0E /* Results+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EBF80892A85387000FA7D0E /* Results+.swift */; };
+		0EBF808C2A85452D00FA7D0E /* FileManagerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EBF808B2A85452D00FA7D0E /* FileManagerService.swift */; };
 		10EE9AC8CF8297CD83CD665C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD6F29BBFCA6884FFAB1A539 /* Assets.xcassets */; };
 		1257810BCAC38C868D7CFE2D /* MealModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD174AF75B53FEF4887ADB2B /* MealModel.swift */; };
 		199A8368CEA47EB5E4233C03 /* CustomAppTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55820D5280DE3D68133F4088 /* CustomAppTab.swift */; };
@@ -80,6 +82,8 @@
 		0EBF7FD42A814A2F00FA7D0E /* AddPetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPetView.swift; sourceTree = "<group>"; };
 		0EBF7FD62A814A3C00FA7D0E /* AddPetCoordinatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPetCoordinatorView.swift; sourceTree = "<group>"; };
 		0EBF7FD82A814A4A00FA7D0E /* AddPetViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPetViewModel.swift; sourceTree = "<group>"; };
+		0EBF80892A85387000FA7D0E /* Results+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Results+.swift"; sourceTree = "<group>"; };
+		0EBF808B2A85452D00FA7D0E /* FileManagerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManagerService.swift; sourceTree = "<group>"; };
 		0EFC5C87B83EC22136D698B7 /* WeekManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekManager.swift; sourceTree = "<group>"; };
 		13C4904D6BCEB4130B7F67EC /* HealthBookViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthBookViewModel.swift; sourceTree = "<group>"; };
 		156189B4902A739BBF12D7FE /* HomeCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCoordinator.swift; sourceTree = "<group>"; };
@@ -255,6 +259,7 @@
 			isa = PBXGroup;
 			children = (
 				8E772EDE4ACB25AAD11A554A /* MPVolumeView+.swift */,
+				0EBF80892A85387000FA7D0E /* Results+.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -634,6 +639,7 @@
 			isa = PBXGroup;
 			children = (
 				6E7FED8C0EA5B56143C5D39A /* VolumeObserver.swift */,
+				0EBF808B2A85452D00FA7D0E /* FileManagerService.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -769,6 +775,7 @@
 				0DDD5A3769F0C5EA9990A0A4 /* ClickerViewModel.swift in Sources */,
 				199A8368CEA47EB5E4233C03 /* CustomAppTab.swift in Sources */,
 				8180720074107713DA2E682E /* CustomTabBottomView.swift in Sources */,
+				0EBF808C2A85452D00FA7D0E /* FileManagerService.swift in Sources */,
 				0EBF7FD32A814A2300FA7D0E /* AddPetCoordinator.swift in Sources */,
 				02490AD1D98E337EF35226F1 /* CustomTabItemData.swift in Sources */,
 				BE0E8B9862E35B2B1F54528C /* CustomTabItemView.swift in Sources */,
@@ -806,6 +813,7 @@
 				9005B0E5453F88DBC01165F9 /* PBNavigationBar.swift in Sources */,
 				CFF546459BB9F2CE1C0E91BB /* PetBuddyApp.swift in Sources */,
 				A2D3120EA0577BE0ABFFA971 /* PetModel.swift in Sources */,
+				0EBF808A2A85387000FA7D0E /* Results+.swift in Sources */,
 				FCB145C73CC6936A2EF5ED71 /* PetRepository.swift in Sources */,
 				630C9127EF048DEF5DB32DB5 /* ProfileCoordinator.swift in Sources */,
 				0DF3C83E5EBBA51A5D921523 /* ProfileCoordinatorView.swift in Sources */,

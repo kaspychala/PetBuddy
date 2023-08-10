@@ -48,7 +48,13 @@ struct AddPetView: View {
             TextField("Daily meals", text: $dailyMeals)
                 .textFieldStyle(.roundedBorder)
             Button("Add") {
-                viewModel.addPet()
+                let pet = PetModel()
+                pet.name = name
+                pet.birthday = Date()
+                pet.weight = Double(weight)
+                pet.dailyKcal = Double(dailyKcal)
+                pet.dailyMeals = Int(dailyMeals)
+                viewModel.addPet(pet: pet)
             }
             Spacer()
         }

@@ -6,15 +6,18 @@
 //
 
 import Foundation
+import RealmSwift
 
 class FoodRepository: Repository {
     typealias T = FoodModel
 
-    func create(object: FoodModel) {
-        // TODO
+    private let realm: Realm
+
+    init() {
+        realm = try! Realm()
     }
 
-    func replace(id: String, object: FoodModel) {
+    func add(object: FoodModel) {
         // TODO
     }
 
@@ -31,8 +34,8 @@ class FoodRepository: Repository {
         return nil
     }
 
-    func getAll(id: String) -> [FoodModel?] {
+    func getAll() -> [FoodModel]? {
         // TODO
-        return [nil]
+        return nil
     }
 }
