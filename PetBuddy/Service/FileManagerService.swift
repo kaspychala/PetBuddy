@@ -14,6 +14,7 @@ enum FileManagerError: Error {
     case fileWriteError
     case fileReadError
     case imageDataConversionError
+    case fileDeleteError
 }
 
 class FileManagerService {
@@ -49,6 +50,21 @@ class FileManagerService {
             }
         } else {
             throw FileManagerError.imageDataConversionError
+        }
+    }
+
+    // Function to delete an image file
+    func deleteImage(fileName: String) throws {
+        guard let documentDirectory = fileManager.urls(for: .documentDirectory, in: .userDomainMask).first else {
+            throw FileManagerError.documentDirectoryNotFound
+        }
+
+        let fileURL = documentDirectory.appendingPathComponent(fileName)
+
+        do {
+            try fileManager.removeItem(at: fileURL)
+        } catch {
+            throw FileManagerError.fileDeleteError
         }
     }
 

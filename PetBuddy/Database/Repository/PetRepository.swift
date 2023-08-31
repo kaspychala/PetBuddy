@@ -36,6 +36,7 @@ class PetRepository: Repository {
             pet.weight = object.weight
             pet.dailyKcal = object.dailyKcal
             pet.dailyMeals = object.dailyMeals
+            pet.photoName = object.photoName
         }
     }
 

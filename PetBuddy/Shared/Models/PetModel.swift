@@ -15,4 +15,5 @@ class PetModel: Object, Identifiable {
     @Persisted var weight: Double?
     @Persisted var dailyKcal: Double?
     @Persisted var dailyMeals: Int?
+    @Persisted var photoName: String = UUID().uuidString
 }
