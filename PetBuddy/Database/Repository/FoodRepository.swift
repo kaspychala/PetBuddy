@@ -18,24 +18,52 @@ class FoodRepository: Repository {
     }
 
     func add(object: FoodModel) {
-        // TODO
+        try! realm.write {
+            realm.add(object)
+        }
     }
 
     func update(object: FoodModel) {
-        // TODO
+        let foods = realm.objects(FoodModel.self)
+        guard let food = foods.first(where: {
+            $0.id == object.id
+        }) else {
+            return
+        }
+        try! realm.write {
+            food.name = object.name
+            food.kcal = object.kcal
+        }
     }
 
     func delete(id: String) {
-        // TODO
+        let foods = realm.objects(FoodModel.self)
+        guard let food = foods.first(where: {
+            $0.id == id
+        }) else {
+            return
+        }
+        try! realm.write {
+            realm.delete(food)
+        }
     }
 
     func get(id: String) -> FoodModel? {
-        // TODO
-        return nil
+        let foods = realm.objects(FoodModel.self)
+        guard let food = foods.first(where: {
+            $0.id == id
+        }) else {
+            return nil
+        }
+        return food
     }
 
     func getAll() -> [FoodModel]? {
-        // TODO
-        return nil
+        let objects = realm.objects(FoodModel.self)
+        let foods = objects.toArray()
+        guard !foods.isEmpty else {
+            return nil
+        }
+        return foods
     }
 }

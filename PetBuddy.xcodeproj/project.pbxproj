@@ -20,6 +20,7 @@
 		0EBF7FD92A814A4A00FA7D0E /* AddPetViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EBF7FD82A814A4A00FA7D0E /* AddPetViewModel.swift */; };
 		0EBF808A2A85387000FA7D0E /* Results+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EBF80892A85387000FA7D0E /* Results+.swift */; };
 		0EBF808C2A85452D00FA7D0E /* FileManagerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EBF808B2A85452D00FA7D0E /* FileManagerService.swift */; };
+		0EBF80962AA0DA7800FA7D0E /* FoodCardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EBF80952AA0DA7800FA7D0E /* FoodCardModel.swift */; };
 		10EE9AC8CF8297CD83CD665C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD6F29BBFCA6884FFAB1A539 /* Assets.xcassets */; };
 		1257810BCAC38C868D7CFE2D /* MealModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD174AF75B53FEF4887ADB2B /* MealModel.swift */; };
 		199A8368CEA47EB5E4233C03 /* CustomAppTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55820D5280DE3D68133F4088 /* CustomAppTab.swift */; };
@@ -84,6 +85,7 @@
 		0EBF7FD82A814A4A00FA7D0E /* AddPetViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPetViewModel.swift; sourceTree = "<group>"; };
 		0EBF80892A85387000FA7D0E /* Results+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Results+.swift"; sourceTree = "<group>"; };
 		0EBF808B2A85452D00FA7D0E /* FileManagerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManagerService.swift; sourceTree = "<group>"; };
+		0EBF80952AA0DA7800FA7D0E /* FoodCardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodCardModel.swift; sourceTree = "<group>"; };
 		0EFC5C87B83EC22136D698B7 /* WeekManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekManager.swift; sourceTree = "<group>"; };
 		13C4904D6BCEB4130B7F67EC /* HealthBookViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthBookViewModel.swift; sourceTree = "<group>"; };
 		156189B4902A739BBF12D7FE /* HomeCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCoordinator.swift; sourceTree = "<group>"; };
@@ -247,6 +249,14 @@
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
+		0EBF80942AA0D9AC00FA7D0E /* FoodCardView */ = {
+			isa = PBXGroup;
+			children = (
+				6E0CEDEDAABF05D847FAAB0B /* FoodCardView.swift */,
+			);
+			path = FoodCardView;
+			sourceTree = "<group>";
+		};
 		149421028D350EE19771CAE3 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
@@ -276,6 +286,7 @@
 		3069E981B51288FBDE745709 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				0EBF80942AA0D9AC00FA7D0E /* FoodCardView */,
 				9E79F45ECEFDC76CC67D4F6A /* CalendarView */,
 			);
 			path = Components;
@@ -452,6 +463,7 @@
 			children = (
 				85B493DC29DBFD9D3E446851 /* FoodModel.swift */,
 				DD174AF75B53FEF4887ADB2B /* MealModel.swift */,
+				0EBF80952AA0DA7800FA7D0E /* FoodCardModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -629,7 +641,6 @@
 		E7FE7FC41353478131FC428E /* View */ = {
 			isa = PBXGroup;
 			children = (
-				6E0CEDEDAABF05D847FAAB0B /* FoodCardView.swift */,
 				072ADDCA79982AC025354C89 /* FoodLogView.swift */,
 			);
 			path = View;
@@ -809,6 +820,7 @@
 				D4702DFD9F2AF00609E02AA2 /* MainCoordinatorView.swift in Sources */,
 				1257810BCAC38C868D7CFE2D /* MealModel.swift in Sources */,
 				F9BF1E0974DE4EEB3EEC526A /* MealRepository.swift in Sources */,
+				0EBF80962AA0DA7800FA7D0E /* FoodCardModel.swift in Sources */,
 				0EBF7FD72A814A3C00FA7D0E /* AddPetCoordinatorView.swift in Sources */,
 				9005B0E5453F88DBC01165F9 /* PBNavigationBar.swift in Sources */,
 				CFF546459BB9F2CE1C0E91BB /* PetBuddyApp.swift in Sources */,

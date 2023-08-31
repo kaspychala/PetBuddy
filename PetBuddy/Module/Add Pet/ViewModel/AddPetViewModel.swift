@@ -12,11 +12,12 @@ class AddPetViewModel: ObservableObject {
     @Published var title: String
     weak var coordinator: AddPetCoordinator?
     let petRepository: PetRepository
-    let fileManagerService: FileManagerService = .shared
+    let fileManagerService: FileManagerService
 
     init(title: String) {
         self.title = title
         self.petRepository = PetRepository()
+        self.fileManagerService = .shared
     }
 
     func addPet(pet: PetModel, image: UIImage?) {

@@ -8,15 +8,17 @@
 import SwiftUI
 
 struct FoodCardView: View {
+    @State var foodCardModel: FoodCardModel
+
     var body: some View {
         VStack(alignment: .leading, spacing: 16) {
             HStack(alignment: .bottom, spacing: 16) {
-                Text("Miki")
+                Text(foodCardModel.petName)
                     .font(.system(size: 21))
                     .bold()
                 VStack(alignment: .trailing) {
-                    Text("25%")
-                    ProgressView(value: 25.0, total: 100)
+                    Text("\((foodCardModel.kcalEaten / foodCardModel.kcalNeeded) * 100)%")
+                    ProgressView(value: foodCardModel.kcalEaten / foodCardModel.kcalNeeded, total: 1.0)
                 }
                 .padding(.bottom, 5)
             }
@@ -25,22 +27,22 @@ struct FoodCardView: View {
             HStack {
                 Text("Zapotrzebowanie kaloryczne")
                 Spacer()
-                Text("2137 kcal")
+                Text(String(foodCardModel.kcalNeeded))
             }
             HStack {
                 Text("Do tej pory wszamane")
                 Spacer()
-                Text("2137 kcal")
+                Text(String(foodCardModel.kcalEaten))
             }
             HStack {
                 Text("Pozostało do zjedzenia")
                 Spacer()
-                Text("2137 kcal")
+                Text(String(foodCardModel.kcalLeft))
             }
             HStack {
                 Text("Liczba posiłków")
                 Spacer()
-                Text("6")
+                Text(String(foodCardModel.totalMealsEaten))
             }
 
         }
@@ -51,6 +53,7 @@ struct FoodCardView: View {
 
 struct FoodCardView_Previews: PreviewProvider {
     static var previews: some View {
-        FoodCardView()
+        FoodCardView(
+            foodCardModel: FoodCardModel(petName: "Miki", kcalNeeded: 500, kcalEaten: 250, kcalLeft: 250, totalMealsEaten: 4))
     }
 }

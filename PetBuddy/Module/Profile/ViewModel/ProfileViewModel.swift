@@ -12,20 +12,15 @@ class ProfileViewModel: ObservableObject {
 
     @Published var title: String
     weak var coordinator: ProfileCoordinator?
-    let petRepository: PetRepository
-    let fileService: FileManagerService = .shared
+    let fileService: FileManagerService
 
     init(title: String) {
         self.title = title
-        self.petRepository = PetRepository()
+        self.fileService = .shared
     }
 
     func showAddPet() {
         coordinator?.showAddPet()
-    }
-
-    func getPets() -> [PetModel]? {
-        return petRepository.getAll()
     }
 
     func getPetImage(photoName: String) -> UIImage? {

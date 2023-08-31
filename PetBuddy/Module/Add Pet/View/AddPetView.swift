@@ -51,9 +51,9 @@ struct AddPetView: View {
                 let pet = PetModel()
                 pet.name = name
                 pet.birthday = Date()
-                pet.weight = Double(weight)
-                pet.dailyKcal = Double(dailyKcal)
-                pet.dailyMeals = Int(dailyMeals)
+                pet.weight = Double(weight) ?? 0.0
+                pet.dailyKcal = Double(dailyKcal) ?? 0.0
+                pet.dailyMeals = Int(dailyMeals) ?? 0
                 viewModel.addPet(pet: pet, image: image)
             }
             Spacer()
