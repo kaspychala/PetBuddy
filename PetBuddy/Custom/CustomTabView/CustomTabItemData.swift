@@ -8,7 +8,7 @@
 import Foundation
 
 struct CustomTabItemData {
-    let image: String
-    let selectedImage: String
-    let title: String
+	let image: String
+	let selectedImage: String
+	let title: String
 }

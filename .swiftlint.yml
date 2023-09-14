@@ -1,2 +1,6 @@
 disabled_rules:
   - force_try
+  - line_length
+  - type_name
+  - nesting
+  - trailing_whitespace

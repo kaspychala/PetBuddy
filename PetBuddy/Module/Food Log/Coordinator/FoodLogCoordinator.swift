@@ -8,11 +8,11 @@
 import SwiftUI
 
 class FoodLogCoordinator: ObservableObject, Identifiable {
-
-    @Published var viewModel: FoodLogViewModel
-
-    init(title: String) {
-        self.viewModel = .init(title: title)
-        self.viewModel.coordinator = self
-    }
+	
+	@Published var viewModel: FoodLogViewModel
+	
+	init(title: String) {
+		self.viewModel = .init(title: title)
+		self.viewModel.coordinator = self
+	}
 }

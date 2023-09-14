@@ -9,15 +9,15 @@ import SwiftUI
 
 @main
 struct PetBuddyApp: App {
-
-    // MARK: Stored Properties
-    @StateObject var coordinator = MainCoordinator()
-
-    // MARK: Scenes
-    var body: some Scene {
-        WindowGroup {
-            MainCoordinatorView(coordinator: coordinator)
-                .tint(Color("PrimaryColor"))
-        }
-    }
+	
+	// MARK: Stored Properties
+	@StateObject var coordinator = MainCoordinator()
+	
+	// MARK: Scenes
+	var body: some Scene {
+		WindowGroup {
+			MainCoordinatorView(coordinator: coordinator)
+				.tint(Color("PrimaryColor"))
+		}
+	}
 }

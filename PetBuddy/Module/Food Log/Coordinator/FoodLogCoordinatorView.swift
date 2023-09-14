@@ -8,14 +8,14 @@
 import SwiftUI
 
 struct FoodLogCoordinatorView: View {
-
-    // MARK: Stored Properties
-    @ObservedObject var coordinator: FoodLogCoordinator
-
-    // MARK: Views
-    var body: some View {
-        NavigationView {
-            FoodLogView(viewModel: coordinator.viewModel)
-        }
-    }
+	
+	// MARK: Stored Properties
+	@ObservedObject var coordinator: FoodLogCoordinator
+	
+	// MARK: Views
+	var body: some View {
+		NavigationView {
+			FoodLogView(viewModel: coordinator.viewModel)
+		}
+	}
 }

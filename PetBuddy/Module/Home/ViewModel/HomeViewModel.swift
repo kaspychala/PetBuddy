@@ -8,15 +8,19 @@
 import SwiftUI
 
 class HomeViewModel: ObservableObject {
-
-    @Published var title: String
-    weak var coordinator: HomeCoordinator?
-
-    init(title: String) {
-        self.title = title
-    }
-    
-    func showFoodChecker() {
-        coordinator?.showFoodChecker()
-    }
+	
+	@Published var title: String
+	weak var coordinator: HomeCoordinator?
+	
+	init(title: String) {
+		self.title = title
+	}
+	
+	func showFoodChecker() {
+		coordinator?.showFoodChecker()
+	}
+	
+	func showClicker() {
+		coordinator?.showClicker()
+	}
 }

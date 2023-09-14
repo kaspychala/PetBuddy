@@ -10,14 +10,14 @@ import Foundation
 import SwiftUI
 
 struct AddPetCoordinatorView: View {
-
-    // MARK: Stored Properties
-    @ObservedObject var coordinator: AddPetCoordinator
-
-    // MARK: Views
-    var body: some View {
-        NavigationView {
-            AddPetView(viewModel: coordinator.viewModel)
-        }
-    }
+	
+	// MARK: Stored Properties
+	@ObservedObject var coordinator: AddPetCoordinator
+	
+	// MARK: Views
+	var body: some View {
+		NavigationView {
+			AddPetView(viewModel: coordinator.viewModel)
+		}
+	}
 }
