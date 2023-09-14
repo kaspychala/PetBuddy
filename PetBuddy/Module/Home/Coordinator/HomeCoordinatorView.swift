@@ -21,6 +21,11 @@ struct HomeCoordinatorView: View {
                     FoodCheckerCoordinatorView(
                         coordinator: coordinator.foodCheckerCoordinator)
                 }
+                .navigationDestination(
+                    isPresented: $coordinator.shouldShowClicker) {
+                    ClickerCoordinatorView(
+                        coordinator: coordinator.clickerCoordinator)
+                }
         }
     }
 }

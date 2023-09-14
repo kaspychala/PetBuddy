@@ -19,7 +19,6 @@ struct FoodCheckerCardView: View {
         }
 
     }
-    
     func getIsSafeByAnimalType() -> Bool {
         return animalType == .dog ? product.dogs.safe : product.cats.safe
     }

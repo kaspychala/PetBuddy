@@ -15,8 +15,8 @@ struct ClickerView: View {
 
     var body: some View {
         VStack {
-            MPView()
             Text("\(volumeObserver.volume)")
+            MPView()
         }
     }
 }

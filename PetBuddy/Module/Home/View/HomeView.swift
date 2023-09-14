@@ -16,6 +16,9 @@ struct HomeView: View {
             Button("Food Checker") {
                 viewModel.showFoodChecker()
             }
+            Button("Clicker") {
+                viewModel.showClicker()
+            }
             Spacer()
         }
     }

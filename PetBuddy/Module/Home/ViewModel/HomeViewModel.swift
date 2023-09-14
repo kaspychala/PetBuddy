@@ -19,4 +19,8 @@ class HomeViewModel: ObservableObject {
     func showFoodChecker() {
         coordinator?.showFoodChecker()
     }
+    
+    func showClicker() {
+        coordinator?.showClicker()
+    }
 }
