@@ -18,6 +18,7 @@ struct FoodLogView: View {
 		VStack {
 			PBNavigationBar(title: viewModel.title, subtitle: nil)
 			CalendarView()
+                .environmentObject(weekManager)
 			if pets.isEmpty {
 				Text("No pets added :(")
 				Spacer()
