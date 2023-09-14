@@ -10,10 +10,10 @@ import Foundation
 import SwiftUI
 
 class AddPetCoordinator: ObservableObject, Identifiable {
-    @Published var viewModel: AddPetViewModel
-
-    init(title: String) {
-        self.viewModel = .init(title: title)
-        self.viewModel.coordinator = self
-    }
+	@Published var viewModel: AddPetViewModel
+	
+	init(title: String) {
+		self.viewModel = .init(title: title)
+		self.viewModel.coordinator = self
+	}
 }

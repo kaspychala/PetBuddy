@@ -8,24 +8,24 @@
 import SwiftUI
 
 struct HomeCoordinatorView: View {
-
-    // MARK: Stored Properties
-    @ObservedObject var coordinator: HomeCoordinator
-
-    // MARK: Views
-    var body: some View {
-        NavigationStack {
-            HomeView(viewModel: coordinator.viewModel)
-                .navigationDestination(
-                    isPresented: $coordinator.shouldShowFoodChecker) {
-                    FoodCheckerCoordinatorView(
-                        coordinator: coordinator.foodCheckerCoordinator)
-                }
-                .navigationDestination(
-                    isPresented: $coordinator.shouldShowClicker) {
-                    ClickerCoordinatorView(
-                        coordinator: coordinator.clickerCoordinator)
-                }
-        }
-    }
+	
+	// MARK: Stored Properties
+	@ObservedObject var coordinator: HomeCoordinator
+	
+	// MARK: Views
+	var body: some View {
+		NavigationStack {
+			HomeView(viewModel: coordinator.viewModel)
+				.navigationDestination(
+					isPresented: $coordinator.shouldShowFoodChecker) {
+						FoodCheckerCoordinatorView(
+							coordinator: coordinator.foodCheckerCoordinator)
+					}
+					.navigationDestination(
+						isPresented: $coordinator.shouldShowClicker) {
+							ClickerCoordinatorView(
+								coordinator: coordinator.clickerCoordinator)
+						}
+		}
+	}
 }

@@ -8,19 +8,19 @@
 import SwiftUI
 
 struct HealthBookView: View {
-
-    @ObservedObject var viewModel: HealthBookViewModel
-
-    var body: some View {
-        VStack {
-            PBNavigationBar(title: viewModel.title, subtitle: nil)
-            Spacer()
-        }
-    }
+	
+	@ObservedObject var viewModel: HealthBookViewModel
+	
+	var body: some View {
+		VStack {
+			PBNavigationBar(title: viewModel.title, subtitle: nil)
+			Spacer()
+		}
+	}
 }
 
 struct HealthBookView_Previews: PreviewProvider {
-    static var previews: some View {
-        HealthBookView(viewModel: .init(title: "HealthBook"))
-    }
+	static var previews: some View {
+		HealthBookView(viewModel: .init(title: "HealthBook"))
+	}
 }

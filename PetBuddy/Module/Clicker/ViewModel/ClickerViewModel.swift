@@ -8,11 +8,11 @@
 import Foundation
 
 class ClickerViewModel: ObservableObject {
-
-    @Published var title: String
-    weak var coordinator: ClickerCoordinator?
-
-    init(title: String) {
-        self.title = title
-    }
+	
+	@Published var title: String
+	weak var coordinator: ClickerCoordinator?
+	
+	init(title: String) {
+		self.title = title
+	}
 }

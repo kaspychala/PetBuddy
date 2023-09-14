@@ -8,19 +8,19 @@
 import SwiftUI
 
 struct ProfileCoordinatorView: View {
-    
-    // MARK: Stored Properties
-    @ObservedObject var coordinator: ProfileCoordinator
-
-    // MARK: Views
-    var body: some View {
-        NavigationStack {
-            ProfileView(viewModel: coordinator.viewModel)
-                .navigationDestination(
-                    isPresented: $coordinator.shouldShowAddPet) {
-                    AddPetCoordinatorView(
-                        coordinator: coordinator.addPetCoordinator)
-                }
-        }
-    }
+	
+	// MARK: Stored Properties
+	@ObservedObject var coordinator: ProfileCoordinator
+	
+	// MARK: Views
+	var body: some View {
+		NavigationStack {
+			ProfileView(viewModel: coordinator.viewModel)
+				.navigationDestination(
+					isPresented: $coordinator.shouldShowAddPet) {
+						AddPetCoordinatorView(
+							coordinator: coordinator.addPetCoordinator)
+					}
+		}
+	}
 }

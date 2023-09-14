@@ -8,24 +8,24 @@
 import SwiftUI
 
 struct TabItemView: View {
-    let data: CustomTabItemData
-    let isSelected: Bool
-
-    var body: some View {
-        VStack {
-            Image(systemName: isSelected ? data.selectedImage : data.image)
-                .resizable()
-                .tint(Color("PrimaryColor"))
-                .aspectRatio(contentMode: .fit)
-                .frame(width: 24, height: 24)
-                .animation(.easeIn, value: 0.0)
-
-            Spacer().frame(height: 8)
-
-            Text(data.title)
-                .foregroundColor(isSelected ? .black : .gray)
-                .font(.system(size: 11))
-                .fontWeight(.medium)
-        }
-    }
+	let data: CustomTabItemData
+	let isSelected: Bool
+	
+	var body: some View {
+		VStack {
+			Image(systemName: isSelected ? data.selectedImage : data.image)
+				.resizable()
+				.tint(Color("PrimaryColor"))
+				.aspectRatio(contentMode: .fit)
+				.frame(width: 24, height: 24)
+				.animation(.easeIn, value: 0.0)
+			
+			Spacer().frame(height: 8)
+			
+			Text(data.title)
+				.foregroundColor(isSelected ? .black : .gray)
+				.font(.system(size: 11))
+				.fontWeight(.medium)
+		}
+	}
 }

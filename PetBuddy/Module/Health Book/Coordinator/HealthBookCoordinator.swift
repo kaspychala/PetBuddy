@@ -8,11 +8,11 @@
 import SwiftUI
 
 class HealthBookCoordinator: ObservableObject, Identifiable {
-
-    @Published var viewModel: HealthBookViewModel
-
-    init(title: String) {
-        self.viewModel = .init(title: title)
-        self.viewModel.coordinator = self
-    }
+	
+	@Published var viewModel: HealthBookViewModel
+	
+	init(title: String) {
+		self.viewModel = .init(title: title)
+		self.viewModel.coordinator = self
+	}
 }

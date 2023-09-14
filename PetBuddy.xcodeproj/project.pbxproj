@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 53;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -711,7 +711,8 @@
 		1AB3FDA43C63F99D5B5D1E79 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1200;
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
 			};
 			buildConfigurationList = EA732A533DCC7C9FFFA1E5F6 /* Build configuration list for PBXProject "PetBuddy" */;
 			compatibilityVersion = "Xcode 11.0";

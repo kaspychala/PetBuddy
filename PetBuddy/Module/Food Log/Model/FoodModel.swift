@@ -9,7 +9,7 @@ import Foundation
 import RealmSwift
 
 class FoodModel: Object {
-    @Persisted(primaryKey: true) var id: String = UUID().uuidString
-    @Persisted var name: String
-    @Persisted var kcal: Double
+	@Persisted(primaryKey: true) var id: String = UUID().uuidString
+	@Persisted var name: String
+	@Persisted var kcal: Double
 }

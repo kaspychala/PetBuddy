@@ -8,14 +8,14 @@
 import SwiftUI
 
 struct ClickerCoordinatorView: View {
-
-    // MARK: Stored Properties
-    @ObservedObject var coordinator: ClickerCoordinator
-
-    // MARK: Views
-    var body: some View {
-        NavigationView {
-            ClickerView(viewModel: coordinator.viewModel)
-        }
-    }
+	
+	// MARK: Stored Properties
+	@ObservedObject var coordinator: ClickerCoordinator
+	
+	// MARK: Views
+	var body: some View {
+		NavigationView {
+			ClickerView(viewModel: coordinator.viewModel)
+		}
+	}
 }

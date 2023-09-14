@@ -8,11 +8,11 @@
 import Foundation
 
 class FoodCheckerCoordinator: ObservableObject, Identifiable {
-
-    @Published var viewModel: FoodCheckerViewModel
-
-    init(title: String) {
-        self.viewModel = .init(title: title)
-        self.viewModel.coordinator = self
-    }
+	
+	@Published var viewModel: FoodCheckerViewModel
+	
+	init(title: String) {
+		self.viewModel = .init(title: title)
+		self.viewModel.coordinator = self
+	}
 }

@@ -8,7 +8,7 @@
 import Foundation
 
 enum DragDirection {
-    case left
-    case right
-    case none
+	case left
+	case right
+	case none
 }

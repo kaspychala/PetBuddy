@@ -8,17 +8,17 @@
 import SwiftUI
 
 struct FoodCheckerCoordinatorView: View {
-
-    // MARK: Stored Properties
-    @ObservedObject var coordinator: FoodCheckerCoordinator
-    @State private var searchText = ""
-
-    // MARK: Views
-    var body: some View {
-        FoodCheckerView(viewModel: coordinator.viewModel)
-            .navigationBarTitleDisplayMode(.automatic)
-            .searchable(text: $searchText)
-            .pickerStyle(.segmented)
-            .navigationTitle("Food Checker")
-    }
+	
+	// MARK: Stored Properties
+	@ObservedObject var coordinator: FoodCheckerCoordinator
+	@State private var searchText = ""
+	
+	// MARK: Views
+	var body: some View {
+		FoodCheckerView(viewModel: coordinator.viewModel)
+			.navigationBarTitleDisplayMode(.automatic)
+			.searchable(text: $searchText)
+			.pickerStyle(.segmented)
+			.navigationTitle("Food Checker")
+	}
 }

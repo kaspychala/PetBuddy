@@ -8,9 +8,9 @@
 import Foundation
 
 struct FoodCardModel {
-    var petName: String
-    var kcalNeeded: Double
-    var kcalEaten: Double
-    var kcalLeft: Double
-    var totalMealsEaten: Int
+	var petName: String
+	var kcalNeeded: Double
+	var kcalEaten: Double
+	var kcalLeft: Double
+	var totalMealsEaten: Int
 }

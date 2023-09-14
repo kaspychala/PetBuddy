@@ -8,15 +8,14 @@
 import SwiftUI
 
 struct HealthBookCoordinatorView: View {
-
-    // MARK: Stored Properties
-    @ObservedObject var coordinator: HealthBookCoordinator
-
-    // MARK: Views
-    var body: some View {
-        NavigationView {
-            HealthBookView(viewModel: coordinator.viewModel)
-        }
-    }
+	
+	// MARK: Stored Properties
+	@ObservedObject var coordinator: HealthBookCoordinator
+	
+	// MARK: Views
+	var body: some View {
+		NavigationView {
+			HealthBookView(viewModel: coordinator.viewModel)
+		}
+	}
 }
-
