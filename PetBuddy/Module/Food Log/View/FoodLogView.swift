@@ -12,19 +12,20 @@ struct FoodLogView: View {
 
     @ObservedObject var viewModel: FoodLogViewModel
     @ObservedResults(PetModel.self) var pets
+    @StateObject var weekManager = WeekManager()
 
     var body: some View {
         VStack {
             PBNavigationBar(title: viewModel.title, subtitle: nil)
             CalendarView()
+                .environmentObject(weekManager)
             if pets.isEmpty {
                 Text("No pets added :(")
                 Spacer()
             } else {
                 List {
-                    ForEach(pets, id:\.self.id) { pet in
-                        // TODO: We should get foodCardModel for given (tapped) day. Maybe move WeekManager to FoodLogView and just pass it further? Or create environemnt variable?
-                        let foodCardModel = viewModel.getFoodCardModel(for: pet)
+                    ForEach(pets, id: \.self.id) { pet in
+                        let foodCardModel = viewModel.getFoodCardModel(for: pet, and: weekManager.tappedDate)
                         FoodCardView(foodCardModel: foodCardModel)
                     }
                 }

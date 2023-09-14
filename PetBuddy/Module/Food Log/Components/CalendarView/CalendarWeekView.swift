@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct CalendarWeekView: View {
-    @StateObject var weekManager = WeekManager()
+    @EnvironmentObject var weekManager: WeekManager
     @State private var dragDirection: DragDirection = .none
     @State private var item0Offset = -UIScreen.main.bounds.width
     @State private var item1Offset = 0.0
@@ -18,7 +18,7 @@ struct CalendarWeekView: View {
     var body: some View {
         ZStack {
             ForEach(weekManager.allWeeks) { week in
-                VStack{
+                VStack {
                     HStack {
                         ForEach(0..<7) { index in
                             VStack(spacing: 20) {
