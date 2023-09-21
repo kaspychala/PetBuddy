@@ -8,7 +8,7 @@
 import Foundation
 import RealmSwift
 
-class FoodModel: Object {
+class FoodModel: Object, Identifiable {
 	@Persisted(primaryKey: true) var id: String = UUID().uuidString
 	@Persisted var name: String
 	@Persisted var kcal: Double

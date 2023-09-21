@@ -8,11 +8,11 @@
 import Foundation
 import RealmSwift
 
-class MealModel: Object {
+class MealModel: Object, Identifiable {
 	@Persisted(primaryKey: true) var id: String = UUID().uuidString
 	@Persisted var petId: String
 	@Persisted var foodId: String
 	@Persisted var weight: Double
 	@Persisted var date: Date
-	@Persisted var createdAt: Date
+	@Persisted var createdAt: Date = Date()
 }

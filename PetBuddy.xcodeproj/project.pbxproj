@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 53;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -21,6 +21,14 @@
 		0EBF808A2A85387000FA7D0E /* Results+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EBF80892A85387000FA7D0E /* Results+.swift */; };
 		0EBF808C2A85452D00FA7D0E /* FileManagerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EBF808B2A85452D00FA7D0E /* FileManagerService.swift */; };
 		0EBF80962AA0DA7800FA7D0E /* FoodCardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EBF80952AA0DA7800FA7D0E /* FoodCardModel.swift */; };
+		0EF4E7D92ABC969D00E94D1D /* AddFoodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF4E7D82ABC969D00E94D1D /* AddFoodView.swift */; };
+		0EF4E7DB2ABC979C00E94D1D /* AddFoodViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF4E7DA2ABC979C00E94D1D /* AddFoodViewModel.swift */; };
+		0EF4E7DD2ABC97B100E94D1D /* AddFoodCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF4E7DC2ABC97B100E94D1D /* AddFoodCoordinator.swift */; };
+		0EF4E7DF2ABC97BD00E94D1D /* AddFoodCoordinatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF4E7DE2ABC97BD00E94D1D /* AddFoodCoordinatorView.swift */; };
+		0EF4E7E12ABC97CE00E94D1D /* AddMealCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF4E7E02ABC97CE00E94D1D /* AddMealCoordinator.swift */; };
+		0EF4E7E32ABC97D800E94D1D /* AddMealCoordinatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF4E7E22ABC97D800E94D1D /* AddMealCoordinatorView.swift */; };
+		0EF4E7E52ABC9D9A00E94D1D /* AddMealViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF4E7E42ABC9D9A00E94D1D /* AddMealViewModel.swift */; };
+		0EF4E7E92ABC9F6400E94D1D /* AddMealView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF4E7E82ABC9F6400E94D1D /* AddMealView.swift */; };
 		10EE9AC8CF8297CD83CD665C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD6F29BBFCA6884FFAB1A539 /* Assets.xcassets */; };
 		1257810BCAC38C868D7CFE2D /* MealModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD174AF75B53FEF4887ADB2B /* MealModel.swift */; };
 		199A8368CEA47EB5E4233C03 /* CustomAppTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55820D5280DE3D68133F4088 /* CustomAppTab.swift */; };
@@ -86,6 +94,14 @@
 		0EBF80892A85387000FA7D0E /* Results+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Results+.swift"; sourceTree = "<group>"; };
 		0EBF808B2A85452D00FA7D0E /* FileManagerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManagerService.swift; sourceTree = "<group>"; };
 		0EBF80952AA0DA7800FA7D0E /* FoodCardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodCardModel.swift; sourceTree = "<group>"; };
+		0EF4E7D82ABC969D00E94D1D /* AddFoodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFoodView.swift; sourceTree = "<group>"; };
+		0EF4E7DA2ABC979C00E94D1D /* AddFoodViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFoodViewModel.swift; sourceTree = "<group>"; };
+		0EF4E7DC2ABC97B100E94D1D /* AddFoodCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFoodCoordinator.swift; sourceTree = "<group>"; };
+		0EF4E7DE2ABC97BD00E94D1D /* AddFoodCoordinatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFoodCoordinatorView.swift; sourceTree = "<group>"; };
+		0EF4E7E02ABC97CE00E94D1D /* AddMealCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMealCoordinator.swift; sourceTree = "<group>"; };
+		0EF4E7E22ABC97D800E94D1D /* AddMealCoordinatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMealCoordinatorView.swift; sourceTree = "<group>"; };
+		0EF4E7E42ABC9D9A00E94D1D /* AddMealViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMealViewModel.swift; sourceTree = "<group>"; };
+		0EF4E7E82ABC9F6400E94D1D /* AddMealView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMealView.swift; sourceTree = "<group>"; };
 		0EFC5C87B83EC22136D698B7 /* WeekManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekManager.swift; sourceTree = "<group>"; };
 		13C4904D6BCEB4130B7F67EC /* HealthBookViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthBookViewModel.swift; sourceTree = "<group>"; };
 		156189B4902A739BBF12D7FE /* HomeCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCoordinator.swift; sourceTree = "<group>"; };
@@ -255,6 +271,76 @@
 				6E0CEDEDAABF05D847FAAB0B /* FoodCardView.swift */,
 			);
 			path = FoodCardView;
+			sourceTree = "<group>";
+		};
+		0EF4E7D02ABC964C00E94D1D /* Add Meal */ = {
+			isa = PBXGroup;
+			children = (
+				0EF4E7D42ABC966E00E94D1D /* Coordinator */,
+				0EF4E7D32ABC966700E94D1D /* ViewModel */,
+				0EF4E7D22ABC966300E94D1D /* View */,
+			);
+			path = "Add Meal";
+			sourceTree = "<group>";
+		};
+		0EF4E7D12ABC965400E94D1D /* Add Food */ = {
+			isa = PBXGroup;
+			children = (
+				0EF4E7D72ABC968100E94D1D /* Coordinator */,
+				0EF4E7D62ABC967C00E94D1D /* ViewModel */,
+				0EF4E7D52ABC967800E94D1D /* View */,
+			);
+			path = "Add Food";
+			sourceTree = "<group>";
+		};
+		0EF4E7D22ABC966300E94D1D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0EF4E7E82ABC9F6400E94D1D /* AddMealView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0EF4E7D32ABC966700E94D1D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				0EF4E7E42ABC9D9A00E94D1D /* AddMealViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		0EF4E7D42ABC966E00E94D1D /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				0EF4E7E02ABC97CE00E94D1D /* AddMealCoordinator.swift */,
+				0EF4E7E22ABC97D800E94D1D /* AddMealCoordinatorView.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		0EF4E7D52ABC967800E94D1D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0EF4E7D82ABC969D00E94D1D /* AddFoodView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0EF4E7D62ABC967C00E94D1D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				0EF4E7DA2ABC979C00E94D1D /* AddFoodViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		0EF4E7D72ABC968100E94D1D /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				0EF4E7DC2ABC97B100E94D1D /* AddFoodCoordinator.swift */,
+				0EF4E7DE2ABC97BD00E94D1D /* AddFoodCoordinatorView.swift */,
+			);
+			path = Coordinator;
 			sourceTree = "<group>";
 		};
 		149421028D350EE19771CAE3 /* ViewModel */ = {
@@ -491,6 +577,8 @@
 		8E80C38F989048FED6CAFF57 /* Module */ = {
 			isa = PBXGroup;
 			children = (
+				0EF4E7D12ABC965400E94D1D /* Add Food */,
+				0EF4E7D02ABC964C00E94D1D /* Add Meal */,
 				0EBF7FCE2A8149DD00FA7D0E /* Add Pet */,
 				378E801648179151D218AB59 /* Clicker */,
 				901CC4A8AE9664ED4B19EBD6 /* Food Log */,
@@ -792,6 +880,9 @@
 				02490AD1D98E337EF35226F1 /* CustomTabItemData.swift in Sources */,
 				BE0E8B9862E35B2B1F54528C /* CustomTabItemView.swift in Sources */,
 				BCC48FB0FDD6B9A576087D83 /* CustomTabView.swift in Sources */,
+				0EF4E7D92ABC969D00E94D1D /* AddFoodView.swift in Sources */,
+				0EF4E7E92ABC9F6400E94D1D /* AddMealView.swift in Sources */,
+				0EF4E7DD2ABC97B100E94D1D /* AddFoodCoordinator.swift in Sources */,
 				77F1D5AFBFE63E00902B0857 /* DragDirection.swift in Sources */,
 				F8F2839A15DC53577A8F9380 /* FoodCardView.swift in Sources */,
 				5DD571A9A9B53DCFE750D340 /* FoodCheckerCardView.swift in Sources */,
@@ -800,13 +891,17 @@
 				217D7ECA523B4F3082BD7086 /* FoodCheckerView.swift in Sources */,
 				79FB28D9724C3C70B0791294 /* FoodCheckerViewModel.swift in Sources */,
 				1C305841D38475A56748E1F3 /* FoodLogCoordinator.swift in Sources */,
+				0EF4E7E52ABC9D9A00E94D1D /* AddMealViewModel.swift in Sources */,
 				04FE85D8CF37B56CEEDA3655 /* FoodLogCoordinatorView.swift in Sources */,
+				0EF4E7DF2ABC97BD00E94D1D /* AddFoodCoordinatorView.swift in Sources */,
 				E6492027ACDDCFF6E025B56A /* FoodLogView.swift in Sources */,
 				3ADE52F7AC6721953E0DCA5D /* FoodLogViewModel.swift in Sources */,
 				0EBF7FD52A814A2F00FA7D0E /* AddPetView.swift in Sources */,
 				B7BE283C852545DFDB87ABE1 /* FoodModel.swift in Sources */,
+				0EF4E7E32ABC97D800E94D1D /* AddMealCoordinatorView.swift in Sources */,
 				BAF6E43DB31F67AE97295F85 /* FoodRepository.swift in Sources */,
 				F37254C8A79C7E1F05051911 /* HealthBookCoordinator.swift in Sources */,
+				0EF4E7E12ABC97CE00E94D1D /* AddMealCoordinator.swift in Sources */,
 				F532E875CB44244E62E1D616 /* HealthBookCoordinatorView.swift in Sources */,
 				CF0B6635494D1BF37D5D5046 /* HealthBookView.swift in Sources */,
 				02B457C71E2AEB17482A5A86 /* HealthBookViewModel.swift in Sources */,
@@ -819,6 +914,7 @@
 				87D005EDAA8AC38A450721B8 /* MPVolumeView+.swift in Sources */,
 				C5EBA7C2B33508F7177CDEF3 /* MainCoordinator.swift in Sources */,
 				D4702DFD9F2AF00609E02AA2 /* MainCoordinatorView.swift in Sources */,
+				0EF4E7DB2ABC979C00E94D1D /* AddFoodViewModel.swift in Sources */,
 				1257810BCAC38C868D7CFE2D /* MealModel.swift in Sources */,
 				F9BF1E0974DE4EEB3EEC526A /* MealRepository.swift in Sources */,
 				0EBF80962AA0DA7800FA7D0E /* FoodCardModel.swift in Sources */,
