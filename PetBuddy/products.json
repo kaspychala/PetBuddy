@@ -1,1291 +1,1291 @@
 {
-   "products":[
-  {
- "name":"Acai",
- "cats":{
-"safety_description":"Acai is safe for cats to eat in small quantities, but it is not a necessary part of their diet. It is high in antioxidants which can be beneficial for their immune system. Acai also contains some B vitamins, vitamin C, calcium, and iron.",
-"guidance":"Although acai can provide some benefits, it should be given sparingly as a treat, and not make up a significant part of their diet.",
-"safe":true
- },
- "dogs":{
-"safety_description":"Acai is safe for dogs to eat in small quantities. It is high in antioxidants which can be beneficial for their immune system. Acai also contains some B vitamins, vitamin C, calcium, and iron.",
-"guidance":"Although acai can provide some benefits, it should be given sparingly as a treat, and not make up a significant part of their diet.",
-"safe":true
- }
-  },
-  {
- "name":"Acorn Squash",
- "cats":{
-"safety_description":"Acorn squash is safe for cats to eat in moderate amounts. It is high in fiber, vitamin A, and potassium, which can aid digestion and maintain healthy bones and muscles.",
-"guidance":"Acorn squash can be a healthy addition to their diet, and can be given as a treat. However, it should not make up more than 10% of their daily food intake.",
-"safe":true
- },
- "dogs":{
-"safety_description":"Acorn squash is safe for dogs to eat in moderate amounts. It is low in calories and fat, and high in fiber, vitamin A, and potassium, which can aid digestion and maintain healthy bones and muscles.",
-"guidance":"Acorn squash can be a healthy addition to their diet, and can be given as a treat. However, it should not make up more than 10% of their daily food intake.",
-"safe":true
- }
-  },
-  {
- "name":"Alfalfa sprouts",
- "cats":{
-"safety_description":"Alfalfa sprouts are safe for cats to eat. They are a good source of protein, fiber, vitamin C, and some minerals.",
-"guidance":"Alfalfa sprouts can be a healthy addition to their diet when fed in moderation. They can be given as a treat or mixed into their food. However, they should not make up more than 10% of their daily food intake.",
-"safe":true
- },
- "dogs":{
-"safety_description":"Alfalfa sprouts are safe for dogs to eat. They are a good source of protein, fiber, vitamin C, and some minerals.",
-"guidance":"Alfalfa sprouts can be a healthy addition to their diet when fed in moderation. They can be given as a treat or mixed into their food. However, they should not make up more than 10% of their daily food intake.",
-"safe":true
- }
-  },
-  {
- "name":"Almond",
- "cats":{
-"safety_description":"Almonds are not recommended for cats, as they can lead to intestinal upset and even blockages. Almonds are high in fat, which can lead to obesity and other health problems.",
-"guidance":"Almonds should not be fed to cats, as they have no nutritional value for them and are not necessary for their diet. ",
-"safe":false
- },
- "dogs":{
-"safety_description":"Almonds are safe for dogs to eat in moderation, but they are high in fat and calories. Too many almonds can lead to weight gain and other health problems. However, they are a good source of protein, fiber, healthy fats, vitamin E, and magnesium.",
-"guidance":"Almonds can be given to dogs as a treat, but not more than 1-2 almonds per day depending of the dog size. They should not make up more than 10% of their daily food intake.",
-"safe":true
- }
-  },
-  {
- "name":"Almond Butter",
- "cats":{
-"safety_description":"Almond butter is safe for cats to eat in small amounts as a treat. It is high in fat and calories, which can lead to obesity and other health problems. However, it is a good source of protein, fiber, healthy fats, and some vitamins and minerals.",
-"guidance":"Almond butter should be given very sparingly to cats as a treat, and no more than a small lick on a fingertip. It should not make up a significant part of their diet.",
-"safe":true
- },
- "dogs":{
-"safety_description":"Almond butter is safe for dogs to eat in small amounts as a treat. It is high in fat and calories, which can lead to obesity and other health problems. However, it is a good source of protein, fiber, healthy fats, and some vitamins and minerals.",
-"guidance":"Almond butter can be given to dogs as a treat, but not more than a teaspoon a day depending of the dog size. It should not make up more than 10% of their daily food intake.",
-"safe":true
- }
-  },
-  {
- "name":"Amaranth",
- "cats":{
-"safety_description":"Amaranth is safe for cats to eat as a treat, but it is not a necessary part of their diet. It is high in protein, fiber, and some vitamins and minerals.",
-"guidance":"Amaranth can be given to cats as a treat or mixed into their food, but not more than a small amount. It should not make up a significant part of their diet.",
-"safe":true
- },
- "dogs":{
-"safety_description":"Amaranth is safe for dogs to eat as a treat, but it is not a necessary part of their diet. It is high in protein, fiber, and some vitamins and minerals.",
-"guidance":"Amaranth can be given to dogs as a treat or mixed into their food, but not more than a small amount. It should not make up a significant part of their diet.",
-"safe":true
- }
-  },
-  {
- "name":"Apple",
- "cats":{
-"safety_description":"Apples are safe for cats as long as they are fed in moderation. They are a good source of fiber, vitamin C, and some antioxidants.",
-"guidance":"Apples can be a healthy addition to their diet when fed in moderation. They can be given as a treat or mixed into their food. However, they should not make up more than 10% of their daily food intake.",
-"safe":true
- },
- "dogs":{
-"safety_description":"Apples are safe for dogs to eat in moderation. They are a good source of fiber, vitamin C, and some antioxidants.",
-"guidance":"Apples can be a healthy addition to their diet when fed in moderation. They can be given as a treat or mixed into their food. However, they should not make up more than 10% of their daily food intake.",
-"safe":true
- }
-  },
-  {
- "name":"Apricot",
- "cats":{
-"safety_description":"Apricots are safe for cats to eat in moderation as a treat. However, they are not a necessary part of their diet. Apricots are high in sugar, and should be given sparingly.",
-"guidance":"Apricots can be given to cats as a treat, but they should not make up more than 10% of their daily food intake.",
-"safe":true
- },
- "dogs":{
-"safety_description":"Apricots are safe for dogs to eat in moderation as a treat. However, they are not a necessary part of their diet. Apricots are high in sugar, and should be given sparingly.",
-"guidance":"Apricots can be given to dogs as a treat, but they should not make up more than 10% of their daily food intake.",
-"safe":true
- }
-  },
-  {
- "name":"Artichoke",
- "cats":{
-"safety_description":"Artichokes are safe for cats to eat in moderation. They are a good source of fiber, vitamins, and antioxidants.",
-"guidance":"Artichokes can be a healthy addition to their diet when fed in moderation. They can be given as a treat or mixed into their food. However, they should not make up more than 10% of their daily food intake.",
-"safe":true
- },
- "dogs":{
-"safety_description":"Artichokes are safe for dogs to eat in moderation. They are a good source of fiber, vitamins, and antioxidants.",
-"guidance":"Artichokes can be a healthy addition to their diet when fed in moderation. They can be given as a treat or mixed into their food. However, they should not make up more than 10% of their daily food intake.",
-"safe":true
- }
-  },
-  {
- "name":"Asparagus",
- "cats":{
-"safety_description":"Asparagus is safe for cats to eat in moderation. It is high in fiber, vitamins, and some minerals.",
-"guidance":"Asparagus can be a healthy addition to their diet when fed in moderation. They can be given as a treat or mixed into their food. However, they should not make up more than 10% of their daily food intake.",
-"safe":true
- },
- "dogs":{
-"safety_description":"Asparagus is safe for dogs to eat in moderation. It is low in calories and high in fiber, vitamins, and some minerals.",
-"guidance":"Asparagus can be a healthy addition to their diet when fed in moderation. It can be given as a treat or mixed into their food. However, they should not make up more than 10% of their daily food intake.",
-"safe":true
- }
-  },
-  {
- "name":"Banana",
- "cats":{
-"safety_description":"Bananas are safe for cats to eat in moderation. They are a good source of fiber, vitamins, and some minerals.",
-"guidance":"Bananas can be a healthy addition to their diet when fed in moderation. They can be given as a treat or mixed into their food. However, they should not make up more than 10% of their daily food intake.",
-"safe":true
- },
- "dogs":{
-"safety_description":"Bananas are safe for dogs to eat in moderation. They are a good source of fiber, vitamins, and some minerals.",
-"guidance":"Bananas can be a healthy addition to their diet when fed in moderation. They can be given as a treat or mixed into their food. However, they should not make up more than 10% of their daily food intake.",
-"safe":true
- }
-  },
-  {
- "name":"Beef",
- "cats":{
-"safety_description":"Beef is safe for cats to eat in moderation. It is a good source of protein, vitamin B12, and some minerals.",
-"guidance":"Beef can be included in their diet in small amounts, but should not make up more than 10% of their daily food intake. It is important to choose lean cuts of beef to avoid excessive fat intake.",
-"safe":true
- },
- "dogs":{
-"safety_description":"Beef is safe for dogs to eat in moderation. It is a good source of protein, vitamins, and minerals.",
-"guidance":"Beef can be included in their diet in small amounts, but should not make up more than 10% of their daily food intake. It is important to choose lean cuts of beef to avoid excessive fat intake.",
-"safe":true
- }
-  },
-  {
- "name":"Blueberries",
- "cats":{
-"safety_description":"Blueberries are safe for cats to eat as a treat. They are high in antioxidants, fiber, and some vitamins and minerals.",
-"guidance":"Blueberries can be a healthy addition to their diet when fed in moderation. They can be given as a treat or mixed into their food. However, they should not make up more than 10% of their daily food intake.",
-"safe":true
- },
- "dogs":{
-"safety_description":"Blueberries are safe for dogs to eat as a treat. They are high in antioxidants, fiber, and some vitamins and minerals.",
-"guidance":"Blueberries can be a healthy addition to their diet when fed in moderation. They can be given as a treat or mixed into their food. However, they should not make up more than 10% of their daily food intake.",
-"safe":true
- }
-  },
-  {
- "name":"Broccoli",
- "cats":{
-"safety_description":"Broccoli is safe for cats to eat in moderation. It is high in fiber, vitamins, and minerals.",
-"guidance":"Broccoli can be a healthy addition to their diet when fed in moderation. They can be given as a treat or mixed into their food. However, they should not make up more than 10% of their daily food intake.",
-"safe":true
- },
- "dogs":{
-"safety_description":"Broccoli is safe for dogs to eat in moderation. It is low in calories and high in fiber, vitamins, and minerals.",
-"guidance":"Broccoli can be a healthy addition to their diet when fed in moderation. It can be given as a treat or mixed into their food. However, they should not make up more than 10% of their daily food intake.",
-"safe":true
- }
-  },
-  {
- "name":"Brussels Sprouts",
- "cats":{
-"safety_description":"Brussels sprouts are safe for cats to eat in moderation. They are high in fiber, vitamins, and minerals.",
-"guidance":"Brussels sprouts can be a healthy addition to their diet when fed in moderation. They can be given as a treat or mixed into their food. However, they should not make up more than 10% of their daily food intake.",
-"safe":true
- },
- "dogs":{
-"safety_description":"Brussels sprouts are safe for dogs to eat in moderation. They are low in calories and high in fiber, vitamins, and minerals.",
-"guidance":"Brussels sprouts can be a healthy addition to their diet when fed in moderation. They can be given as a treat or mixed into their food. However, they should not make up more than 10% of their daily food intake.",
-"safe":true
- }
-  },
-  {
- "name":"Cabbage",
- "cats":{
-"safety_description":"Cabbage is safe for cats to eat in moderation. It is high in fiber, vitamins, and minerals.",
-"guidance":"Cabbage can be a healthy addition to their diet when fed in moderation. They can be given as a treat or mixed into their food. However, they should not make up more than 10% of their daily food intake.",
-"safe":true
- },
- "dogs":{
-"safety_description":"Cabbage is safe for dogs to eat in moderation. It is low in calories and high in fiber, vitamins, and minerals.",
-"guidance":"Cabbage can be a healthy addition to their diet when fed in moderation. They can be given as a treat or mixed into their food. However, they should not make up more than 10% of their daily food intake.",
-"safe":true
- }
-  },
-  {
- "name":"Carrots",
- "cats":{
-"safety_description":"Carrots are safe for cats to eat as a treat. They are a good source of fiber, vitamins, and some minerals.",
-"guidance":"Carrots can be a healthy addition to their diet when fed in moderation. They can be given as a treat or mixed into their food. However, they should not make up more than 10% of their daily food intake.",
-"safe":true
- },
- "dogs":{
-"safety_description":"Carrots are safe for dogs to eat as a treat. They are a good source of fiber, vitamins, and some minerals.",
-"guidance":"Carrots can be a healthy addition to their diet when fed in moderation. They can be given as a treat or mixed into their food. However, they should not make up more than 10% of their daily food intake.",
-"safe":true
- }
-  },
-  {
- "name":"Cauliflower",
- "cats":{
-"safety_description":"Cauliflower is safe for cats to eat in moderation. It is high in fiber, vitamins, and some minerals.",
-"guidance":"Cauliflower can be a healthy addition to their diet when fed in moderation. They can be given as a treat or mixed into their food. However, they should not make up more than 10% of their daily food intake.",
-"safe":true
- },
- "dogs":{
-"safety_description":"Cauliflower is safe for dogs to eat in moderation. It is low in calories and high in fiber, vitamins, and some minerals.",
-"guidance":"Cauliflower can be a healthy addition to their diet when fed in moderation. It can be given as a treat or mixed into their food. However, they should not make up more than 10% of their daily food intake.",
-"safe":true
- }
-  },
-  {
- "name":"Apples",
- "cats":{
-"safety_description":"Apples are safe for cats to eat in moderation. They are a good source of fiber and some vitamins and minerals.",
-"guidance":"Apples can be given as an occasional treat or mixed into their food. However, they should not make up more than 10% of their daily food intake.",
-"safe":true
- },
- "dogs":{
-"safety_description":"Apples are safe for dogs to eat in moderation. They are a good source of fiber and some vitamins and minerals.",
-"guidance":"Apples can be given as an occasional treat or mixed into their food. However, they should not make up more than 10% of their daily food intake.",
-"safe":true
- }
-  },
-  {
- "name":"Banana",
- "cats":{
-"safety_description":"Bananas are safe for cats to eat in moderation. They are a good source of fiber, vitamins, and some minerals.",
-"guidance":"Bananas can be a healthy addition to their diet when fed in moderation. They can be given as a treat or mixed into their food. However, they should not make up more than 10% of their daily food intake.",
-"safe":true
- },
- "dogs":{
-"safety_description":"Bananas are safe for dogs to eat in moderation. They are a good source of fiber, vitamins, and some minerals.",
-"guidance":"Bananas can be a healthy addition to their diet when fed in moderation. They can be given as a treat or mixed into their food. However, they should not make up more than 10% of their daily food intake.",
-"safe":true
- }
-  },
-  {
- "name":"Barley",
- "cats":{
-"safety_description":"Barley is safe for cats to eat in moderation. It is a good source of fiber, vitamins, and some minerals.",
-"guidance":"Barley can be fed to cats cooked or raw, but it should not make up more than 10% of their daily food intake. Cooked barley can be mixed with their food, while raw barley can be provided as a small, occasional treat.",
-"safe":true
- },
- "dogs":{
-"safety_description":"Barley is safe for dogs to eat in moderation. It is a good source of fiber, vitamins, and some minerals.",
-"guidance":"Barley can be fed to dogs cooked or raw, but it should not make up more than 10% of their daily food intake. Cooked barley can be mixed with their food, while raw barley can be provided as a small, occasional treat.",
-"safe":true
- }
-  },
-  {
- "name":"Beef",
- "cats":{
-"safety_description":"Beef is safe for cats to eat in moderation. It is a good source of protein, vitamin B12, and some minerals.",
-"guidance":"Beef can be included in their diet in small amounts, but should not make up more than 10% of their daily food intake. It is important to choose lean cuts of beef to avoid excessive fat intake.",
-"safe":true
- },
- "dogs":{
-"safety_description":"Beef is safe for dogs to eat in moderation. It is a good source of protein, vitamins, and minerals.",
-"guidance":"Beef can be included in their diet in small amounts, but should not make up more than 10% of their daily food intake. It is important to choose lean cuts of beef to avoid excessive fat intake.",
-"safe":true
- }
-  },
-  {
- "name":"Blueberries",
- "cats":{
-"safety_description":"Blueberries are safe for cats to eat as a treat. They are high in antioxidants, fiber, and some vitamins and minerals.",
-"guidance":"Blueberries can be a healthy addition to their diet when fed in moderation. They can be given as a treat or mixed into their food. However, they should not make up more than 10% of their daily food intake.",
-"safe":true
- },
- "dogs":{
-"safety_description":"Blueberries are safe for dogs to eat as a treat. They are high in antioxidants, fiber, and some vitamins and minerals.",
-"guidance":"Blueberries can be a healthy addition to their diet when fed in moderation. They can be given as a treat or mixed into their food. However, they should not make up more than 10% of their daily food intake.",
-"safe":true
- }
-  },
-  {
- "name":"Broccoli",
- "cats":{
-"safety_description":"Broccoli is safe for cats to eat in moderation. It is high in fiber, vitamins, and minerals.",
-"guidance":"Broccoli can be a healthy addition to their diet when fed in moderation. They can be given as a treat or mixed into their food. However, they should not make up more than 10% of their daily food intake.",
-"safe":true
- },
- "dogs":{
-"safety_description":"Broccoli is safe for dogs to eat in moderation. It is low in calories and high in fiber, vitamins, and minerals.",
-"guidance":"Broccoli can be a healthy addition to their diet when fed in moderation. It can be given as a treat or mixed into their food. However, they should not make up more than 10% of their daily food intake.",
-"safe":true
- }
-  },
-  {
- "name":"Carrots",
- "cats":{
-"safety_description":"Carrots are safe for cats to eat in moderation. They are a good source of fiber, vitamins, and some minerals.",
-"guidance":"Carrots can be fed to cats cooked or raw, but they should be cut into small pieces. They should not make up more than 10% of their daily food intake.",
-"safe":true
- },
- "dogs":{
-"safety_description":"Carrots are safe for dogs to eat in moderation. They are a good source of fiber, vitamins, and some minerals.",
-"guidance":"Carrots can be fed to dogs cooked or raw, but they should be cut into small pieces. They can be given as a healthy treat or mixed into their food. However, they should not make up more than 10% of their daily food intake.",
-"safe":true
- }
-  },
-  {
- "name":"Celery",
- "cats":{
-"safety_description":"Celery is safe for cats to eat in moderation. It is a good source of fiber and some vitamins and minerals.",
-"guidance":"Celery can be fed to cats cooked or raw, but it should be cut into small pieces. They should not make up more than 10% of their daily food intake.",
-"safe":true
- },
- "dogs":{
-"safety_description":"Celery is safe for dogs to eat in moderation. It is a good source of fiber and some vitamins and minerals.",
-"guidance":"Celery can be fed to dogs cooked or raw, but it should be cut into small pieces. They can be given as a healthy treat or mixed into their food. However, they should not make up more than 10% of their daily food intake.",
-"safe":true
- }
-  },
-  {
- "name":"Chicken",
- "cats":{
-"safety_description":"Cooked chicken is safe for cats to eat in moderation. It is a good source of protein and some vitamins.",
-"guidance":"Cooked chicken can be included in their diet in small amounts, but should not make up more than 10% of their daily food intake. It is important to choose lean cuts of chicken to avoid excessive fat intake.",
-"safe":true
- },
- "dogs":{
-"safety_description":"Cooked chicken is safe for dogs to eat in moderation. It is a good source of protein and some vitamins.",
-"guidance":"Cooked chicken can be included in their diet in small amounts, but should not make up more than 10% of their daily food intake. It is important to choose lean cuts of chicken to avoid excessive fat intake.",
-"safe":true
- }
-  },
-  {
- "name":"Dates",
- "cats":{
-"safety_description":"Dates are safe for cats to eat in moderation. They are a good source of fiber and some vitamins.",
-"guidance":"Dates can be fed to cats in small amounts once in a while. Before giving them, make sure to remove the pits, as they can be a choking hazard. They should not make up more than 10% of their daily food intake.",
-"safe":true
- },
- "dogs":{
-"safety_description":"Dates are safe for dogs to eat in moderation. They are a good source of fiber and some vitamins.",
-"guidance":"Dates can be fed to dogs in small amounts once in a while. Before giving them, make sure to remove the pits, as they can be a choking hazard. They should not make up more than 10% of their daily food intake.",
-"safe":true
- }
-  },
-  {
- "name":"Duck",
- "cats":{
-"safety_description":"Cooked duck is safe for cats to eat in moderation. It is a good source of protein and some vitamins.",
-"guidance":"Duck can be included in their diet in small amounts, but should not make up more than 10% of their daily food intake. It is important to choose lean cuts of duck to avoid excessive fat intake.",
-"safe":true
- },
- "dogs":{
-"safety_description":"Cooked duck is safe for dogs to eat in moderation. It is a good source of protein and some vitamins.",
-"guidance":"Duck can be included in their diet in small amounts, but should not make up more than 10% of their daily food intake. It is important to choose lean cuts of duck to avoid excessive fat intake.",
-"safe":true
- }
-  },
-  {
- "name":"Eggs",
- "cats":{
-"safety_description":"Eggs are safe for cats to eat in moderate amounts. They are a good source of protein and some vitamins.",
-"guidance":"Eggs can be fed to cats cooked or raw. They should be fully cooked to avoid any risk of bacterial infection. They can be given as a treat or mixed into their food. However, they should not make up more than 10% of their daily food intake.",
-"safe":true
- },
- "dogs":{
-"safety_description":"Eggs are safe for dogs to eat in moderate amounts. They are a good source of protein and some vitamins.",
-"guidance":"Eggs can be fed to dogs cooked or raw. They should be fully cooked to avoid any risk of bacterial infection. They can be given as a treat or mixed into their food. However, they should not make up more than 10% of their daily food intake.",
-"safe":true
- }
-  },
-  {
- "name":"Eggplant",
- "cats":{
-"safety_description":"Eggplant is safe for cats to eat in small amounts. It is low in calories and a good source of fiber, vitamins, and minerals.",
-"guidance":"Eggplant can be included in their diet in small amounts, but should be cooked and cut into small pieces. They should not make up more than 10% of their daily food intake, as too much can cause gastrointestinal upset.",
-"safe":true
- },
- "dogs":{
-"safety_description":"Eggplant is safe for dogs to eat in small amounts. It is low in calories and a good source of fiber, vitamins, and minerals.",
-"guidance":"Eggplant can be included in their diet in small amounts, but should be cooked and cut into small pieces. They can be given as a healthy treat or mixed into their food. However, they should not make up more than 10% of their daily food intake, as too much can cause gastrointestinal upset.",
-"safe":true
- }
-  },
-  {
- "name":"Eggs",
- "cats":{
-"safety_description":"Eggs are safe for cats to eat in moderate amounts. They are a good source of protein and some vitamins.",
-"guidance":"Eggs can be fed to cats cooked or raw. They should be fully cooked to avoid any risk of bacterial infection. They can be given as a treat or mixed into their food. However, they should not make up more than 10% of their daily food intake.",
-"safe":true
- },
- "dogs":{
-"safety_description":"Eggs are safe for dogs to eat in moderate amounts. They are a good source of protein and some vitamins.",
-"guidance":"Eggs can be fed to dogs cooked or raw. They should be fully cooked to avoid any risk of bacterial infection. They can be given as a treat or mixed into their food. However, they should not make up more than 10% of their daily food intake.",
-"safe":true
- }
-  },
-  {
- "name":"Dates",
- "cats":{
-"safety_description":"Dates are safe for cats to eat in moderation. They are a good source of fiber and some vitamins.",
-"guidance":"Dates can be fed to cats in small amounts once in a while. Before giving them, make sure to remove the pits, as they can be a choking hazard. They should not make up more than 10% of their daily food intake.",
-"safe":true
- },
- "dogs":{
-"safety_description":"Dates are safe for dogs to eat in moderation. They are a good source of fiber and some vitamins.",
-"guidance":"Dates can be fed to dogs in small amounts once in a while. Before giving them, make sure to remove the pits, as they can be a choking hazard. They should not make up more than 10% of their daily food intake.",
-"safe":true
- }
-  },
-  {
- "name":"Duck",
- "cats":{
-"safety_description":"Cooked duck is safe for cats to eat in moderation. It is a good source of protein and some vitamins.",
-"guidance":"Duck can be included in their diet in small amounts, but should not make up more than 10% of their daily food intake. It is important to choose lean cuts of duck to avoid excessive fat intake.",
-"safe":true
- },
- "dogs":{
-"safety_description":"Cooked duck is safe for dogs to eat in moderation. It is a good source of protein and some vitamins.",
-"guidance":"Duck can be included in their diet in small amounts, but should not make up more than 10% of their daily food intake. It is important to choose lean cuts of duck to avoid excessive fat intake.",
-"safe":true
- }
-  },
-  {
- "name":"Durian",
- "cats":{
-"safety_description":"Durian is not recommended for cats, as it can cause stomach upset and diarrhea. It is best to avoid feeding it to them.",
-"guidance":"Do not feed durian to cats.",
-"safe":false
- },
- "dogs":{
-"safety_description":"Durian is not recommended for dogs, as it can cause stomach upset and diarrhea. It is best to avoid feeding it to them.",
-"guidance":"Do not feed durian to dogs.",
-"safe":false
- }
-  },
-  {
- "name":"Dandelion greens",
- "cats":{
-"safety_description":"Dandelion greens are safe for cats to eat in moderation. They are low in calories and a good source of fiber, vitamins, and minerals.",
-"guidance":"Dandelion greens can be given to cats as a healthy treat. They should be washed and chopped before serving. However, they should not make up more than 10% of their daily food intake.",
-"safe":true
- },
- "dogs":{
-"safety_description":"Dandelion greens are safe for dogs to eat in moderation. They are low in calories and a good source of fiber, vitamins, and minerals.",
-"guidance":"Dandelion greens can be given to dogs as a healthy treat. They should be washed and chopped before serving. However, they should not make up more than 10% of their daily food intake.",
-"safe":true
- }
-  },
-  {
- "name":"Duck eggs",
- "cats":{
-"safety_description":"Duck eggs are safe for cats to eat in moderate amounts. They are a good source of protein and some vitamins.",
-"guidance":"Duck eggs can be fed to cats cooked or raw. They should be fully cooked to avoid any risk of bacterial infection. They can be given as a treat or mixed into their food. However, they should not make up more than 10% of their daily food intake.",
-"safe":true
- },
- "dogs":{
-"safety_description":"Duck eggs are safe for dogs to eat in moderate amounts. They are a good source of protein and some vitamins.",
-"guidance":"Duck eggs can be fed to dogs cooked or raw. They should be fully cooked to avoid any risk of bacterial infection. They can be given as a treat or mixed into their food. However, they should not make up more than 10% of their daily food intake.",
-"safe":true
- }
-  },
-  {
- "name":"Edamame",
- "cats":{
-"safety_description":"Edamame is safe for cats to eat in moderation. It is a good source of protein and fiber, as well as vitamins and minerals.",
-"guidance":"Edamame can be given to cats as a healthy treat. It should be cooked and shelled before serving. However, it should not make up more than 10% of their daily food intake.",
-"safe":true
- },
- "dogs":{
-"safety_description":"Edamame is safe for dogs to eat in moderation. It is a good source of protein and fiber, as well as vitamins and minerals.",
-"guidance":"Edamame can be given to dogs as a healthy treat. It should be cooked and shelled before serving. However, it should not make up more than 10% of their daily food intake.",
-"safe":true
- }
-  },
-  {
- "name":"Eel",
- "cats":{
-"safety_description":"Eel is safe for cats to eat in moderate amounts. It is a good source of protein and some vitamins and minerals.",
-"guidance":"Eel can be included in their diet in small amounts, but it is important to choose lean cuts to avoid excessive fat intake. It can be served cooked or raw. However, it should not make up more than 10% of their daily food intake.",
-"safe":true
- },
- "dogs":{
-"safety_description":"Eel is safe for dogs to eat in moderate amounts. It is a good source of protein and some vitamins and minerals.",
-"guidance":"Eel can be included in their diet in small amounts, but it is important to choose lean cuts to avoid excessive fat intake. It can be served cooked or raw. However, it should not make up more than 10% of their daily food intake.",
-"safe":true
- }
-  },
-  {
- "name":"Eggnog",
- "cats":{
-"safety_description":"Commercial eggnog is not recommended for cats, as it may contain ingredients that are harmful to them, such as alcohol and high amounts of sugar.",
-"guidance":"Do not feed eggnog to cats.",
-"safe":false
- },
- "dogs":{
-"safety_description":"Commercial eggnog is not recommended for dogs, as it may contain ingredients that are harmful to them, such as alcohol and high amounts of sugar.",
-"guidance":"Do not feed eggnog to dogs.",
-"safe":false
- }
-  },
-  {
- "name":"Eggs",
- "cats":{
-"safety_description":"Eggs are safe for cats to eat in moderate amounts. They are a good source of protein and some vitamins.",
-"guidance":"Eggs can be fed to cats cooked or raw. They should be fully cooked to avoid any risk of bacterial infection. They can be given as a treat or mixed into their food. However, they should not make up more than 10% of their daily food intake.",
-"safe":true
- },
- "dogs":{
-"safety_description":"Eggs are safe for dogs to eat in moderate amounts. They are a good source of protein and some vitamins.",
-"guidance":"Eggs can be fed to dogs cooked or raw. They should be fully cooked to avoid any risk of bacterial infection. They can be given as a treat or mixed into their food. However, they should not make up more than 10% of their daily food intake.",
-"safe":true
- }
-  },
-  {
- "name":"Fennel",
- "cats":{
-"safety_description":"Fennel is safe for cats to eat in moderation. It is low in calories and a good source of fiber, vitamins, and minerals.",
-"guidance":"Fennel can be given to cats as a healthy treat. It should be washed and chopped before serving. However, they should not make up more than 10% of their daily food intake.",
-"safe":true
- },
- "dogs":{
-"safety_description":"Fennel is safe for dogs to eat in moderation. It is low in calories and a good source of fiber, vitamins, and minerals.",
-"guidance":"Fennel can be given to dogs as a healthy treat. It should be washed and chopped before serving. However, they should not make up more than 10% of their daily food intake.",
-"safe":true
- }
-  },
-  {
- "name":"Fish (cooked)",
- "cats":{
-"safety_description":"Cooked fish is safe for cats to eat in moderation. It is a good source of protein and some vitamins and minerals.",
-"guidance":"Fish can be included in their diet in small amounts. It should be cooked and served boneless to avoid any risk of choking or injury. However, it should not make up more than 10% of their daily food intake.",
-"safe":true
- },
- "dogs":{
-"safety_description":"Cooked fish is safe for dogs to eat in moderation. It is a good source of protein and some vitamins and minerals.",
-"guidance":"Fish can be included in their diet in small amounts. It should be cooked and served boneless to avoid any risk of choking or injury. However, it should not make up more than 10% of their daily food intake.",
-"safe":true
- }
-  },
-  {
- "name":"Flaxseed",
- "cats":{
-"safety_description":"Flaxseed is safe for cats to eat in small amounts. It is a good source of fiber and some vitamins and minerals.",
-"guidance":"Flaxseed can be added to their food in small amounts as a source of fiber. It should be ground before serving to improve digestion. However, they should not make up more than 10% of their daily food intake.",
-"safe":true
- },
- "dogs":{
-"safety_description":"Flaxseed is safe for dogs to eat in small amounts. It is a good source of fiber and some vitamins and minerals.",
-"guidance":"Flaxseed can be added to their food in small amounts as a source of fiber. It should be ground before serving to improve digestion. However, they should not make up more than 10% of their daily food intake.",
-"safe":true
- }
-  },
-  {
- "name":"Fruit (various)",
- "cats":{
-"safety_description":"Most fruits are safe for cats to eat in moderation. They are a good source of fiber, vitamins, and minerals.",
-"guidance":"Fruits can be included in their diet in small amounts as a source of vitamins and fiber. They should be washed and cut into small pieces before serving. However, they should not make up more than 10% of their daily food intake.",
-"safe":true
- },
- "dogs":{
-"safety_description":"Most fruits are safe for dogs to eat in moderation. They are a good source of fiber, vitamins, and minerals.",
-"guidance":"Fruits can be included in their diet in small amounts as a source of vitamins and fiber. They should be washed and cut into small pieces before serving. However, they should not make up more than 10% of their daily food intake.",
-"safe":true
- }
-  },
-  {
- "name":"Green beans",
- "cats":{
-"safety_description":"Green beans are safe for cats to eat in moderation. They are low in calories and a good source of fiber, vitamins, and minerals.",
-"guidance":"Green beans can be given to cats as a healthy treat. They should be cooked and chopped before serving. However, they should not make up more than 10% of their daily food intake.",
-"safe":true
- },
- "dogs":{
-"safety_description":"Green beans are safe for dogs to eat in moderation. They are low in calories and a good source of fiber, vitamins, and minerals.",
-"guidance":"Green beans can be given to dogs as a healthy treat. They should be cooked and chopped before serving. However, they should not make up more than 10% of their daily food intake.",
-"safe":true
- }
-  },
-  {
- "name":"Goat meat",
- "cats":{
-"safety_description":"Goat meat is safe for cats to eat in moderation. It is a good source of protein and some vitamins and minerals.",
-"guidance":"Goat meat can be included in their diet in small amounts, but it is important to choose lean cuts to avoid excessive fat intake. It can be served cooked or raw. However, it should not make up more than 10% of their daily food intake.",
-"safe":true
- },
- "dogs":{
-"safety_description":"Goat meat is safe for dogs to eat in moderation. It is a good source of protein and some vitamins and minerals.",
-"guidance":"Goat meat can be included in their diet in small amounts, but it is important to choose lean cuts to avoid excessive fat intake. It can be served cooked or raw. However, it should not make up more than 10% of their daily food intake.",
-"safe":true
- }
-  },
-  {
- "name":"Garlic",
- "cats":{
-"safety_description":"Garlic is not recommended for cats, as it can cause digestive issues and anemia if consumed in large amounts.",
-"guidance":"Do not feed garlic to cats.",
-"safe":false
- },
- "dogs":{
-"safety_description":"Garlic is not recommended for dogs, as it can cause digestive issues and anemia if consumed in large amounts.",
-"guidance":"Do not feed garlic to dogs.",
-"safe":false
- }
-  },
-  {
- "name":"Grapes",
- "cats":{
-"safety_description":"Grapes are not recommended for cats, as they can cause kidney failure.",
-"guidance":"Do not feed grapes to cats.",
-"safe":false
- },
- "dogs":{
-"safety_description":"Grapes are not recommended for dogs, as they can cause kidney failure.",
-"guidance":"Do not feed grapes to dogs.",
-"safe":false
- }
-  },
-  {
- "name":"Haddock",
- "cats":{
-"safety_description":"Haddock is safe for cats to eat in moderation. It is a good source of protein and some vitamins and minerals.",
-"guidance":"Haddock can be included in their diet in small amounts. It should be cooked and served boneless to avoid any risk of choking or injury. However, it should not make up more than 10% of their daily food intake.",
-"safe":true
- },
- "dogs":{
-"safety_description":"Haddock is safe for dogs to eat in moderation. It is a good source of protein and some vitamins and minerals.",
-"guidance":"Haddock can be included in their diet in small amounts. It should be cooked and served boneless to avoid any risk of choking or injury. However, it should not make up more than 10% of their daily food intake.",
-"safe":true
- }
-  },
-  {
- "name":"Halibut",
- "cats":{
-"safety_description":"Halibut is safe for cats to eat in moderation. It is a good source of protein and some vitamins and minerals.",
-"guidance":"Halibut can be included in their diet in small amounts. It should be cooked and served boneless to avoid any risk of choking or injury. However, it should not make up more than 10% of their daily food intake.",
-"safe":true
- },
- "dogs":{
-"safety_description":"Halibut is safe for dogs to eat in moderation. It is a good source of protein and some vitamins and minerals.",
-"guidance":"Halibut can be included in their diet in small amounts. It should be cooked and served boneless to avoid any risk of choking or injury. However, it should not make up more than 10% of their daily food intake.",
-"safe":true
- }
-  },
-  {
- "name":"Honey",
- "cats":{
-"safety_description":"Honey is safe for cats to eat in small amounts. It is a natural sweetener that can provide energy and some antioxidants.",
-"guidance":"Honey can be given to cats as a healthy treat. It should be raw and unprocessed, and no more than 1/2 teaspoon per day.",
-"safe":true
- },
- "dogs":{
-"safety_description":"Honey is safe for dogs to eat in small amounts. It is a natural sweetener that can provide energy and some antioxidants.",
-"guidance":"Honey can be given to dogs as a healthy treat. It should be raw and unprocessed, and no more than 1 teaspoon per day.",
-"safe":true
- }
-  },
-  {
- "name":"Iceberg lettuce",
- "cats":{
-"safety_description":"Iceberg lettuce is safe for cats to eat in small amounts. It has limited nutritional value for cats but can provide some hydration.",
-"guidance":"Iceberg lettuce can be given to cats as a occasional treat. It should be washed and chopped before serving. However, it should not make up more than 10% of their daily food intake.",
-"safe":true
- },
- "dogs":{
-"safety_description":"Iceberg lettuce is safe for dogs to eat in small amounts. It has limited nutritional value for dogs but can provide some hydration.",
-"guidance":"Iceberg lettuce can be given to dogs as a occasional treat. It should be washed and chopped before serving. However, it should not make up more than 10% of their daily food intake.",
-"safe":true
- }
-  },
-  {
- "name":"Italian sausage",
- "cats":{
-"safety_description":"Italian sausage is not recommended for cats, as it is high in fat and sodium and can lead to digestive issues and pancreatitis.",
-"guidance":"Do not feed Italian sausage to cats.",
-"safe":false
- },
- "dogs":{
-"safety_description":"Italian sausage is not recommended for dogs, as it is high in fat and sodium and can lead to digestive issues and pancreatitis.",
-"guidance":"Do not feed Italian sausage to dogs.",
-"safe":false
- }
-  },
-  {
- "name":"Irish stew",
- "cats":{
-"safety_description":"Irish stew is not recommended for cats, as it may contain onion and garlic (both of which are toxic to cats) and high amounts of fat and salt, which can lead to digestive issues and pancreatitis.",
-"guidance":"Do not feed Irish stew to cats.",
-"safe":false
- },
- "dogs":{
-"safety_description":"Irish stew is safe for dogs to eat in moderation, as it can contain lean meat and vegetables that provide some nutritional value.",
-"guidance":"Irish stew can be given to dogs as an occasional treat, but it should be wheat-free and not contain onion or garlic. It should be served in small amounts to avoid digestive issues.",
-"safe":true
- }
-  },
-  {
- "name":"Jicama",
- "cats":{
-"safety_description":"Jicama is safe for cats to eat in moderation. It is low in calories and a good source of fiber, vitamins, and minerals.",
-"guidance":"Jicama can be given to cats as a healthy treat. It should be washed and chopped before serving. However, it should not make up more than 10% of their daily food intake.",
-"safe":true
- },
- "dogs":{
-"safety_description":"Jicama is safe for dogs to eat in moderation. It is low in calories and a good source of fiber, vitamins, and minerals.",
-"guidance":"Jicama can be given to dogs as a healthy treat. It should be washed and chopped before serving. However, it should not make up more than 10% of their daily food intake.",
-"safe":true
- }
-  },
-  {
- "name":"Kale",
- "cats":{
-"safety_description":"Kale is safe for cats to eat in small amounts. It is a good source of vitamins and minerals, but it should not be the primary vegetable in their diet.",
-"guidance":"Kale can be given to cats as a occasional treat. It should be washed and chopped before serving. However, it should not make up more than 10% of their daily food intake.",
-"safe":true
- },
- "dogs":{
-"safety_description":"Kale is safe for dogs to eat in moderation. It is a good source of vitamins and minerals, but it should not be the primary vegetable in their diet.",
-"guidance":"Kale can be given to dogs as a healthy treat. It should be washed and chopped before serving. However, it should not make up more than 10% of their daily food intake.",
-"safe":true
- }
-  },
-  {
- "name":"Kiwi",
- "cats":{
-"safety_description":"Kiwi is safe for cats to eat in small amounts. It is a good source of vitamins and fiber, but it is high in natural sugars.",
-"guidance":"Kiwi can be given to cats as an occasional treat. It should be peeled and chopped before serving. However, it should not make up more than 10% of their daily food intake.",
-"safe":true
- },
- "dogs":{
-"safety_description":"Kiwi is safe for dogs to eat in small amounts. It is a good source of vitamins and fiber, but it is high in natural sugars.",
-"guidance":"Kiwi can be given to dogs as an occasional treat. It should be peeled and chopped before serving. However, it should not make up more than 10% of their daily food intake.",
-"safe":true
- }
-  },
-  {
- "name":"Lamb",
- "cats":{
-"safety_description":"Lamb is safe for cats to eat in moderation. It is a good source of protein and some vitamins and minerals.",
-"guidance":"Lamb can be included in their diet in small amounts, but it is important to choose lean cuts to avoid excessive fat intake. It can be served cooked or raw. However, it should not make up more than 10% of their daily food intake.",
-"safe":true
- },
- "dogs":{
-"safety_description":"Lamb is safe for dogs to eat in moderation. It is a good source of protein and some vitamins and minerals.",
-"guidance":"Lamb can be included in their diet in small amounts, but it is important to choose lean cuts to avoid excessive fat intake. It can be served cooked or raw. However, it should not make up more than 10% of their daily food intake.",
-"safe":true
- }
-  },
-  {
- "name":"Lentils",
- "cats":{
-"safety_description":"Lentils are safe for cats to eat in small amounts. They are a good source of protein, fiber, vitamins, and minerals.",
-"guidance":"Lentils can be included in their diet in small amounts. They should be cooked and mashed or pureed before serving. However, they should not make up more than 10% of their daily food intake.",
-"safe":true
- },
- "dogs":{
-"safety_description":"Lentils are safe for dogs to eat in small amounts. They are a good source of protein, fiber, vitamins, and minerals.",
-"guidance":"Lentils can be included in their diet in small amounts. They should be cooked and mashed or pureed before serving. However, they should not make up more than 10% of their daily food intake.",
-"safe":true
- }
-  },
-  {
- "name":"Mackerel",
- "cats":{
-"safety_description":"Mackerel is safe for cats to eat in moderation. It is a good source of protein, healthy fats, and some vitamins and minerals.",
-"guidance":"Mackerel can be included in their diet in small amounts. It should be cooked and served boneless to avoid any risk of choking or injury. However, it should not make up more than 10% of their daily food intake.",
-"safe":true
- },
- "dogs":{
-"safety_description":"Mackerel is safe for dogs to eat in moderation. It is a good source of protein, healthy fats, and some vitamins and minerals.",
-"guidance":"Mackerel can be included in their diet in small amounts. It should be cooked and served boneless to avoid any risk of choking or injury. However, it should not make up more than 10% of their daily food intake.",
-"safe":true
- }
-  },
-  {
- "name":"Mango",
- "cats":{
-"safety_description":"Mango is safe for cats to eat in small amounts. It is a good source of vitamins and fiber, but it is high in natural sugars.",
-"guidance":"Mango can be given to cats as an occasional treat. It should be peeled and chopped before serving. However, it should not make up more than 10% of their daily food intake.",
-"safe":true
- },
- "dogs":{
-"safety_description":"Mango is safe for dogs to eat in small amounts. It is a good source of vitamins and fiber, but it is high in natural sugars.",
-"guidance":"Mango can be given to dogs as an occasional treat. It should be peeled and chopped before serving. However, it should not make up more than 10% of their daily food intake.",
-"safe":true
- }
-  },
-  {
- "name":"Mushrooms",
- "cats":{
-"safety_description":"Mushrooms are safe for cats to eat in small amounts. Most types of mushrooms are not toxic to cats, but it is best to stick to safe varieties like button, cremini, and shiitake.",
-"guidance":"Mushrooms can be given to cats as an occasional treat. They should be cooked and chopped before serving. However, they should not make up more than 10% of their daily food intake.",
-"safe":true
- },
- "dogs":{
-"safety_description":"Mushrooms are safe for dogs to eat in small amounts. Most types of mushrooms are not toxic to dogs, but it is best to stick to safe varieties like button, cremini, and shiitake.",
-"guidance":"Mushrooms can be given to dogs as an occasional treat. They should be cooked and chopped before serving. However, they should not make up more than 10% of their daily food intake.",
-"safe":true
- }
-  },
-  {
- "name":"Nectarines",
- "cats":{
-"safety_description":"Nectarines are safe for cats to eat in small amounts. They are a good source of vitamins and fiber, but they are high in natural sugars.",
-"guidance":"Nectarines can be given to cats as an occasional treat. They should be washed, peeled, and chopped before serving. However, they should not make up more than 10% of their daily food intake.",
-"safe":true
- },
- "dogs":{
-"safety_description":"Nectarines are safe for dogs to eat in small amounts. They are a good source of vitamins and fiber, but they are high in natural sugars.",
-"guidance":"Nectarines can be given to dogs as an occasional treat. They should be washed, peeled, and chopped before serving. However, they should not make up more than 10% of their daily food intake.",
-"safe":true
- }
-  },
-  {
- "name":"New York Strip Steak",
- "cats":{
-"safety_description":"New York Strip Steak is not recommended for cats, as it is high in fat and sodium and can lead to digestive issues and pancreatitis.",
-"guidance":"Do not feed New York Strip Steak to cats.",
-"safe":false
- },
- "dogs":{
-"safety_description":"New York Strip Steak is safe for dogs to eat in moderation, as it can provide protein and some vitamins and minerals. However, it is high in fat and should not be given often.",
-"guidance":"New York Strip Steak can be given to dogs as an occasional treat. It should be cooked and served boneless to avoid any risk of choking or injury. However, it should not make up more than 10% of their daily food intake.",
-"safe":true
- }
-  },
-  {
- "name":"Nonfat Greek yogurt",
- "cats":{
-"safety_description":"Nonfat Greek yogurt is safe for cats to eat in small amounts. It is a good source of protein and probiotics.",
-"guidance":"Nonfat Greek yogurt can be given to cats as a healthy treat. It should be plain and unsweetened, and should not make up more than 10% of their daily food intake.",
-"safe":true
- },
- "dogs":{
-"safety_description":"Nonfat Greek yogurt is safe for dogs to eat in small amounts. It is a good source of protein and probiotics.",
-"guidance":"Nonfat Greek yogurt can be given to dogs as a healthy treat. It should be plain and unsweetened, and should not make up more than 10% of their daily food intake.",
-"safe":true
- }
-  },
-  {
- "name":"Oatmeal",
- "cats":{
-"safety_description":"Oatmeal is safe for cats to eat in small amounts. It is a good source of fiber, but it is not nutritionally necessary for their diet.",
-"guidance":"Oatmeal can be given to cats as an occasional treat. It should be plain and unsweetened, and should not make up more than 10% of their daily food intake.",
-"safe":true
- },
- "dogs":{
-"safety_description":"Oatmeal is safe for dogs to eat in small amounts. It is a good source of fiber and can be beneficial for their digestion.",
-"guidance":"Oatmeal can be included in their diet in small amounts. It should be plain and unsweetened, and should not make up more than 10% of their daily food intake.",
-"safe":true
- }
-  },
-  {
- "name":"Octopus",
- "cats":{
-"safety_description":"Octopus is safe for cats to eat in moderation. It is a good source of protein and some vitamins and minerals.",
-"guidance":"Octopus can be included in their diet in small amounts. It should be cooked and served boneless to avoid any risk of choking or injury. However, it should not make up more than 10% of their daily food intake.",
-"safe":true
- },
- "dogs":{
-"safety_description":"Octopus is safe for dogs to eat in moderation. It is a good source of protein and some vitamins and minerals.",
-"guidance":"Octopus can be included in their diet in small amounts. It should be cooked and served boneless to avoid any risk of choking or injury. However, it should not make up more than 10% of their daily food intake.",
-"safe":true
- }
-  },
-  {
- "name":"Oranges",
- "cats":{
-"safety_description":"Oranges are safe for cats to eat in small amounts. They are a good source of vitamins and fiber, but they are high in natural sugars.",
-"guidance":"Oranges can be given to cats as an occasional treat. They should be peeled and chopped before serving. However, they should not make up more than 10% of their daily food intake.",
-"safe":true
- },
- "dogs":{
-"safety_description":"Oranges are safe for dogs to eat in small amounts. They are a good source of vitamins and fiber, but they are high in natural sugars.",
-"guidance":"Oranges can be given to dogs as an occasional treat. They should be peeled and chopped before serving. However, they should not make up more than 10% of their daily food intake.",
-"safe":true
- }
-  },
-  {
- "name":"Peanut Butter",
- "cats":{
-"safety_description":"Peanut butter is safe for cats to eat in small amounts. It is a good source of protein and healthy fats.",
-"guidance":"Peanut butter can be given to cats as an occasional treat. It should be unsalted, unsweetened, and free of xylitol, which is toxic to cats. It should not make up more than 10% of their daily food intake.",
-"safe":true
- },
- "dogs":{
-"safety_description":"Peanut butter is safe for dogs to eat in small amounts. It is a good source of protein and healthy fats.",
-"guidance":"Peanut butter can be given to dogs as a healthy treat. It should be unsalted, unsweetened, and free of xylitol, which is toxic to dogs. However, it should not make up more than 10% of their daily food intake.",
-"safe":true
- }
-  },
-  {
- "name":"Peas",
- "cats":{
-"safety_description":"Peas are safe for cats to eat in small amounts. They are a good source of protein, fiber, vitamins, and minerals.",
-"guidance":"Peas can be included in their diet in small amounts. They should be cooked and mashed or pureed before serving. However, they should not make up more than 10% of their daily food intake.",
-"safe":true
- },
- "dogs":{
-"safety_description":"Peas are safe for dogs to eat in moderate amounts. They are a good source of protein, fiber, vitamins, and minerals.",
-"guidance":"Peas can be included in their diet as a healthy and nutritious ingredient. They can be served cooked or raw. However, they should not make up more than 10% of their daily food intake.",
-"safe":true
- }
-  },
-  {
- "name":"Pork",
- "cats":{
-"safety_description":"Pork is safe for cats to eat in moderation. It is a good source of protein and some vitamins and minerals.",
-"guidance":"Pork can be included in their diet in small amounts. It should be cooked and served boneless to avoid any risk of choking or injury. However, it should not make up more than 10% of their daily food intake.",
-"safe":true
- },
- "dogs":{
-"safety_description":"Pork is safe for dogs to eat in moderation. It is a good source of protein and some vitamins and minerals.",
-"guidance":"Pork can be included in their diet in small amounts. It should be cooked and served boneless to avoid any risk of choking or injury. However, it should not make up more than 10% of their daily food intake.",
-"safe":true
- }
-  },
-  {
- "name":"Raspberries",
- "cats":{
-"safety_description":"Raspberries are safe for cats to eat in small amounts. They are a good source of vitamins and fiber, but they are high in natural sugars.",
-"guidance":"Raspberries can be given to cats as an occasional treat. They should be washed and chopped before serving. However, they should not make up more than 10% of their daily food intake.",
-"safe":true
- },
- "dogs":{
-"safety_description":"Raspberries are safe for dogs to eat in small amounts. They are a good source of vitamins and fiber, but they are high in natural sugars.",
-"guidance":"Raspberries can be given to dogs as an occasional treat. They should be washed and chopped before serving. However, they should not make up more than 10% of their daily food intake.",
-"safe":true
- }
-  },
-  {
- "name":"Rice",
- "cats":{
-"safety_description":"Rice is safe for cats to eat in small amounts. It is a good source of carbohydrates and can be beneficial for their digestion.",
-"guidance":"Rice can be included in their diet in small amounts. It should be plain and unsalted. However, it should not make up more than 10% of their daily food intake.",
-"safe":true
- },
- "dogs":{
-"safety_description":"Rice is safe for dogs to eat in moderation. It is a good source of carbohydrates and can be beneficial for their digestion.",
-"guidance":"Rice can be included in their diet in small amounts. It should be plain and unsalted. However, it should not make up more than 10% of their daily food intake.",
-"safe":true
- }
-  },
-  {
- "name":"Roast Beef",
- "cats":{
-"safety_description":"Roast beef is not recommended for cats, as it is high in fat and sodium and can lead to digestive issues and pancreatitis.",
-"guidance":"Do not feed roast beef to cats.",
-"safe":false
- },
- "dogs":{
-"safety_description":"Roast beef is safe for dogs to eat in moderation, as it can provide protein and some vitamins and minerals. However, it is high in fat and should not be given often.",
-"guidance":"Roast beef can be given to dogs as an occasional treat. It should be cooked and served boneless to avoid any risk of choking or injury. However, it should not make up more than 10% of their daily food intake.",
-"safe":true
- }
-  },
-  {
- "name":"Salmon",
- "cats":{
-"safety_description":"Salmon is safe for cats to eat in moderation, as it is a good source of protein and omega-3 fatty acids. However, it should be cooked and served boneless to avoid any risk of choking or injury.",
-"guidance":"Salmon can be included in their diet in small amounts. However, it should not make up more than 10% of their daily food intake.",
-"safe":true
- },
- "dogs":{
-"safety_description":"Salmon is safe for dogs to eat in moderation, as it is a good source of protein and omega-3 fatty acids. However, it should be cooked and served boneless to avoid any risk of choking or injury.",
-"guidance":"Salmon can be included in their diet in small amounts. However, it should not make up more than 10% of their daily food intake.",
-"safe":true
- }
-  },
-  {
- "name":"Scrambled Eggs",
- "cats":{
-"safety_description":"Scrambled eggs are safe for cats to eat in small amounts. They are a good source of protein and some vitamins and minerals.",
-"guidance":"Scrambled eggs can be given to cats as a healthy treat. They should be plain and unsalted. However, they should not make up more than 10% of their daily food intake.",
-"safe":true
- },
- "dogs":{
-"safety_description":"Scrambled eggs are safe for dogs to eat in moderation, as they are a good source of protein and some vitamins and minerals.",
-"guidance":"Scrambled eggs can be given to dogs as a healthy treat. They should be plain and unsalted. However, they should not make up more than 10% of their daily food intake.",
-"safe":true
- }
-  },
-  {
- "name":"Sweet Potato",
- "cats":{
-"safety_description":"Sweet potato is safe for cats to eat in small amounts. It is a good source of fiber and some vitamins and minerals.",
-"guidance":"Sweet potato can be included in their diet in small amounts. It should be cooked and mashed or pureed before serving. However, it should not make up more than 10% of their daily food intake.",
-"safe":true
- },
- "dogs":{
-"safety_description":"Sweet potato is safe for dogs to eat in moderation, as it is a good source of fiber and some vitamins and minerals.",
-"guidance":"Sweet potato can be included in their diet as a healthy and nutritious ingredient. It can be served cooked or raw. However, it should not make up more than 10% of their daily food intake.",
-"safe":true
- }
-  },
-  {
- "name":"Tuna",
- "cats":{
-"safety_description":"Tuna is safe for cats to eat in small amounts, as it is a good source of protein and some vitamins and minerals. However, it should be served sparingly and should never be the sole source of a cat's diet, as it can lead to deficiencies.",
-"guidance":"Tuna can be included in their diet in small amounts. It should be cooked and served fresh or canned in water, not oil. However, it should not make up more than 10% of their daily food intake.",
-"safe":true
- },
- "dogs":{
-"safety_description":"Tuna is safe for dogs to eat in moderation, as it is a good source of protein and some vitamins and minerals. However, it should be served sparingly and should never be the sole source of a dog's diet, as it can lead to deficiencies.",
-"guidance":"Tuna can be included in their diet in small amounts. It should be cooked and served fresh or canned in water, not oil. However, it should not make up more than 10% of their daily food intake.",
-"safe":true
- }
-  },
-  {
- "name":"Turkey",
- "cats":{
-"safety_description":"Turkey is safe for cats to eat in moderation. It is a good source of protein and some vitamins and minerals.",
-"guidance":"Turkey can be included in their diet in small amounts. It should be cooked and served boneless to avoid any risk of choking or injury. However, it should not make up more than 10% of their daily food intake.",
-"safe":true
- },
- "dogs":{
-"safety_description":"Turkey is safe for dogs to eat in moderation. It is a good source of protein and some vitamins and minerals.",
-"guidance":"Turkey can be included in their diet in small amounts. It should be cooked and served boneless to avoid any risk of choking or injury. However, it should not make up more than 10% of their daily food intake.",
-"safe":true
- }
-  },
-  {
- "name":"Tomatoes",
- "cats":{
-"safety_description":"Tomatoes are safe for cats to eat in small amounts. However, they should be cooked or pureed to break down the toxic enzyme solanine, which can cause gastrointestinal upset and nervous system depression.",
-"guidance":"Tomatoes can be included in their diet in small amounts. They should be cooked and pureed before serving. However, they should not make up more than 10% of their daily food intake.",
-"safe":true
- },
- "dogs":{
-"safety_description":"Tomatoes are safe for dogs to eat in small amounts. However, they should be cooked or pureed to break down the toxic enzyme solanine, which can cause gastrointestinal upset and nervous system depression.",
-"guidance":"Tomatoes can be included in their diet as an occasional treat. They should be cooked and pureed before serving. However, they should not make up more than 10% of their daily food intake.",
-"safe":true
- }
-  },
-  {
- "name":"Watermelon",
- "cats":{
-"safety_description":"Watermelon is safe for cats to eat in small amounts. It is a good source of vitamins and antioxidants but is high in natural sugars.",
-"guidance":"Watermelon can be given to cats as a refreshing treat on occasion. The rind and seeds should be removed, and the fruit should be chopped into small pieces before serving. However, they should not make up more than 10% of their daily food intake.",
-"safe":true
- },
- "dogs":{
-"safety_description":"Watermelon is safe for dogs to eat in small amounts. It is a good source of vitamins and antioxidants but is high in natural sugars.",
-"guidance":"Watermelon can be given to dogs as a refreshing treat on occasion. The rind and seeds should be removed, and the fruit should be chopped into small pieces before serving. However, they should not make up more than 10% of their daily food intake.",
-"safe":true
- }
-  },
-  {
- "name":"Whitefish",
- "cats":{
-"safety_description":"Whitefish is safe for cats to eat in moderation. It is a good source of protein and omega-3 fatty acids.",
-"guidance":"Whitefish can be included in their diet in small amounts. However, it should be served sparingly and should never be the sole source of their diet, as it can lead to deficiencies. It should be cooked and served boneless to avoid any risk of choking or injury. However, it should not make up more than 10% of their daily food intake.",
-"safe":true
- },
- "dogs":{
-"safety_description":"Whitefish is safe for dogs to eat in moderation. It is a good source of protein and omega-3 fatty acids.",
-"guidance":"Whitefish can be included in their diet in small amounts. However, it should be served sparingly and should never be the sole source of their diet, as it can lead to deficiencies. It should be cooked and served boneless to avoid any risk of choking or injury. However, it should not make up more than 10% of their daily food intake.",
-"safe":true
- }
-  },
-  {
- "name":"Wild Rice",
- "cats":{
-"safety_description":"Wild rice is safe for cats to eat in small amounts. It is a good source of fiber and some vitamins and minerals.",
-"guidance":"Wild rice can be included in their diet in small amounts. It should be plain and unsalted. However, it should not make up more than 10% of their daily food intake.",
-"safe":true
- },
- "dogs":{
-"safety_description":"Wild rice is safe for dogs to eat in moderation. It is a good source of fiber and some vitamins and minerals.",
-"guidance":"Wild rice can be included in their diet in small amounts. It should be plain and unsalted. However, it should not make up more than 10% of their daily food intake.",
-"safe":true
- }
-  },
-  {
- "name":"Yogurt",
- "cats":{
-"safety_description":"Plain, unsweetened yogurt is safe for cats to eat in small amounts, as it is a good source of protein and calcium.",
-"guidance":"Yogurt can be included in their diet in small amounts. However, cats may be lactose intolerant, so it is important to monitor for any signs of gastrointestinal upset. It should be plain and unsweetened, preferably organic and without any additives or artificial preservatives. However, it should not make up more than 10% of their daily food intake.",
-"safe":true
- },
- "dogs":{
-"safety_description":"Plain, unsweetened yogurt is safe for dogs to eat in moderation, as it is a good source of protein and calcium.",
-"guidance":"Yogurt can be included in their diet as an occasional treat. Dogs may be lactose intolerant, so it is important to monitor for any signs of gastrointestinal upset. It should be plain and unsweetened, preferably organic and without any additives or artificial preservatives. However, it should not make up more than 10% of their daily food intake.",
-"safe":true
- }
-  },
-  {
- "name":"Yellow Squash",
- "cats":{
-"safety_description":"Yellow squash is safe for cats to eat in small amounts. It is a good source of vitamins and fiber.",
-"guidance":"Yellow squash can be included in their diet as a healthy and nutritious ingredient. It should be cooked and mashed or pureed before serving. However, it should not make up more than 10% of their daily food intake.",
-"safe":true
- },
- "dogs":{
-"safety_description":"Yellow squash is safe for dogs to eat in moderation. It is a good source of vitamins and fiber.",
-"guidance":"Yellow squash can be included in their diet as a healthy and nutritious ingredient. It can be served cooked or raw, sliced or diced. However, it should not make up more than 10% of their daily food intake.",
-"safe":true
- }
-  },
-  {
- "name":"Alcohol",
- "cats":{
-"safety_description":"Alcohol can cause vomiting, diarrhea, decreased coordination, central nervous system depression, difficulty breathing, tremors, abnormal blood acidity, coma, and even death in pets.",
-"guidance":"Alcohol is highly toxic to cats and should never be given to them under any circumstances.",
-"safe":false
- },
- "dogs":{
-"safety_description":"Alcohol can cause vomiting, diarrhea, decreased coordination, central nervous system depression, difficulty breathing, tremors, abnormal blood acidity, coma, and even death in pets.",
-"guidance":"Alcohol is highly toxic to dogs and should never be given to them under any circumstances.",
-"safe":false
- }
-  },
-  {
- "name":"Avocado",
- "cats":{
-"safety_description":"Avocado contains persin, which can cause vomiting, diarrhea, and fluid accumulation in the chest, abdomen, and heart in pets.",
-"guidance":"Avocado should not be given to cats as it may cause digestive upset, breathing difficulties, heart problems, and even death.",
-"safe":false
- },
- "dogs":{
-"safety_description":"Avocado contains persin, which can cause vomiting, diarrhea, and fluid accumulation in the chest, abdomen, and heart in pets.",
-"guidance":"While small amounts of avocado flesh are generally safe for dogs, the pit, skin, and leaves contain persin, which can lead to vomiting, diarrhea, and respiratory distress if ingested. It's best to avoid feeding avocado to dogs altogether.",
-"safe":false
- }
-  },
-  {
- "name":"Chocolate",
- "cats":{
-"safety_description":"Chocolate contains theobromine and caffeine, which can cause vomiting, diarrhea, increased thirst, panting, restlessness, increased heart rate, muscle tremors, seizures, and even death in pets.",
-"guidance":"Chocolate should never be given to cats as even a small amount can lead to serious health problems.",
-"safe":false
- },
- "dogs":{
-"safety_description":"Chocolate contains theobromine and caffeine, which can cause vomiting, diarrhea, increased thirst, panting, restlessness, increased heart rate, muscle tremors, seizures, and even death in pets.",
-"guidance":"Chocolate is highly toxic to dogs, with darker chocolate and unsweetened baking chocolate containing higher levels of theobromine. Signs of chocolate poisoning in dogs may include vomiting, diarrhea, restlessness, tremors, seizures, and an irregular heartbeat. Seek veterinary attention right away if you suspect your dog has ingested chocolate.",
-"safe":false
- }
-  },
-  {
- "name":"Garlic",
- "cats":{
-"safety_description":"Garlic can damage red blood cells and cause anemia in pets. Symptoms may include weakness, lethargy, loss of appetite, pale gums, and even collapse or death.",
-"guidance":"Garlic should not be given to cats in any amount.",
-"safe":false
- },
- "dogs":{
-"safety_description":"Garlic can damage red blood cells and cause anemia in pets. Symptoms may include weakness, lethargy, loss of appetite, pale gums, and even collapse or death.",
-"guidance":"While small amounts of garlic are generally safe for dogs, larger doses can lead to health problems. Signs of garlic poisoning in dogs may include vomiting, diarrhea, lethargy, weakness, loss of appetite, pale gums, and an elevated heart rate. If your dog has ingested garlic, contact your veterinarian for advice.",
-"safe":false
- }
-  },
-  {
- "name":"Onions",
- "cats":{
-"safety_description":"Onions can damage red blood cells and cause anemia in pets. Symptoms may include weakness, lethargy, loss of appetite, pale gums, and even collapse or death.",
-"guidance":"Onions should not be given to cats in any amount.",
-"safe":false
- },
- "dogs":{
-"safety_description":"Onions can damage red blood cells and cause anemia in pets. Symptoms may include weakness, lethargy, loss of appetite, pale gums, and even collapse or death.",
-"guidance":"While small amounts of onions are generally safe for dogs, larger doses can lead to health problems. Signs of onion poisoning in dogs may include vomiting, diarrhea, lethargy, weakness, loss of appetite, pale gums, and an elevated heart rate. If your dog has ingested onions, contact your veterinarian for advice.",
-"safe":false
- }
-  },
-  {
- "name":"Xylitol",
- "cats":{
-"safety_description":"Xylitol is a sugar substitute commonly found in chewing gum, candy, baked goods, and other products. It can cause insulin release, leading to hypoglycemia (low blood sugar), seizures, liver failure, and even death in pets.",
-"guidance":"Xylitol should never be given to cats, and cats should not be allowed access to any products containing xylitol.",
-"safe":false
- },
- "dogs":{
-"safety_description":"Xylitol is a sugar substitute commonly found in chewing gum, candy, baked goods, and other products. It can cause insulin release, leading to hypoglycemia (low blood sugar), seizures, liver failure, and even death in pets.",
-"guidance":"Xylitol is highly toxic to dogs in even small amounts. Signs of xylitol poisoning in dogs may include vomiting, loss of coordination, seizures, and liver failure. Contact your veterinarian immediately if you suspect your dog has ingested xylitol, even if you don't see any symptoms right away.",
-"safe":false
- }
-  },
-  {
- "name":"Grapes and Raisins",
- "cats":{
-"safety_description":"Grapes and raisins can cause kidney failure in pets, with symptoms including vomiting, diarrhea, lethargy, and decreased appetite.",
-"guidance":"Grapes and raisins should not be given to cats as they can cause serious kidney problems.",
-"safe":false
- },
- "dogs":{
-"safety_description":"Grapes and raisins can cause kidney failure in pets, with symptoms including vomiting, diarrhea, lethargy, and decreased appetite.",
-"guidance":"Grapes and raisins are highly toxic to dogs and can cause kidney failure, with symptoms including vomiting, diarrhea, lethargy, and decreased appetite. Contact your veterinarian immediately if you suspect your dog has ingested grapes or raisins.",
-"safe":false
- }
-  },
-  {
- "name":"Macadamia Nuts",
- "cats":{
-"safety_description":"Macadamia nuts can cause lethargy, vomiting, hyperthermia (elevated body temperature), tremors, and possible neurological effects in pets.",
-"guidance":"Macadamia nuts should not be given to cats as they can cause serious health problems.",
-"safe":false
- },
- "dogs":{
-"safety_description":"Macadamia nuts can cause lethargy, vomiting, hyperthermia (elevated body temperature), tremors, and possible neurological effects in pets.",
-"guidance":"Macadamia nuts are highly toxic to dogs and can cause symptoms including lethargy, vomiting, hyperthermia (elevated body temperature), tremors, and possible neurological effects. Contact your veterinarian immediately if you suspect your dog has ingested macadamia nuts.",
-"safe":false
- }
-  },
-  {
- "name":"Raw Meat and Eggs",
- "cats":{
-"safety_description":"Raw meat and eggs can contain bacteria such as Salmonella and E. coli, which can cause gastrointestinal problems in pets.",
-"guidance":"Raw meat and eggs should not be given to cats as they may contain harmful bacteria that can make them sick.",
-"safe":false
- },
- "dogs":{
-"safety_description":"Raw meat and eggs can contain bacteria such as Salmonella and E. coli, which can cause gastrointestinal problems in pets.",
-"guidance":"Raw meat and eggs should be avoided for dogs to reduce the risk of bacterial contamination. Always cook meat and eggs thoroughly before feeding them to your dog.",
-"safe":false
- }
-  },
-  {
- "name":"Antifreeze",
- "cats":{
-"safety_description":"Antifreeze contains ethylene glycol, which can be fatal to pets even in small amounts. Symptoms may include vomiting, diarrhea, loss of coordination, seizures, kidney failure, and even death.",
-"guidance":"Antifreeze should be kept out of reach of pets and spills should be cleaned up immediately. If you suspect your cat has ingested antifreeze, seek veterinary attention right away.",
-"safe":false
- },
- "dogs":{
-"safety_description":"Antifreeze contains ethylene glycol, which can be fatal to pets even in small amounts. Symptoms may include vomiting, diarrhea, loss of coordination, seizures, kidney failure, and even death.",
-"guidance":"Antifreeze should be kept out of reach of pets and spills should be cleaned up immediately. If you suspect your dog has ingested antifreeze, seek veterinary attention right away.",
-"safe":false
- }
-  },
-  {
- "name":"Household Cleaners",
- "cats":{
-"safety_description":"Many household cleaners contain chemicals that can be toxic to pets, especially if ingested. Symptoms may include vomiting, diarrhea, drooling, difficulty breathing, and even death in severe cases.",
-"guidance":"Household cleaners should be kept out of reach of pets, and surfaces should be thoroughly cleaned and dried before allowing pets back into an area. If your cat has ingested a household cleaner, contact your veterinarian or a poison control center immediately.",
-"safe":false
- },
- "dogs":{
-"safety_description":"Many household cleaners contain chemicals that can be toxic to pets, especially if ingested. Symptoms may include vomiting, diarrhea, drooling, difficulty breathing, and even death in severe cases.",
-"guidance":"Household cleaners should be kept out of reach of pets, and surfaces should be thoroughly cleaned and dried before allowing pets back into an area. If your dog has ingested a household cleaner, contact your veterinarian or a poison control center immediately.",
-"safe":false
- }
-  },
-  {
- "name":"Medications",
- "cats":{
-"safety_description":"Many human medications, including over-the-counter pain relievers, can be toxic to cats if ingested. Symptoms may include vomiting, diarrhea, lethargy, loss of appetite, and even death.",
-"guidance":"Never give your cat medication intended for humans, and keep all medications out of reach of pets. If your cat has ingested a medication, contact your veterinarian or a poison control center immediately.",
-"safe":false
- },
- "dogs":{
-"safety_description":"Many human medications, including over-the-counter pain relievers, can be toxic to dogs if ingested. Symptoms may include vomiting, diarrhea, lethargy, loss of appetite, and even death.",
-"guidance":"Never give your dog medication intended for humans, and keep all medications out of reach of pets. If your dog has ingested a medication, contact your veterinarian or a poison control center immediately.",
-"safe":false
- }
-  },
-  {
- "name":"Lilies",
- "cats":{
-"safety_description":"Many types of lilies, including Easter lilies, tiger lilies, and Asiatic lilies, can be toxic to cats if ingested. Symptoms may include vomiting, loss of appetite, lethargy, and kidney failure.",
-"guidance":"Keep all lilies out of reach of cats, and seek veterinary attention immediately if your cat has ingested any part of a lily plant.",
-"safe":false
- },
- "dogs":{
-"safety_description":"While lilies are not toxic to dogs, ingestion can lead to gastrointestinal upset.",
-"guidance":"It's still best to keep lilies out of reach of dogs to avoid them ingesting any part of the plant.",
-"safe":true
- }
-  }
-   ]
+	"products":[
+		{
+			"name":"Acai",
+			"cats":{
+				"safety_description":"Acai is safe for cats to eat in small quantities, but it is not a necessary part of their diet. It is high in antioxidants which can be beneficial for their immune system. Acai also contains some B vitamins, vitamin C, calcium, and iron.",
+				"guidance":"Although acai can provide some benefits, it should be given sparingly as a treat, and not make up a significant part of their diet.",
+				"safe":true
+			},
+			"dogs":{
+				"safety_description":"Acai is safe for dogs to eat in small quantities. It is high in antioxidants which can be beneficial for their immune system. Acai also contains some B vitamins, vitamin C, calcium, and iron.",
+				"guidance":"Although acai can provide some benefits, it should be given sparingly as a treat, and not make up a significant part of their diet.",
+				"safe":true
+			}
+		},
+		{
+			"name":"Acorn Squash",
+			"cats":{
+				"safety_description":"Acorn squash is safe for cats to eat in moderate amounts. It is high in fiber, vitamin A, and potassium, which can aid digestion and maintain healthy bones and muscles.",
+				"guidance":"Acorn squash can be a healthy addition to their diet, and can be given as a treat. However, it should not make up more than 10% of their daily food intake.",
+				"safe":true
+			},
+			"dogs":{
+				"safety_description":"Acorn squash is safe for dogs to eat in moderate amounts. It is low in calories and fat, and high in fiber, vitamin A, and potassium, which can aid digestion and maintain healthy bones and muscles.",
+				"guidance":"Acorn squash can be a healthy addition to their diet, and can be given as a treat. However, it should not make up more than 10% of their daily food intake.",
+				"safe":true
+			}
+		},
+		{
+			"name":"Alfalfa sprouts",
+			"cats":{
+				"safety_description":"Alfalfa sprouts are safe for cats to eat. They are a good source of protein, fiber, vitamin C, and some minerals.",
+				"guidance":"Alfalfa sprouts can be a healthy addition to their diet when fed in moderation. They can be given as a treat or mixed into their food. However, they should not make up more than 10% of their daily food intake.",
+				"safe":true
+			},
+			"dogs":{
+				"safety_description":"Alfalfa sprouts are safe for dogs to eat. They are a good source of protein, fiber, vitamin C, and some minerals.",
+				"guidance":"Alfalfa sprouts can be a healthy addition to their diet when fed in moderation. They can be given as a treat or mixed into their food. However, they should not make up more than 10% of their daily food intake.",
+				"safe":true
+			}
+		},
+		{
+			"name":"Almond",
+			"cats":{
+				"safety_description":"Almonds are not recommended for cats, as they can lead to intestinal upset and even blockages. Almonds are high in fat, which can lead to obesity and other health problems.",
+				"guidance":"Almonds should not be fed to cats, as they have no nutritional value for them and are not necessary for their diet. ",
+				"safe":false
+			},
+			"dogs":{
+				"safety_description":"Almonds are safe for dogs to eat in moderation, but they are high in fat and calories. Too many almonds can lead to weight gain and other health problems. However, they are a good source of protein, fiber, healthy fats, vitamin E, and magnesium.",
+				"guidance":"Almonds can be given to dogs as a treat, but not more than 1-2 almonds per day depending of the dog size. They should not make up more than 10% of their daily food intake.",
+				"safe":true
+			}
+		},
+		{
+			"name":"Almond Butter",
+			"cats":{
+				"safety_description":"Almond butter is safe for cats to eat in small amounts as a treat. It is high in fat and calories, which can lead to obesity and other health problems. However, it is a good source of protein, fiber, healthy fats, and some vitamins and minerals.",
+				"guidance":"Almond butter should be given very sparingly to cats as a treat, and no more than a small lick on a fingertip. It should not make up a significant part of their diet.",
+				"safe":true
+			},
+			"dogs":{
+				"safety_description":"Almond butter is safe for dogs to eat in small amounts as a treat. It is high in fat and calories, which can lead to obesity and other health problems. However, it is a good source of protein, fiber, healthy fats, and some vitamins and minerals.",
+				"guidance":"Almond butter can be given to dogs as a treat, but not more than a teaspoon a day depending of the dog size. It should not make up more than 10% of their daily food intake.",
+				"safe":true
+			}
+		},
+		{
+			"name":"Amaranth",
+			"cats":{
+				"safety_description":"Amaranth is safe for cats to eat as a treat, but it is not a necessary part of their diet. It is high in protein, fiber, and some vitamins and minerals.",
+				"guidance":"Amaranth can be given to cats as a treat or mixed into their food, but not more than a small amount. It should not make up a significant part of their diet.",
+				"safe":true
+			},
+			"dogs":{
+				"safety_description":"Amaranth is safe for dogs to eat as a treat, but it is not a necessary part of their diet. It is high in protein, fiber, and some vitamins and minerals.",
+				"guidance":"Amaranth can be given to dogs as a treat or mixed into their food, but not more than a small amount. It should not make up a significant part of their diet.",
+				"safe":true
+			}
+		},
+		{
+			"name":"Apple",
+			"cats":{
+				"safety_description":"Apples are safe for cats as long as they are fed in moderation. They are a good source of fiber, vitamin C, and some antioxidants.",
+				"guidance":"Apples can be a healthy addition to their diet when fed in moderation. They can be given as a treat or mixed into their food. However, they should not make up more than 10% of their daily food intake.",
+				"safe":true
+			},
+			"dogs":{
+				"safety_description":"Apples are safe for dogs to eat in moderation. They are a good source of fiber, vitamin C, and some antioxidants.",
+				"guidance":"Apples can be a healthy addition to their diet when fed in moderation. They can be given as a treat or mixed into their food. However, they should not make up more than 10% of their daily food intake.",
+				"safe":true
+			}
+		},
+		{
+			"name":"Apricot",
+			"cats":{
+				"safety_description":"Apricots are safe for cats to eat in moderation as a treat. However, they are not a necessary part of their diet. Apricots are high in sugar, and should be given sparingly.",
+				"guidance":"Apricots can be given to cats as a treat, but they should not make up more than 10% of their daily food intake.",
+				"safe":true
+			},
+			"dogs":{
+				"safety_description":"Apricots are safe for dogs to eat in moderation as a treat. However, they are not a necessary part of their diet. Apricots are high in sugar, and should be given sparingly.",
+				"guidance":"Apricots can be given to dogs as a treat, but they should not make up more than 10% of their daily food intake.",
+				"safe":true
+			}
+		},
+		{
+			"name":"Artichoke",
+			"cats":{
+				"safety_description":"Artichokes are safe for cats to eat in moderation. They are a good source of fiber, vitamins, and antioxidants.",
+				"guidance":"Artichokes can be a healthy addition to their diet when fed in moderation. They can be given as a treat or mixed into their food. However, they should not make up more than 10% of their daily food intake.",
+				"safe":true
+			},
+			"dogs":{
+				"safety_description":"Artichokes are safe for dogs to eat in moderation. They are a good source of fiber, vitamins, and antioxidants.",
+				"guidance":"Artichokes can be a healthy addition to their diet when fed in moderation. They can be given as a treat or mixed into their food. However, they should not make up more than 10% of their daily food intake.",
+				"safe":true
+			}
+		},
+		{
+			"name":"Asparagus",
+			"cats":{
+				"safety_description":"Asparagus is safe for cats to eat in moderation. It is high in fiber, vitamins, and some minerals.",
+				"guidance":"Asparagus can be a healthy addition to their diet when fed in moderation. They can be given as a treat or mixed into their food. However, they should not make up more than 10% of their daily food intake.",
+				"safe":true
+			},
+			"dogs":{
+				"safety_description":"Asparagus is safe for dogs to eat in moderation. It is low in calories and high in fiber, vitamins, and some minerals.",
+				"guidance":"Asparagus can be a healthy addition to their diet when fed in moderation. It can be given as a treat or mixed into their food. However, they should not make up more than 10% of their daily food intake.",
+				"safe":true
+			}
+		},
+		{
+			"name":"Banana",
+			"cats":{
+				"safety_description":"Bananas are safe for cats to eat in moderation. They are a good source of fiber, vitamins, and some minerals.",
+				"guidance":"Bananas can be a healthy addition to their diet when fed in moderation. They can be given as a treat or mixed into their food. However, they should not make up more than 10% of their daily food intake.",
+				"safe":true
+			},
+			"dogs":{
+				"safety_description":"Bananas are safe for dogs to eat in moderation. They are a good source of fiber, vitamins, and some minerals.",
+				"guidance":"Bananas can be a healthy addition to their diet when fed in moderation. They can be given as a treat or mixed into their food. However, they should not make up more than 10% of their daily food intake.",
+				"safe":true
+			}
+		},
+		{
+			"name":"Beef",
+			"cats":{
+				"safety_description":"Beef is safe for cats to eat in moderation. It is a good source of protein, vitamin B12, and some minerals.",
+				"guidance":"Beef can be included in their diet in small amounts, but should not make up more than 10% of their daily food intake. It is important to choose lean cuts of beef to avoid excessive fat intake.",
+				"safe":true
+			},
+			"dogs":{
+				"safety_description":"Beef is safe for dogs to eat in moderation. It is a good source of protein, vitamins, and minerals.",
+				"guidance":"Beef can be included in their diet in small amounts, but should not make up more than 10% of their daily food intake. It is important to choose lean cuts of beef to avoid excessive fat intake.",
+				"safe":true
+			}
+		},
+		{
+			"name":"Blueberries",
+			"cats":{
+				"safety_description":"Blueberries are safe for cats to eat as a treat. They are high in antioxidants, fiber, and some vitamins and minerals.",
+				"guidance":"Blueberries can be a healthy addition to their diet when fed in moderation. They can be given as a treat or mixed into their food. However, they should not make up more than 10% of their daily food intake.",
+				"safe":true
+			},
+			"dogs":{
+				"safety_description":"Blueberries are safe for dogs to eat as a treat. They are high in antioxidants, fiber, and some vitamins and minerals.",
+				"guidance":"Blueberries can be a healthy addition to their diet when fed in moderation. They can be given as a treat or mixed into their food. However, they should not make up more than 10% of their daily food intake.",
+				"safe":true
+			}
+		},
+		{
+			"name":"Broccoli",
+			"cats":{
+				"safety_description":"Broccoli is safe for cats to eat in moderation. It is high in fiber, vitamins, and minerals.",
+				"guidance":"Broccoli can be a healthy addition to their diet when fed in moderation. They can be given as a treat or mixed into their food. However, they should not make up more than 10% of their daily food intake.",
+				"safe":true
+			},
+			"dogs":{
+				"safety_description":"Broccoli is safe for dogs to eat in moderation. It is low in calories and high in fiber, vitamins, and minerals.",
+				"guidance":"Broccoli can be a healthy addition to their diet when fed in moderation. It can be given as a treat or mixed into their food. However, they should not make up more than 10% of their daily food intake.",
+				"safe":true
+			}
+		},
+		{
+			"name":"Brussels Sprouts",
+			"cats":{
+				"safety_description":"Brussels sprouts are safe for cats to eat in moderation. They are high in fiber, vitamins, and minerals.",
+				"guidance":"Brussels sprouts can be a healthy addition to their diet when fed in moderation. They can be given as a treat or mixed into their food. However, they should not make up more than 10% of their daily food intake.",
+				"safe":true
+			},
+			"dogs":{
+				"safety_description":"Brussels sprouts are safe for dogs to eat in moderation. They are low in calories and high in fiber, vitamins, and minerals.",
+				"guidance":"Brussels sprouts can be a healthy addition to their diet when fed in moderation. They can be given as a treat or mixed into their food. However, they should not make up more than 10% of their daily food intake.",
+				"safe":true
+			}
+		},
+		{
+			"name":"Cabbage",
+			"cats":{
+				"safety_description":"Cabbage is safe for cats to eat in moderation. It is high in fiber, vitamins, and minerals.",
+				"guidance":"Cabbage can be a healthy addition to their diet when fed in moderation. They can be given as a treat or mixed into their food. However, they should not make up more than 10% of their daily food intake.",
+				"safe":true
+			},
+			"dogs":{
+				"safety_description":"Cabbage is safe for dogs to eat in moderation. It is low in calories and high in fiber, vitamins, and minerals.",
+				"guidance":"Cabbage can be a healthy addition to their diet when fed in moderation. They can be given as a treat or mixed into their food. However, they should not make up more than 10% of their daily food intake.",
+				"safe":true
+			}
+		},
+		{
+			"name":"Carrots",
+			"cats":{
+				"safety_description":"Carrots are safe for cats to eat as a treat. They are a good source of fiber, vitamins, and some minerals.",
+				"guidance":"Carrots can be a healthy addition to their diet when fed in moderation. They can be given as a treat or mixed into their food. However, they should not make up more than 10% of their daily food intake.",
+				"safe":true
+			},
+			"dogs":{
+				"safety_description":"Carrots are safe for dogs to eat as a treat. They are a good source of fiber, vitamins, and some minerals.",
+				"guidance":"Carrots can be a healthy addition to their diet when fed in moderation. They can be given as a treat or mixed into their food. However, they should not make up more than 10% of their daily food intake.",
+				"safe":true
+			}
+		},
+		{
+			"name":"Cauliflower",
+			"cats":{
+				"safety_description":"Cauliflower is safe for cats to eat in moderation. It is high in fiber, vitamins, and some minerals.",
+				"guidance":"Cauliflower can be a healthy addition to their diet when fed in moderation. They can be given as a treat or mixed into their food. However, they should not make up more than 10% of their daily food intake.",
+				"safe":true
+			},
+			"dogs":{
+				"safety_description":"Cauliflower is safe for dogs to eat in moderation. It is low in calories and high in fiber, vitamins, and some minerals.",
+				"guidance":"Cauliflower can be a healthy addition to their diet when fed in moderation. It can be given as a treat or mixed into their food. However, they should not make up more than 10% of their daily food intake.",
+				"safe":true
+			}
+		},
+		{
+			"name":"Apples",
+			"cats":{
+				"safety_description":"Apples are safe for cats to eat in moderation. They are a good source of fiber and some vitamins and minerals.",
+				"guidance":"Apples can be given as an occasional treat or mixed into their food. However, they should not make up more than 10% of their daily food intake.",
+				"safe":true
+			},
+			"dogs":{
+				"safety_description":"Apples are safe for dogs to eat in moderation. They are a good source of fiber and some vitamins and minerals.",
+				"guidance":"Apples can be given as an occasional treat or mixed into their food. However, they should not make up more than 10% of their daily food intake.",
+				"safe":true
+			}
+		},
+		{
+			"name":"Banana",
+			"cats":{
+				"safety_description":"Bananas are safe for cats to eat in moderation. They are a good source of fiber, vitamins, and some minerals.",
+				"guidance":"Bananas can be a healthy addition to their diet when fed in moderation. They can be given as a treat or mixed into their food. However, they should not make up more than 10% of their daily food intake.",
+				"safe":true
+			},
+			"dogs":{
+				"safety_description":"Bananas are safe for dogs to eat in moderation. They are a good source of fiber, vitamins, and some minerals.",
+				"guidance":"Bananas can be a healthy addition to their diet when fed in moderation. They can be given as a treat or mixed into their food. However, they should not make up more than 10% of their daily food intake.",
+				"safe":true
+			}
+		},
+		{
+			"name":"Barley",
+			"cats":{
+				"safety_description":"Barley is safe for cats to eat in moderation. It is a good source of fiber, vitamins, and some minerals.",
+				"guidance":"Barley can be fed to cats cooked or raw, but it should not make up more than 10% of their daily food intake. Cooked barley can be mixed with their food, while raw barley can be provided as a small, occasional treat.",
+				"safe":true
+			},
+			"dogs":{
+				"safety_description":"Barley is safe for dogs to eat in moderation. It is a good source of fiber, vitamins, and some minerals.",
+				"guidance":"Barley can be fed to dogs cooked or raw, but it should not make up more than 10% of their daily food intake. Cooked barley can be mixed with their food, while raw barley can be provided as a small, occasional treat.",
+				"safe":true
+			}
+		},
+		{
+			"name":"Beef",
+			"cats":{
+				"safety_description":"Beef is safe for cats to eat in moderation. It is a good source of protein, vitamin B12, and some minerals.",
+				"guidance":"Beef can be included in their diet in small amounts, but should not make up more than 10% of their daily food intake. It is important to choose lean cuts of beef to avoid excessive fat intake.",
+				"safe":true
+			},
+			"dogs":{
+				"safety_description":"Beef is safe for dogs to eat in moderation. It is a good source of protein, vitamins, and minerals.",
+				"guidance":"Beef can be included in their diet in small amounts, but should not make up more than 10% of their daily food intake. It is important to choose lean cuts of beef to avoid excessive fat intake.",
+				"safe":true
+			}
+		},
+		{
+			"name":"Blueberries",
+			"cats":{
+				"safety_description":"Blueberries are safe for cats to eat as a treat. They are high in antioxidants, fiber, and some vitamins and minerals.",
+				"guidance":"Blueberries can be a healthy addition to their diet when fed in moderation. They can be given as a treat or mixed into their food. However, they should not make up more than 10% of their daily food intake.",
+				"safe":true
+			},
+			"dogs":{
+				"safety_description":"Blueberries are safe for dogs to eat as a treat. They are high in antioxidants, fiber, and some vitamins and minerals.",
+				"guidance":"Blueberries can be a healthy addition to their diet when fed in moderation. They can be given as a treat or mixed into their food. However, they should not make up more than 10% of their daily food intake.",
+				"safe":true
+			}
+		},
+		{
+			"name":"Broccoli",
+			"cats":{
+				"safety_description":"Broccoli is safe for cats to eat in moderation. It is high in fiber, vitamins, and minerals.",
+				"guidance":"Broccoli can be a healthy addition to their diet when fed in moderation. They can be given as a treat or mixed into their food. However, they should not make up more than 10% of their daily food intake.",
+				"safe":true
+			},
+			"dogs":{
+				"safety_description":"Broccoli is safe for dogs to eat in moderation. It is low in calories and high in fiber, vitamins, and minerals.",
+				"guidance":"Broccoli can be a healthy addition to their diet when fed in moderation. It can be given as a treat or mixed into their food. However, they should not make up more than 10% of their daily food intake.",
+				"safe":true
+			}
+		},
+		{
+			"name":"Carrots",
+			"cats":{
+				"safety_description":"Carrots are safe for cats to eat in moderation. They are a good source of fiber, vitamins, and some minerals.",
+				"guidance":"Carrots can be fed to cats cooked or raw, but they should be cut into small pieces. They should not make up more than 10% of their daily food intake.",
+				"safe":true
+			},
+			"dogs":{
+				"safety_description":"Carrots are safe for dogs to eat in moderation. They are a good source of fiber, vitamins, and some minerals.",
+				"guidance":"Carrots can be fed to dogs cooked or raw, but they should be cut into small pieces. They can be given as a healthy treat or mixed into their food. However, they should not make up more than 10% of their daily food intake.",
+				"safe":true
+			}
+		},
+		{
+			"name":"Celery",
+			"cats":{
+				"safety_description":"Celery is safe for cats to eat in moderation. It is a good source of fiber and some vitamins and minerals.",
+				"guidance":"Celery can be fed to cats cooked or raw, but it should be cut into small pieces. They should not make up more than 10% of their daily food intake.",
+				"safe":true
+			},
+			"dogs":{
+				"safety_description":"Celery is safe for dogs to eat in moderation. It is a good source of fiber and some vitamins and minerals.",
+				"guidance":"Celery can be fed to dogs cooked or raw, but it should be cut into small pieces. They can be given as a healthy treat or mixed into their food. However, they should not make up more than 10% of their daily food intake.",
+				"safe":true
+			}
+		},
+		{
+			"name":"Chicken",
+			"cats":{
+				"safety_description":"Cooked chicken is safe for cats to eat in moderation. It is a good source of protein and some vitamins.",
+				"guidance":"Cooked chicken can be included in their diet in small amounts, but should not make up more than 10% of their daily food intake. It is important to choose lean cuts of chicken to avoid excessive fat intake.",
+				"safe":true
+			},
+			"dogs":{
+				"safety_description":"Cooked chicken is safe for dogs to eat in moderation. It is a good source of protein and some vitamins.",
+				"guidance":"Cooked chicken can be included in their diet in small amounts, but should not make up more than 10% of their daily food intake. It is important to choose lean cuts of chicken to avoid excessive fat intake.",
+				"safe":true
+			}
+		},
+		{
+			"name":"Dates",
+			"cats":{
+				"safety_description":"Dates are safe for cats to eat in moderation. They are a good source of fiber and some vitamins.",
+				"guidance":"Dates can be fed to cats in small amounts once in a while. Before giving them, make sure to remove the pits, as they can be a choking hazard. They should not make up more than 10% of their daily food intake.",
+				"safe":true
+			},
+			"dogs":{
+				"safety_description":"Dates are safe for dogs to eat in moderation. They are a good source of fiber and some vitamins.",
+				"guidance":"Dates can be fed to dogs in small amounts once in a while. Before giving them, make sure to remove the pits, as they can be a choking hazard. They should not make up more than 10% of their daily food intake.",
+				"safe":true
+			}
+		},
+		{
+			"name":"Duck",
+			"cats":{
+				"safety_description":"Cooked duck is safe for cats to eat in moderation. It is a good source of protein and some vitamins.",
+				"guidance":"Duck can be included in their diet in small amounts, but should not make up more than 10% of their daily food intake. It is important to choose lean cuts of duck to avoid excessive fat intake.",
+				"safe":true
+			},
+			"dogs":{
+				"safety_description":"Cooked duck is safe for dogs to eat in moderation. It is a good source of protein and some vitamins.",
+				"guidance":"Duck can be included in their diet in small amounts, but should not make up more than 10% of their daily food intake. It is important to choose lean cuts of duck to avoid excessive fat intake.",
+				"safe":true
+			}
+		},
+		{
+			"name":"Eggs",
+			"cats":{
+				"safety_description":"Eggs are safe for cats to eat in moderate amounts. They are a good source of protein and some vitamins.",
+				"guidance":"Eggs can be fed to cats cooked or raw. They should be fully cooked to avoid any risk of bacterial infection. They can be given as a treat or mixed into their food. However, they should not make up more than 10% of their daily food intake.",
+				"safe":true
+			},
+			"dogs":{
+				"safety_description":"Eggs are safe for dogs to eat in moderate amounts. They are a good source of protein and some vitamins.",
+				"guidance":"Eggs can be fed to dogs cooked or raw. They should be fully cooked to avoid any risk of bacterial infection. They can be given as a treat or mixed into their food. However, they should not make up more than 10% of their daily food intake.",
+				"safe":true
+			}
+		},
+		{
+			"name":"Eggplant",
+			"cats":{
+				"safety_description":"Eggplant is safe for cats to eat in small amounts. It is low in calories and a good source of fiber, vitamins, and minerals.",
+				"guidance":"Eggplant can be included in their diet in small amounts, but should be cooked and cut into small pieces. They should not make up more than 10% of their daily food intake, as too much can cause gastrointestinal upset.",
+				"safe":true
+			},
+			"dogs":{
+				"safety_description":"Eggplant is safe for dogs to eat in small amounts. It is low in calories and a good source of fiber, vitamins, and minerals.",
+				"guidance":"Eggplant can be included in their diet in small amounts, but should be cooked and cut into small pieces. They can be given as a healthy treat or mixed into their food. However, they should not make up more than 10% of their daily food intake, as too much can cause gastrointestinal upset.",
+				"safe":true
+			}
+		},
+		{
+			"name":"Eggs",
+			"cats":{
+				"safety_description":"Eggs are safe for cats to eat in moderate amounts. They are a good source of protein and some vitamins.",
+				"guidance":"Eggs can be fed to cats cooked or raw. They should be fully cooked to avoid any risk of bacterial infection. They can be given as a treat or mixed into their food. However, they should not make up more than 10% of their daily food intake.",
+				"safe":true
+			},
+			"dogs":{
+				"safety_description":"Eggs are safe for dogs to eat in moderate amounts. They are a good source of protein and some vitamins.",
+				"guidance":"Eggs can be fed to dogs cooked or raw. They should be fully cooked to avoid any risk of bacterial infection. They can be given as a treat or mixed into their food. However, they should not make up more than 10% of their daily food intake.",
+				"safe":true
+			}
+		},
+		{
+			"name":"Dates",
+			"cats":{
+				"safety_description":"Dates are safe for cats to eat in moderation. They are a good source of fiber and some vitamins.",
+				"guidance":"Dates can be fed to cats in small amounts once in a while. Before giving them, make sure to remove the pits, as they can be a choking hazard. They should not make up more than 10% of their daily food intake.",
+				"safe":true
+			},
+			"dogs":{
+				"safety_description":"Dates are safe for dogs to eat in moderation. They are a good source of fiber and some vitamins.",
+				"guidance":"Dates can be fed to dogs in small amounts once in a while. Before giving them, make sure to remove the pits, as they can be a choking hazard. They should not make up more than 10% of their daily food intake.",
+				"safe":true
+			}
+		},
+		{
+			"name":"Duck",
+			"cats":{
+				"safety_description":"Cooked duck is safe for cats to eat in moderation. It is a good source of protein and some vitamins.",
+				"guidance":"Duck can be included in their diet in small amounts, but should not make up more than 10% of their daily food intake. It is important to choose lean cuts of duck to avoid excessive fat intake.",
+				"safe":true
+			},
+			"dogs":{
+				"safety_description":"Cooked duck is safe for dogs to eat in moderation. It is a good source of protein and some vitamins.",
+				"guidance":"Duck can be included in their diet in small amounts, but should not make up more than 10% of their daily food intake. It is important to choose lean cuts of duck to avoid excessive fat intake.",
+				"safe":true
+			}
+		},
+		{
+			"name":"Durian",
+			"cats":{
+				"safety_description":"Durian is not recommended for cats, as it can cause stomach upset and diarrhea. It is best to avoid feeding it to them.",
+				"guidance":"Do not feed durian to cats.",
+				"safe":false
+			},
+			"dogs":{
+				"safety_description":"Durian is not recommended for dogs, as it can cause stomach upset and diarrhea. It is best to avoid feeding it to them.",
+				"guidance":"Do not feed durian to dogs.",
+				"safe":false
+			}
+		},
+		{
+			"name":"Dandelion greens",
+			"cats":{
+				"safety_description":"Dandelion greens are safe for cats to eat in moderation. They are low in calories and a good source of fiber, vitamins, and minerals.",
+				"guidance":"Dandelion greens can be given to cats as a healthy treat. They should be washed and chopped before serving. However, they should not make up more than 10% of their daily food intake.",
+				"safe":true
+			},
+			"dogs":{
+				"safety_description":"Dandelion greens are safe for dogs to eat in moderation. They are low in calories and a good source of fiber, vitamins, and minerals.",
+				"guidance":"Dandelion greens can be given to dogs as a healthy treat. They should be washed and chopped before serving. However, they should not make up more than 10% of their daily food intake.",
+				"safe":true
+			}
+		},
+		{
+			"name":"Duck eggs",
+			"cats":{
+				"safety_description":"Duck eggs are safe for cats to eat in moderate amounts. They are a good source of protein and some vitamins.",
+				"guidance":"Duck eggs can be fed to cats cooked or raw. They should be fully cooked to avoid any risk of bacterial infection. They can be given as a treat or mixed into their food. However, they should not make up more than 10% of their daily food intake.",
+				"safe":true
+			},
+			"dogs":{
+				"safety_description":"Duck eggs are safe for dogs to eat in moderate amounts. They are a good source of protein and some vitamins.",
+				"guidance":"Duck eggs can be fed to dogs cooked or raw. They should be fully cooked to avoid any risk of bacterial infection. They can be given as a treat or mixed into their food. However, they should not make up more than 10% of their daily food intake.",
+				"safe":true
+			}
+		},
+		{
+			"name":"Edamame",
+			"cats":{
+				"safety_description":"Edamame is safe for cats to eat in moderation. It is a good source of protein and fiber, as well as vitamins and minerals.",
+				"guidance":"Edamame can be given to cats as a healthy treat. It should be cooked and shelled before serving. However, it should not make up more than 10% of their daily food intake.",
+				"safe":true
+			},
+			"dogs":{
+				"safety_description":"Edamame is safe for dogs to eat in moderation. It is a good source of protein and fiber, as well as vitamins and minerals.",
+				"guidance":"Edamame can be given to dogs as a healthy treat. It should be cooked and shelled before serving. However, it should not make up more than 10% of their daily food intake.",
+				"safe":true
+			}
+		},
+		{
+			"name":"Eel",
+			"cats":{
+				"safety_description":"Eel is safe for cats to eat in moderate amounts. It is a good source of protein and some vitamins and minerals.",
+				"guidance":"Eel can be included in their diet in small amounts, but it is important to choose lean cuts to avoid excessive fat intake. It can be served cooked or raw. However, it should not make up more than 10% of their daily food intake.",
+				"safe":true
+			},
+			"dogs":{
+				"safety_description":"Eel is safe for dogs to eat in moderate amounts. It is a good source of protein and some vitamins and minerals.",
+				"guidance":"Eel can be included in their diet in small amounts, but it is important to choose lean cuts to avoid excessive fat intake. It can be served cooked or raw. However, it should not make up more than 10% of their daily food intake.",
+				"safe":true
+			}
+		},
+		{
+			"name":"Eggnog",
+			"cats":{
+				"safety_description":"Commercial eggnog is not recommended for cats, as it may contain ingredients that are harmful to them, such as alcohol and high amounts of sugar.",
+				"guidance":"Do not feed eggnog to cats.",
+				"safe":false
+			},
+			"dogs":{
+				"safety_description":"Commercial eggnog is not recommended for dogs, as it may contain ingredients that are harmful to them, such as alcohol and high amounts of sugar.",
+				"guidance":"Do not feed eggnog to dogs.",
+				"safe":false
+			}
+		},
+		{
+			"name":"Eggs",
+			"cats":{
+				"safety_description":"Eggs are safe for cats to eat in moderate amounts. They are a good source of protein and some vitamins.",
+				"guidance":"Eggs can be fed to cats cooked or raw. They should be fully cooked to avoid any risk of bacterial infection. They can be given as a treat or mixed into their food. However, they should not make up more than 10% of their daily food intake.",
+				"safe":true
+			},
+			"dogs":{
+				"safety_description":"Eggs are safe for dogs to eat in moderate amounts. They are a good source of protein and some vitamins.",
+				"guidance":"Eggs can be fed to dogs cooked or raw. They should be fully cooked to avoid any risk of bacterial infection. They can be given as a treat or mixed into their food. However, they should not make up more than 10% of their daily food intake.",
+				"safe":true
+			}
+		},
+		{
+			"name":"Fennel",
+			"cats":{
+				"safety_description":"Fennel is safe for cats to eat in moderation. It is low in calories and a good source of fiber, vitamins, and minerals.",
+				"guidance":"Fennel can be given to cats as a healthy treat. It should be washed and chopped before serving. However, they should not make up more than 10% of their daily food intake.",
+				"safe":true
+			},
+			"dogs":{
+				"safety_description":"Fennel is safe for dogs to eat in moderation. It is low in calories and a good source of fiber, vitamins, and minerals.",
+				"guidance":"Fennel can be given to dogs as a healthy treat. It should be washed and chopped before serving. However, they should not make up more than 10% of their daily food intake.",
+				"safe":true
+			}
+		},
+		{
+			"name":"Fish (cooked)",
+			"cats":{
+				"safety_description":"Cooked fish is safe for cats to eat in moderation. It is a good source of protein and some vitamins and minerals.",
+				"guidance":"Fish can be included in their diet in small amounts. It should be cooked and served boneless to avoid any risk of choking or injury. However, it should not make up more than 10% of their daily food intake.",
+				"safe":true
+			},
+			"dogs":{
+				"safety_description":"Cooked fish is safe for dogs to eat in moderation. It is a good source of protein and some vitamins and minerals.",
+				"guidance":"Fish can be included in their diet in small amounts. It should be cooked and served boneless to avoid any risk of choking or injury. However, it should not make up more than 10% of their daily food intake.",
+				"safe":true
+			}
+		},
+		{
+			"name":"Flaxseed",
+			"cats":{
+				"safety_description":"Flaxseed is safe for cats to eat in small amounts. It is a good source of fiber and some vitamins and minerals.",
+				"guidance":"Flaxseed can be added to their food in small amounts as a source of fiber. It should be ground before serving to improve digestion. However, they should not make up more than 10% of their daily food intake.",
+				"safe":true
+			},
+			"dogs":{
+				"safety_description":"Flaxseed is safe for dogs to eat in small amounts. It is a good source of fiber and some vitamins and minerals.",
+				"guidance":"Flaxseed can be added to their food in small amounts as a source of fiber. It should be ground before serving to improve digestion. However, they should not make up more than 10% of their daily food intake.",
+				"safe":true
+			}
+		},
+		{
+			"name":"Fruit (various)",
+			"cats":{
+				"safety_description":"Most fruits are safe for cats to eat in moderation. They are a good source of fiber, vitamins, and minerals.",
+				"guidance":"Fruits can be included in their diet in small amounts as a source of vitamins and fiber. They should be washed and cut into small pieces before serving. However, they should not make up more than 10% of their daily food intake.",
+				"safe":true
+			},
+			"dogs":{
+				"safety_description":"Most fruits are safe for dogs to eat in moderation. They are a good source of fiber, vitamins, and minerals.",
+				"guidance":"Fruits can be included in their diet in small amounts as a source of vitamins and fiber. They should be washed and cut into small pieces before serving. However, they should not make up more than 10% of their daily food intake.",
+				"safe":true
+			}
+		},
+		{
+			"name":"Green beans",
+			"cats":{
+				"safety_description":"Green beans are safe for cats to eat in moderation. They are low in calories and a good source of fiber, vitamins, and minerals.",
+				"guidance":"Green beans can be given to cats as a healthy treat. They should be cooked and chopped before serving. However, they should not make up more than 10% of their daily food intake.",
+				"safe":true
+			},
+			"dogs":{
+				"safety_description":"Green beans are safe for dogs to eat in moderation. They are low in calories and a good source of fiber, vitamins, and minerals.",
+				"guidance":"Green beans can be given to dogs as a healthy treat. They should be cooked and chopped before serving. However, they should not make up more than 10% of their daily food intake.",
+				"safe":true
+			}
+		},
+		{
+			"name":"Goat meat",
+			"cats":{
+				"safety_description":"Goat meat is safe for cats to eat in moderation. It is a good source of protein and some vitamins and minerals.",
+				"guidance":"Goat meat can be included in their diet in small amounts, but it is important to choose lean cuts to avoid excessive fat intake. It can be served cooked or raw. However, it should not make up more than 10% of their daily food intake.",
+				"safe":true
+			},
+			"dogs":{
+				"safety_description":"Goat meat is safe for dogs to eat in moderation. It is a good source of protein and some vitamins and minerals.",
+				"guidance":"Goat meat can be included in their diet in small amounts, but it is important to choose lean cuts to avoid excessive fat intake. It can be served cooked or raw. However, it should not make up more than 10% of their daily food intake.",
+				"safe":true
+			}
+		},
+		{
+			"name":"Garlic",
+			"cats":{
+				"safety_description":"Garlic is not recommended for cats, as it can cause digestive issues and anemia if consumed in large amounts.",
+				"guidance":"Do not feed garlic to cats.",
+				"safe":false
+			},
+			"dogs":{
+				"safety_description":"Garlic is not recommended for dogs, as it can cause digestive issues and anemia if consumed in large amounts.",
+				"guidance":"Do not feed garlic to dogs.",
+				"safe":false
+			}
+		},
+		{
+			"name":"Grapes",
+			"cats":{
+				"safety_description":"Grapes are not recommended for cats, as they can cause kidney failure.",
+				"guidance":"Do not feed grapes to cats.",
+				"safe":false
+			},
+			"dogs":{
+				"safety_description":"Grapes are not recommended for dogs, as they can cause kidney failure.",
+				"guidance":"Do not feed grapes to dogs.",
+				"safe":false
+			}
+		},
+		{
+			"name":"Haddock",
+			"cats":{
+				"safety_description":"Haddock is safe for cats to eat in moderation. It is a good source of protein and some vitamins and minerals.",
+				"guidance":"Haddock can be included in their diet in small amounts. It should be cooked and served boneless to avoid any risk of choking or injury. However, it should not make up more than 10% of their daily food intake.",
+				"safe":true
+			},
+			"dogs":{
+				"safety_description":"Haddock is safe for dogs to eat in moderation. It is a good source of protein and some vitamins and minerals.",
+				"guidance":"Haddock can be included in their diet in small amounts. It should be cooked and served boneless to avoid any risk of choking or injury. However, it should not make up more than 10% of their daily food intake.",
+				"safe":true
+			}
+		},
+		{
+			"name":"Halibut",
+			"cats":{
+				"safety_description":"Halibut is safe for cats to eat in moderation. It is a good source of protein and some vitamins and minerals.",
+				"guidance":"Halibut can be included in their diet in small amounts. It should be cooked and served boneless to avoid any risk of choking or injury. However, it should not make up more than 10% of their daily food intake.",
+				"safe":true
+			},
+			"dogs":{
+				"safety_description":"Halibut is safe for dogs to eat in moderation. It is a good source of protein and some vitamins and minerals.",
+				"guidance":"Halibut can be included in their diet in small amounts. It should be cooked and served boneless to avoid any risk of choking or injury. However, it should not make up more than 10% of their daily food intake.",
+				"safe":true
+			}
+		},
+		{
+			"name":"Honey",
+			"cats":{
+				"safety_description":"Honey is safe for cats to eat in small amounts. It is a natural sweetener that can provide energy and some antioxidants.",
+				"guidance":"Honey can be given to cats as a healthy treat. It should be raw and unprocessed, and no more than 1/2 teaspoon per day.",
+				"safe":true
+			},
+			"dogs":{
+				"safety_description":"Honey is safe for dogs to eat in small amounts. It is a natural sweetener that can provide energy and some antioxidants.",
+				"guidance":"Honey can be given to dogs as a healthy treat. It should be raw and unprocessed, and no more than 1 teaspoon per day.",
+				"safe":true
+			}
+		},
+		{
+			"name":"Iceberg lettuce",
+			"cats":{
+				"safety_description":"Iceberg lettuce is safe for cats to eat in small amounts. It has limited nutritional value for cats but can provide some hydration.",
+				"guidance":"Iceberg lettuce can be given to cats as a occasional treat. It should be washed and chopped before serving. However, it should not make up more than 10% of their daily food intake.",
+				"safe":true
+			},
+			"dogs":{
+				"safety_description":"Iceberg lettuce is safe for dogs to eat in small amounts. It has limited nutritional value for dogs but can provide some hydration.",
+				"guidance":"Iceberg lettuce can be given to dogs as a occasional treat. It should be washed and chopped before serving. However, it should not make up more than 10% of their daily food intake.",
+				"safe":true
+			}
+		},
+		{
+			"name":"Italian sausage",
+			"cats":{
+				"safety_description":"Italian sausage is not recommended for cats, as it is high in fat and sodium and can lead to digestive issues and pancreatitis.",
+				"guidance":"Do not feed Italian sausage to cats.",
+				"safe":false
+			},
+			"dogs":{
+				"safety_description":"Italian sausage is not recommended for dogs, as it is high in fat and sodium and can lead to digestive issues and pancreatitis.",
+				"guidance":"Do not feed Italian sausage to dogs.",
+				"safe":false
+			}
+		},
+		{
+			"name":"Irish stew",
+			"cats":{
+				"safety_description":"Irish stew is not recommended for cats, as it may contain onion and garlic (both of which are toxic to cats) and high amounts of fat and salt, which can lead to digestive issues and pancreatitis.",
+				"guidance":"Do not feed Irish stew to cats.",
+				"safe":false
+			},
+			"dogs":{
+				"safety_description":"Irish stew is safe for dogs to eat in moderation, as it can contain lean meat and vegetables that provide some nutritional value.",
+				"guidance":"Irish stew can be given to dogs as an occasional treat, but it should be wheat-free and not contain onion or garlic. It should be served in small amounts to avoid digestive issues.",
+				"safe":true
+			}
+		},
+		{
+			"name":"Jicama",
+			"cats":{
+				"safety_description":"Jicama is safe for cats to eat in moderation. It is low in calories and a good source of fiber, vitamins, and minerals.",
+				"guidance":"Jicama can be given to cats as a healthy treat. It should be washed and chopped before serving. However, it should not make up more than 10% of their daily food intake.",
+				"safe":true
+			},
+			"dogs":{
+				"safety_description":"Jicama is safe for dogs to eat in moderation. It is low in calories and a good source of fiber, vitamins, and minerals.",
+				"guidance":"Jicama can be given to dogs as a healthy treat. It should be washed and chopped before serving. However, it should not make up more than 10% of their daily food intake.",
+				"safe":true
+			}
+		},
+		{
+			"name":"Kale",
+			"cats":{
+				"safety_description":"Kale is safe for cats to eat in small amounts. It is a good source of vitamins and minerals, but it should not be the primary vegetable in their diet.",
+				"guidance":"Kale can be given to cats as a occasional treat. It should be washed and chopped before serving. However, it should not make up more than 10% of their daily food intake.",
+				"safe":true
+			},
+			"dogs":{
+				"safety_description":"Kale is safe for dogs to eat in moderation. It is a good source of vitamins and minerals, but it should not be the primary vegetable in their diet.",
+				"guidance":"Kale can be given to dogs as a healthy treat. It should be washed and chopped before serving. However, it should not make up more than 10% of their daily food intake.",
+				"safe":true
+			}
+		},
+		{
+			"name":"Kiwi",
+			"cats":{
+				"safety_description":"Kiwi is safe for cats to eat in small amounts. It is a good source of vitamins and fiber, but it is high in natural sugars.",
+				"guidance":"Kiwi can be given to cats as an occasional treat. It should be peeled and chopped before serving. However, it should not make up more than 10% of their daily food intake.",
+				"safe":true
+			},
+			"dogs":{
+				"safety_description":"Kiwi is safe for dogs to eat in small amounts. It is a good source of vitamins and fiber, but it is high in natural sugars.",
+				"guidance":"Kiwi can be given to dogs as an occasional treat. It should be peeled and chopped before serving. However, it should not make up more than 10% of their daily food intake.",
+				"safe":true
+			}
+		},
+		{
+			"name":"Lamb",
+			"cats":{
+				"safety_description":"Lamb is safe for cats to eat in moderation. It is a good source of protein and some vitamins and minerals.",
+				"guidance":"Lamb can be included in their diet in small amounts, but it is important to choose lean cuts to avoid excessive fat intake. It can be served cooked or raw. However, it should not make up more than 10% of their daily food intake.",
+				"safe":true
+			},
+			"dogs":{
+				"safety_description":"Lamb is safe for dogs to eat in moderation. It is a good source of protein and some vitamins and minerals.",
+				"guidance":"Lamb can be included in their diet in small amounts, but it is important to choose lean cuts to avoid excessive fat intake. It can be served cooked or raw. However, it should not make up more than 10% of their daily food intake.",
+				"safe":true
+			}
+		},
+		{
+			"name":"Lentils",
+			"cats":{
+				"safety_description":"Lentils are safe for cats to eat in small amounts. They are a good source of protein, fiber, vitamins, and minerals.",
+				"guidance":"Lentils can be included in their diet in small amounts. They should be cooked and mashed or pureed before serving. However, they should not make up more than 10% of their daily food intake.",
+				"safe":true
+			},
+			"dogs":{
+				"safety_description":"Lentils are safe for dogs to eat in small amounts. They are a good source of protein, fiber, vitamins, and minerals.",
+				"guidance":"Lentils can be included in their diet in small amounts. They should be cooked and mashed or pureed before serving. However, they should not make up more than 10% of their daily food intake.",
+				"safe":true
+			}
+		},
+		{
+			"name":"Mackerel",
+			"cats":{
+				"safety_description":"Mackerel is safe for cats to eat in moderation. It is a good source of protein, healthy fats, and some vitamins and minerals.",
+				"guidance":"Mackerel can be included in their diet in small amounts. It should be cooked and served boneless to avoid any risk of choking or injury. However, it should not make up more than 10% of their daily food intake.",
+				"safe":true
+			},
+			"dogs":{
+				"safety_description":"Mackerel is safe for dogs to eat in moderation. It is a good source of protein, healthy fats, and some vitamins and minerals.",
+				"guidance":"Mackerel can be included in their diet in small amounts. It should be cooked and served boneless to avoid any risk of choking or injury. However, it should not make up more than 10% of their daily food intake.",
+				"safe":true
+			}
+		},
+		{
+			"name":"Mango",
+			"cats":{
+				"safety_description":"Mango is safe for cats to eat in small amounts. It is a good source of vitamins and fiber, but it is high in natural sugars.",
+				"guidance":"Mango can be given to cats as an occasional treat. It should be peeled and chopped before serving. However, it should not make up more than 10% of their daily food intake.",
+				"safe":true
+			},
+			"dogs":{
+				"safety_description":"Mango is safe for dogs to eat in small amounts. It is a good source of vitamins and fiber, but it is high in natural sugars.",
+				"guidance":"Mango can be given to dogs as an occasional treat. It should be peeled and chopped before serving. However, it should not make up more than 10% of their daily food intake.",
+				"safe":true
+			}
+		},
+		{
+			"name":"Mushrooms",
+			"cats":{
+				"safety_description":"Mushrooms are safe for cats to eat in small amounts. Most types of mushrooms are not toxic to cats, but it is best to stick to safe varieties like button, cremini, and shiitake.",
+				"guidance":"Mushrooms can be given to cats as an occasional treat. They should be cooked and chopped before serving. However, they should not make up more than 10% of their daily food intake.",
+				"safe":true
+			},
+			"dogs":{
+				"safety_description":"Mushrooms are safe for dogs to eat in small amounts. Most types of mushrooms are not toxic to dogs, but it is best to stick to safe varieties like button, cremini, and shiitake.",
+				"guidance":"Mushrooms can be given to dogs as an occasional treat. They should be cooked and chopped before serving. However, they should not make up more than 10% of their daily food intake.",
+				"safe":true
+			}
+		},
+		{
+			"name":"Nectarines",
+			"cats":{
+				"safety_description":"Nectarines are safe for cats to eat in small amounts. They are a good source of vitamins and fiber, but they are high in natural sugars.",
+				"guidance":"Nectarines can be given to cats as an occasional treat. They should be washed, peeled, and chopped before serving. However, they should not make up more than 10% of their daily food intake.",
+				"safe":true
+			},
+			"dogs":{
+				"safety_description":"Nectarines are safe for dogs to eat in small amounts. They are a good source of vitamins and fiber, but they are high in natural sugars.",
+				"guidance":"Nectarines can be given to dogs as an occasional treat. They should be washed, peeled, and chopped before serving. However, they should not make up more than 10% of their daily food intake.",
+				"safe":true
+			}
+		},
+		{
+			"name":"New York Strip Steak",
+			"cats":{
+				"safety_description":"New York Strip Steak is not recommended for cats, as it is high in fat and sodium and can lead to digestive issues and pancreatitis.",
+				"guidance":"Do not feed New York Strip Steak to cats.",
+				"safe":false
+			},
+			"dogs":{
+				"safety_description":"New York Strip Steak is safe for dogs to eat in moderation, as it can provide protein and some vitamins and minerals. However, it is high in fat and should not be given often.",
+				"guidance":"New York Strip Steak can be given to dogs as an occasional treat. It should be cooked and served boneless to avoid any risk of choking or injury. However, it should not make up more than 10% of their daily food intake.",
+				"safe":true
+			}
+		},
+		{
+			"name":"Nonfat Greek yogurt",
+			"cats":{
+				"safety_description":"Nonfat Greek yogurt is safe for cats to eat in small amounts. It is a good source of protein and probiotics.",
+				"guidance":"Nonfat Greek yogurt can be given to cats as a healthy treat. It should be plain and unsweetened, and should not make up more than 10% of their daily food intake.",
+				"safe":true
+			},
+			"dogs":{
+				"safety_description":"Nonfat Greek yogurt is safe for dogs to eat in small amounts. It is a good source of protein and probiotics.",
+				"guidance":"Nonfat Greek yogurt can be given to dogs as a healthy treat. It should be plain and unsweetened, and should not make up more than 10% of their daily food intake.",
+				"safe":true
+			}
+		},
+		{
+			"name":"Oatmeal",
+			"cats":{
+				"safety_description":"Oatmeal is safe for cats to eat in small amounts. It is a good source of fiber, but it is not nutritionally necessary for their diet.",
+				"guidance":"Oatmeal can be given to cats as an occasional treat. It should be plain and unsweetened, and should not make up more than 10% of their daily food intake.",
+				"safe":true
+			},
+			"dogs":{
+				"safety_description":"Oatmeal is safe for dogs to eat in small amounts. It is a good source of fiber and can be beneficial for their digestion.",
+				"guidance":"Oatmeal can be included in their diet in small amounts. It should be plain and unsweetened, and should not make up more than 10% of their daily food intake.",
+				"safe":true
+			}
+		},
+		{
+			"name":"Octopus",
+			"cats":{
+				"safety_description":"Octopus is safe for cats to eat in moderation. It is a good source of protein and some vitamins and minerals.",
+				"guidance":"Octopus can be included in their diet in small amounts. It should be cooked and served boneless to avoid any risk of choking or injury. However, it should not make up more than 10% of their daily food intake.",
+				"safe":true
+			},
+			"dogs":{
+				"safety_description":"Octopus is safe for dogs to eat in moderation. It is a good source of protein and some vitamins and minerals.",
+				"guidance":"Octopus can be included in their diet in small amounts. It should be cooked and served boneless to avoid any risk of choking or injury. However, it should not make up more than 10% of their daily food intake.",
+				"safe":true
+			}
+		},
+		{
+			"name":"Oranges",
+			"cats":{
+				"safety_description":"Oranges are safe for cats to eat in small amounts. They are a good source of vitamins and fiber, but they are high in natural sugars.",
+				"guidance":"Oranges can be given to cats as an occasional treat. They should be peeled and chopped before serving. However, they should not make up more than 10% of their daily food intake.",
+				"safe":true
+			},
+			"dogs":{
+				"safety_description":"Oranges are safe for dogs to eat in small amounts. They are a good source of vitamins and fiber, but they are high in natural sugars.",
+				"guidance":"Oranges can be given to dogs as an occasional treat. They should be peeled and chopped before serving. However, they should not make up more than 10% of their daily food intake.",
+				"safe":true
+			}
+		},
+		{
+			"name":"Peanut Butter",
+			"cats":{
+				"safety_description":"Peanut butter is safe for cats to eat in small amounts. It is a good source of protein and healthy fats.",
+				"guidance":"Peanut butter can be given to cats as an occasional treat. It should be unsalted, unsweetened, and free of xylitol, which is toxic to cats. It should not make up more than 10% of their daily food intake.",
+				"safe":true
+			},
+			"dogs":{
+				"safety_description":"Peanut butter is safe for dogs to eat in small amounts. It is a good source of protein and healthy fats.",
+				"guidance":"Peanut butter can be given to dogs as a healthy treat. It should be unsalted, unsweetened, and free of xylitol, which is toxic to dogs. However, it should not make up more than 10% of their daily food intake.",
+				"safe":true
+			}
+		},
+		{
+			"name":"Peas",
+			"cats":{
+				"safety_description":"Peas are safe for cats to eat in small amounts. They are a good source of protein, fiber, vitamins, and minerals.",
+				"guidance":"Peas can be included in their diet in small amounts. They should be cooked and mashed or pureed before serving. However, they should not make up more than 10% of their daily food intake.",
+				"safe":true
+			},
+			"dogs":{
+				"safety_description":"Peas are safe for dogs to eat in moderate amounts. They are a good source of protein, fiber, vitamins, and minerals.",
+				"guidance":"Peas can be included in their diet as a healthy and nutritious ingredient. They can be served cooked or raw. However, they should not make up more than 10% of their daily food intake.",
+				"safe":true
+			}
+		},
+		{
+			"name":"Pork",
+			"cats":{
+				"safety_description":"Pork is safe for cats to eat in moderation. It is a good source of protein and some vitamins and minerals.",
+				"guidance":"Pork can be included in their diet in small amounts. It should be cooked and served boneless to avoid any risk of choking or injury. However, it should not make up more than 10% of their daily food intake.",
+				"safe":true
+			},
+			"dogs":{
+				"safety_description":"Pork is safe for dogs to eat in moderation. It is a good source of protein and some vitamins and minerals.",
+				"guidance":"Pork can be included in their diet in small amounts. It should be cooked and served boneless to avoid any risk of choking or injury. However, it should not make up more than 10% of their daily food intake.",
+				"safe":true
+			}
+		},
+		{
+			"name":"Raspberries",
+			"cats":{
+				"safety_description":"Raspberries are safe for cats to eat in small amounts. They are a good source of vitamins and fiber, but they are high in natural sugars.",
+				"guidance":"Raspberries can be given to cats as an occasional treat. They should be washed and chopped before serving. However, they should not make up more than 10% of their daily food intake.",
+				"safe":true
+			},
+			"dogs":{
+				"safety_description":"Raspberries are safe for dogs to eat in small amounts. They are a good source of vitamins and fiber, but they are high in natural sugars.",
+				"guidance":"Raspberries can be given to dogs as an occasional treat. They should be washed and chopped before serving. However, they should not make up more than 10% of their daily food intake.",
+				"safe":true
+			}
+		},
+		{
+			"name":"Rice",
+			"cats":{
+				"safety_description":"Rice is safe for cats to eat in small amounts. It is a good source of carbohydrates and can be beneficial for their digestion.",
+				"guidance":"Rice can be included in their diet in small amounts. It should be plain and unsalted. However, it should not make up more than 10% of their daily food intake.",
+				"safe":true
+			},
+			"dogs":{
+				"safety_description":"Rice is safe for dogs to eat in moderation. It is a good source of carbohydrates and can be beneficial for their digestion.",
+				"guidance":"Rice can be included in their diet in small amounts. It should be plain and unsalted. However, it should not make up more than 10% of their daily food intake.",
+				"safe":true
+			}
+		},
+		{
+			"name":"Roast Beef",
+			"cats":{
+				"safety_description":"Roast beef is not recommended for cats, as it is high in fat and sodium and can lead to digestive issues and pancreatitis.",
+				"guidance":"Do not feed roast beef to cats.",
+				"safe":false
+			},
+			"dogs":{
+				"safety_description":"Roast beef is safe for dogs to eat in moderation, as it can provide protein and some vitamins and minerals. However, it is high in fat and should not be given often.",
+				"guidance":"Roast beef can be given to dogs as an occasional treat. It should be cooked and served boneless to avoid any risk of choking or injury. However, it should not make up more than 10% of their daily food intake.",
+				"safe":true
+			}
+		},
+		{
+			"name":"Salmon",
+			"cats":{
+				"safety_description":"Salmon is safe for cats to eat in moderation, as it is a good source of protein and omega-3 fatty acids. However, it should be cooked and served boneless to avoid any risk of choking or injury.",
+				"guidance":"Salmon can be included in their diet in small amounts. However, it should not make up more than 10% of their daily food intake.",
+				"safe":true
+			},
+			"dogs":{
+				"safety_description":"Salmon is safe for dogs to eat in moderation, as it is a good source of protein and omega-3 fatty acids. However, it should be cooked and served boneless to avoid any risk of choking or injury.",
+				"guidance":"Salmon can be included in their diet in small amounts. However, it should not make up more than 10% of their daily food intake.",
+				"safe":true
+			}
+		},
+		{
+			"name":"Scrambled Eggs",
+			"cats":{
+				"safety_description":"Scrambled eggs are safe for cats to eat in small amounts. They are a good source of protein and some vitamins and minerals.",
+				"guidance":"Scrambled eggs can be given to cats as a healthy treat. They should be plain and unsalted. However, they should not make up more than 10% of their daily food intake.",
+				"safe":true
+			},
+			"dogs":{
+				"safety_description":"Scrambled eggs are safe for dogs to eat in moderation, as they are a good source of protein and some vitamins and minerals.",
+				"guidance":"Scrambled eggs can be given to dogs as a healthy treat. They should be plain and unsalted. However, they should not make up more than 10% of their daily food intake.",
+				"safe":true
+			}
+		},
+		{
+			"name":"Sweet Potato",
+			"cats":{
+				"safety_description":"Sweet potato is safe for cats to eat in small amounts. It is a good source of fiber and some vitamins and minerals.",
+				"guidance":"Sweet potato can be included in their diet in small amounts. It should be cooked and mashed or pureed before serving. However, it should not make up more than 10% of their daily food intake.",
+				"safe":true
+			},
+			"dogs":{
+				"safety_description":"Sweet potato is safe for dogs to eat in moderation, as it is a good source of fiber and some vitamins and minerals.",
+				"guidance":"Sweet potato can be included in their diet as a healthy and nutritious ingredient. It can be served cooked or raw. However, it should not make up more than 10% of their daily food intake.",
+				"safe":true
+			}
+		},
+		{
+			"name":"Tuna",
+			"cats":{
+				"safety_description":"Tuna is safe for cats to eat in small amounts, as it is a good source of protein and some vitamins and minerals. However, it should be served sparingly and should never be the sole source of a cat's diet, as it can lead to deficiencies.",
+				"guidance":"Tuna can be included in their diet in small amounts. It should be cooked and served fresh or canned in water, not oil. However, it should not make up more than 10% of their daily food intake.",
+				"safe":true
+			},
+			"dogs":{
+				"safety_description":"Tuna is safe for dogs to eat in moderation, as it is a good source of protein and some vitamins and minerals. However, it should be served sparingly and should never be the sole source of a dog's diet, as it can lead to deficiencies.",
+				"guidance":"Tuna can be included in their diet in small amounts. It should be cooked and served fresh or canned in water, not oil. However, it should not make up more than 10% of their daily food intake.",
+				"safe":true
+			}
+		},
+		{
+			"name":"Turkey",
+			"cats":{
+				"safety_description":"Turkey is safe for cats to eat in moderation. It is a good source of protein and some vitamins and minerals.",
+				"guidance":"Turkey can be included in their diet in small amounts. It should be cooked and served boneless to avoid any risk of choking or injury. However, it should not make up more than 10% of their daily food intake.",
+				"safe":true
+			},
+			"dogs":{
+				"safety_description":"Turkey is safe for dogs to eat in moderation. It is a good source of protein and some vitamins and minerals.",
+				"guidance":"Turkey can be included in their diet in small amounts. It should be cooked and served boneless to avoid any risk of choking or injury. However, it should not make up more than 10% of their daily food intake.",
+				"safe":true
+			}
+		},
+		{
+			"name":"Tomatoes",
+			"cats":{
+				"safety_description":"Tomatoes are safe for cats to eat in small amounts. However, they should be cooked or pureed to break down the toxic enzyme solanine, which can cause gastrointestinal upset and nervous system depression.",
+				"guidance":"Tomatoes can be included in their diet in small amounts. They should be cooked and pureed before serving. However, they should not make up more than 10% of their daily food intake.",
+				"safe":true
+			},
+			"dogs":{
+				"safety_description":"Tomatoes are safe for dogs to eat in small amounts. However, they should be cooked or pureed to break down the toxic enzyme solanine, which can cause gastrointestinal upset and nervous system depression.",
+				"guidance":"Tomatoes can be included in their diet as an occasional treat. They should be cooked and pureed before serving. However, they should not make up more than 10% of their daily food intake.",
+				"safe":true
+			}
+		},
+		{
+			"name":"Watermelon",
+			"cats":{
+				"safety_description":"Watermelon is safe for cats to eat in small amounts. It is a good source of vitamins and antioxidants but is high in natural sugars.",
+				"guidance":"Watermelon can be given to cats as a refreshing treat on occasion. The rind and seeds should be removed, and the fruit should be chopped into small pieces before serving. However, they should not make up more than 10% of their daily food intake.",
+				"safe":true
+			},
+			"dogs":{
+				"safety_description":"Watermelon is safe for dogs to eat in small amounts. It is a good source of vitamins and antioxidants but is high in natural sugars.",
+				"guidance":"Watermelon can be given to dogs as a refreshing treat on occasion. The rind and seeds should be removed, and the fruit should be chopped into small pieces before serving. However, they should not make up more than 10% of their daily food intake.",
+				"safe":true
+			}
+		},
+		{
+			"name":"Whitefish",
+			"cats":{
+				"safety_description":"Whitefish is safe for cats to eat in moderation. It is a good source of protein and omega-3 fatty acids.",
+				"guidance":"Whitefish can be included in their diet in small amounts. However, it should be served sparingly and should never be the sole source of their diet, as it can lead to deficiencies. It should be cooked and served boneless to avoid any risk of choking or injury. However, it should not make up more than 10% of their daily food intake.",
+				"safe":true
+			},
+			"dogs":{
+				"safety_description":"Whitefish is safe for dogs to eat in moderation. It is a good source of protein and omega-3 fatty acids.",
+				"guidance":"Whitefish can be included in their diet in small amounts. However, it should be served sparingly and should never be the sole source of their diet, as it can lead to deficiencies. It should be cooked and served boneless to avoid any risk of choking or injury. However, it should not make up more than 10% of their daily food intake.",
+				"safe":true
+			}
+		},
+		{
+			"name":"Wild Rice",
+			"cats":{
+				"safety_description":"Wild rice is safe for cats to eat in small amounts. It is a good source of fiber and some vitamins and minerals.",
+				"guidance":"Wild rice can be included in their diet in small amounts. It should be plain and unsalted. However, it should not make up more than 10% of their daily food intake.",
+				"safe":true
+			},
+			"dogs":{
+				"safety_description":"Wild rice is safe for dogs to eat in moderation. It is a good source of fiber and some vitamins and minerals.",
+				"guidance":"Wild rice can be included in their diet in small amounts. It should be plain and unsalted. However, it should not make up more than 10% of their daily food intake.",
+				"safe":true
+			}
+		},
+		{
+			"name":"Yogurt",
+			"cats":{
+				"safety_description":"Plain, unsweetened yogurt is safe for cats to eat in small amounts, as it is a good source of protein and calcium.",
+				"guidance":"Yogurt can be included in their diet in small amounts. However, cats may be lactose intolerant, so it is important to monitor for any signs of gastrointestinal upset. It should be plain and unsweetened, preferably organic and without any additives or artificial preservatives. However, it should not make up more than 10% of their daily food intake.",
+				"safe":true
+			},
+			"dogs":{
+				"safety_description":"Plain, unsweetened yogurt is safe for dogs to eat in moderation, as it is a good source of protein and calcium.",
+				"guidance":"Yogurt can be included in their diet as an occasional treat. Dogs may be lactose intolerant, so it is important to monitor for any signs of gastrointestinal upset. It should be plain and unsweetened, preferably organic and without any additives or artificial preservatives. However, it should not make up more than 10% of their daily food intake.",
+				"safe":true
+			}
+		},
+		{
+			"name":"Yellow Squash",
+			"cats":{
+				"safety_description":"Yellow squash is safe for cats to eat in small amounts. It is a good source of vitamins and fiber.",
+				"guidance":"Yellow squash can be included in their diet as a healthy and nutritious ingredient. It should be cooked and mashed or pureed before serving. However, it should not make up more than 10% of their daily food intake.",
+				"safe":true
+			},
+			"dogs":{
+				"safety_description":"Yellow squash is safe for dogs to eat in moderation. It is a good source of vitamins and fiber.",
+				"guidance":"Yellow squash can be included in their diet as a healthy and nutritious ingredient. It can be served cooked or raw, sliced or diced. However, it should not make up more than 10% of their daily food intake.",
+				"safe":true
+			}
+		},
+		{
+			"name":"Alcohol",
+			"cats":{
+				"safety_description":"Alcohol can cause vomiting, diarrhea, decreased coordination, central nervous system depression, difficulty breathing, tremors, abnormal blood acidity, coma, and even death in pets.",
+				"guidance":"Alcohol is highly toxic to cats and should never be given to them under any circumstances.",
+				"safe":false
+			},
+			"dogs":{
+				"safety_description":"Alcohol can cause vomiting, diarrhea, decreased coordination, central nervous system depression, difficulty breathing, tremors, abnormal blood acidity, coma, and even death in pets.",
+				"guidance":"Alcohol is highly toxic to dogs and should never be given to them under any circumstances.",
+				"safe":false
+			}
+		},
+		{
+			"name":"Avocado",
+			"cats":{
+				"safety_description":"Avocado contains persin, which can cause vomiting, diarrhea, and fluid accumulation in the chest, abdomen, and heart in pets.",
+				"guidance":"Avocado should not be given to cats as it may cause digestive upset, breathing difficulties, heart problems, and even death.",
+				"safe":false
+			},
+			"dogs":{
+				"safety_description":"Avocado contains persin, which can cause vomiting, diarrhea, and fluid accumulation in the chest, abdomen, and heart in pets.",
+				"guidance":"While small amounts of avocado flesh are generally safe for dogs, the pit, skin, and leaves contain persin, which can lead to vomiting, diarrhea, and respiratory distress if ingested. It's best to avoid feeding avocado to dogs altogether.",
+				"safe":false
+			}
+		},
+		{
+			"name":"Chocolate",
+			"cats":{
+				"safety_description":"Chocolate contains theobromine and caffeine, which can cause vomiting, diarrhea, increased thirst, panting, restlessness, increased heart rate, muscle tremors, seizures, and even death in pets.",
+				"guidance":"Chocolate should never be given to cats as even a small amount can lead to serious health problems.",
+				"safe":false
+			},
+			"dogs":{
+				"safety_description":"Chocolate contains theobromine and caffeine, which can cause vomiting, diarrhea, increased thirst, panting, restlessness, increased heart rate, muscle tremors, seizures, and even death in pets.",
+				"guidance":"Chocolate is highly toxic to dogs, with darker chocolate and unsweetened baking chocolate containing higher levels of theobromine. Signs of chocolate poisoning in dogs may include vomiting, diarrhea, restlessness, tremors, seizures, and an irregular heartbeat. Seek veterinary attention right away if you suspect your dog has ingested chocolate.",
+				"safe":false
+			}
+		},
+		{
+			"name":"Garlic",
+			"cats":{
+				"safety_description":"Garlic can damage red blood cells and cause anemia in pets. Symptoms may include weakness, lethargy, loss of appetite, pale gums, and even collapse or death.",
+				"guidance":"Garlic should not be given to cats in any amount.",
+				"safe":false
+			},
+			"dogs":{
+				"safety_description":"Garlic can damage red blood cells and cause anemia in pets. Symptoms may include weakness, lethargy, loss of appetite, pale gums, and even collapse or death.",
+				"guidance":"While small amounts of garlic are generally safe for dogs, larger doses can lead to health problems. Signs of garlic poisoning in dogs may include vomiting, diarrhea, lethargy, weakness, loss of appetite, pale gums, and an elevated heart rate. If your dog has ingested garlic, contact your veterinarian for advice.",
+				"safe":false
+			}
+		},
+		{
+			"name":"Onions",
+			"cats":{
+				"safety_description":"Onions can damage red blood cells and cause anemia in pets. Symptoms may include weakness, lethargy, loss of appetite, pale gums, and even collapse or death.",
+				"guidance":"Onions should not be given to cats in any amount.",
+				"safe":false
+			},
+			"dogs":{
+				"safety_description":"Onions can damage red blood cells and cause anemia in pets. Symptoms may include weakness, lethargy, loss of appetite, pale gums, and even collapse or death.",
+				"guidance":"While small amounts of onions are generally safe for dogs, larger doses can lead to health problems. Signs of onion poisoning in dogs may include vomiting, diarrhea, lethargy, weakness, loss of appetite, pale gums, and an elevated heart rate. If your dog has ingested onions, contact your veterinarian for advice.",
+				"safe":false
+			}
+		},
+		{
+			"name":"Xylitol",
+			"cats":{
+				"safety_description":"Xylitol is a sugar substitute commonly found in chewing gum, candy, baked goods, and other products. It can cause insulin release, leading to hypoglycemia (low blood sugar), seizures, liver failure, and even death in pets.",
+				"guidance":"Xylitol should never be given to cats, and cats should not be allowed access to any products containing xylitol.",
+				"safe":false
+			},
+			"dogs":{
+				"safety_description":"Xylitol is a sugar substitute commonly found in chewing gum, candy, baked goods, and other products. It can cause insulin release, leading to hypoglycemia (low blood sugar), seizures, liver failure, and even death in pets.",
+				"guidance":"Xylitol is highly toxic to dogs in even small amounts. Signs of xylitol poisoning in dogs may include vomiting, loss of coordination, seizures, and liver failure. Contact your veterinarian immediately if you suspect your dog has ingested xylitol, even if you don't see any symptoms right away.",
+				"safe":false
+			}
+		},
+		{
+			"name":"Grapes and Raisins",
+			"cats":{
+				"safety_description":"Grapes and raisins can cause kidney failure in pets, with symptoms including vomiting, diarrhea, lethargy, and decreased appetite.",
+				"guidance":"Grapes and raisins should not be given to cats as they can cause serious kidney problems.",
+				"safe":false
+			},
+			"dogs":{
+				"safety_description":"Grapes and raisins can cause kidney failure in pets, with symptoms including vomiting, diarrhea, lethargy, and decreased appetite.",
+				"guidance":"Grapes and raisins are highly toxic to dogs and can cause kidney failure, with symptoms including vomiting, diarrhea, lethargy, and decreased appetite. Contact your veterinarian immediately if you suspect your dog has ingested grapes or raisins.",
+				"safe":false
+			}
+		},
+		{
+			"name":"Macadamia Nuts",
+			"cats":{
+				"safety_description":"Macadamia nuts can cause lethargy, vomiting, hyperthermia (elevated body temperature), tremors, and possible neurological effects in pets.",
+				"guidance":"Macadamia nuts should not be given to cats as they can cause serious health problems.",
+				"safe":false
+			},
+			"dogs":{
+				"safety_description":"Macadamia nuts can cause lethargy, vomiting, hyperthermia (elevated body temperature), tremors, and possible neurological effects in pets.",
+				"guidance":"Macadamia nuts are highly toxic to dogs and can cause symptoms including lethargy, vomiting, hyperthermia (elevated body temperature), tremors, and possible neurological effects. Contact your veterinarian immediately if you suspect your dog has ingested macadamia nuts.",
+				"safe":false
+			}
+		},
+		{
+			"name":"Raw Meat and Eggs",
+			"cats":{
+				"safety_description":"Raw meat and eggs can contain bacteria such as Salmonella and E. coli, which can cause gastrointestinal problems in pets.",
+				"guidance":"Raw meat and eggs should not be given to cats as they may contain harmful bacteria that can make them sick.",
+				"safe":false
+			},
+			"dogs":{
+				"safety_description":"Raw meat and eggs can contain bacteria such as Salmonella and E. coli, which can cause gastrointestinal problems in pets.",
+				"guidance":"Raw meat and eggs should be avoided for dogs to reduce the risk of bacterial contamination. Always cook meat and eggs thoroughly before feeding them to your dog.",
+				"safe":false
+			}
+		},
+		{
+			"name":"Antifreeze",
+			"cats":{
+				"safety_description":"Antifreeze contains ethylene glycol, which can be fatal to pets even in small amounts. Symptoms may include vomiting, diarrhea, loss of coordination, seizures, kidney failure, and even death.",
+				"guidance":"Antifreeze should be kept out of reach of pets and spills should be cleaned up immediately. If you suspect your cat has ingested antifreeze, seek veterinary attention right away.",
+				"safe":false
+			},
+			"dogs":{
+				"safety_description":"Antifreeze contains ethylene glycol, which can be fatal to pets even in small amounts. Symptoms may include vomiting, diarrhea, loss of coordination, seizures, kidney failure, and even death.",
+				"guidance":"Antifreeze should be kept out of reach of pets and spills should be cleaned up immediately. If you suspect your dog has ingested antifreeze, seek veterinary attention right away.",
+				"safe":false
+			}
+		},
+		{
+			"name":"Household Cleaners",
+			"cats":{
+				"safety_description":"Many household cleaners contain chemicals that can be toxic to pets, especially if ingested. Symptoms may include vomiting, diarrhea, drooling, difficulty breathing, and even death in severe cases.",
+				"guidance":"Household cleaners should be kept out of reach of pets, and surfaces should be thoroughly cleaned and dried before allowing pets back into an area. If your cat has ingested a household cleaner, contact your veterinarian or a poison control center immediately.",
+				"safe":false
+			},
+			"dogs":{
+				"safety_description":"Many household cleaners contain chemicals that can be toxic to pets, especially if ingested. Symptoms may include vomiting, diarrhea, drooling, difficulty breathing, and even death in severe cases.",
+				"guidance":"Household cleaners should be kept out of reach of pets, and surfaces should be thoroughly cleaned and dried before allowing pets back into an area. If your dog has ingested a household cleaner, contact your veterinarian or a poison control center immediately.",
+				"safe":false
+			}
+		},
+		{
+			"name":"Medications",
+			"cats":{
+				"safety_description":"Many human medications, including over-the-counter pain relievers, can be toxic to cats if ingested. Symptoms may include vomiting, diarrhea, lethargy, loss of appetite, and even death.",
+				"guidance":"Never give your cat medication intended for humans, and keep all medications out of reach of pets. If your cat has ingested a medication, contact your veterinarian or a poison control center immediately.",
+				"safe":false
+			},
+			"dogs":{
+				"safety_description":"Many human medications, including over-the-counter pain relievers, can be toxic to dogs if ingested. Symptoms may include vomiting, diarrhea, lethargy, loss of appetite, and even death.",
+				"guidance":"Never give your dog medication intended for humans, and keep all medications out of reach of pets. If your dog has ingested a medication, contact your veterinarian or a poison control center immediately.",
+				"safe":false
+			}
+		},
+		{
+			"name":"Lilies",
+			"cats":{
+				"safety_description":"Many types of lilies, including Easter lilies, tiger lilies, and Asiatic lilies, can be toxic to cats if ingested. Symptoms may include vomiting, loss of appetite, lethargy, and kidney failure.",
+				"guidance":"Keep all lilies out of reach of cats, and seek veterinary attention immediately if your cat has ingested any part of a lily plant.",
+				"safe":false
+			},
+			"dogs":{
+				"safety_description":"While lilies are not toxic to dogs, ingestion can lead to gastrointestinal upset.",
+				"guidance":"It's still best to keep lilies out of reach of dogs to avoid them ingesting any part of the plant.",
+				"safe":true
+			}
+		}
+	]
 }
