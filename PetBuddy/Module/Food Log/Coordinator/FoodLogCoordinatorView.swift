@@ -14,8 +14,13 @@ struct FoodLogCoordinatorView: View {
 	
 	// MARK: Views
 	var body: some View {
-		NavigationView {
-			FoodLogView(viewModel: coordinator.viewModel)
-		}
+        NavigationStack {
+            FoodLogView(viewModel: coordinator.viewModel)
+                .navigationDestination(
+                    isPresented: $coordinator.shouldShowAddMeal) {
+                        AddMealCoordinatorView(
+                            coordinator: coordinator.addMealCoordinator)
+                    }
+        }
 	}
 }

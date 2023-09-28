@@ -14,6 +14,7 @@ struct FoodLogView: View {
 	@ObservedResults(PetModel.self) var pets
 	@StateObject var weekManager = WeekManager()
 	
+    // TODO: Add "+" for adding new meal
 	var body: some View {
 		VStack {
 			PBNavigationBar(title: viewModel.title, subtitle: nil)

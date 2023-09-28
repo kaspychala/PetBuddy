@@ -11,9 +11,11 @@ class AddMealViewModel: ObservableObject {
 
     @Published var title: String
     weak var coordinator: AddMealCoordinator?
+    let mealRepository: MealRepository
 
     init(title: String) {
         self.title = title
+        self.mealRepository = MealRepository()
     }
 
     func addMeal(meal: MealModel) {
