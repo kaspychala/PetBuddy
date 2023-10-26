@@ -26,6 +26,9 @@ struct HomeCoordinatorView: View {
 							ClickerCoordinatorView(
 								coordinator: coordinator.clickerCoordinator)
 						}
+                    .navigationTitle("Home")
+                    .navigationBarTitleDisplayMode(.large)
+                    .toolbar(.visible)
 		}
 	}
 }

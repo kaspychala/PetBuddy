@@ -983,7 +983,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				DEVELOPMENT_TEAM = F6N6BU583P;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = PetBuddy/Resources/Info.generated.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1119,7 +1119,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				DEVELOPMENT_TEAM = F6N6BU583P;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = PetBuddy/Resources/Info.generated.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

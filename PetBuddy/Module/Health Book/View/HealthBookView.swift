@@ -13,7 +13,7 @@ struct HealthBookView: View {
 	
 	var body: some View {
 		VStack {
-			PBNavigationBar(title: viewModel.title, subtitle: nil)
+//			PBNavigationBar(title: viewModel.title, subtitle: nil)
 			Spacer()
 		}
 	}

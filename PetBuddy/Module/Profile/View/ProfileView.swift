@@ -15,7 +15,7 @@ struct ProfileView: View {
 	
 	var body: some View {
 		VStack {
-			PBNavigationBar(title: viewModel.title, subtitle: nil)
+//			PBNavigationBar(title: viewModel.title, subtitle: nil)
 			Button("Add new pet") {
 				viewModel.showAddPet()
 			}

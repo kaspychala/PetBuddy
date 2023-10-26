@@ -17,7 +17,7 @@ struct FoodLogView: View {
     // TODO: Add "+" for adding new meal
 	var body: some View {
 		VStack {
-			PBNavigationBar(title: viewModel.title, subtitle: nil)
+//			PBNavigationBar(title: viewModel.title, subtitle: nil)
 			CalendarView()
                 .environmentObject(weekManager)
 			if pets.isEmpty {
@@ -32,6 +32,20 @@ struct FoodLogView: View {
 				}
 			}
 		}
+        .toolbar {
+            ToolbarItem(placement: .primaryAction) {
+                Menu {
+                    Button("Add meal") {
+                        viewModel.coordinator?.shouldShowAddMeal.toggle()
+                    }
+                    Button("Add food") {
+                        print("TODO")
+                    }
+                } label: {
+                    Image(systemName: "plus")
+                }
+            }
+        }
 	}
 }
 

@@ -21,6 +21,9 @@ struct FoodLogCoordinatorView: View {
                         AddMealCoordinatorView(
                             coordinator: coordinator.addMealCoordinator)
                     }
+                .navigationTitle("Food log")
+                .navigationBarTitleDisplayMode(.large)
+                .toolbar(.visible)
         }
 	}
 }

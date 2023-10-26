@@ -16,6 +16,9 @@ struct HealthBookCoordinatorView: View {
 	var body: some View {
 		NavigationView {
 			HealthBookView(viewModel: coordinator.viewModel)
+                .navigationTitle("Health book")
+                .navigationBarTitleDisplayMode(.large)
+                .toolbar(.visible)
 		}
 	}
 }

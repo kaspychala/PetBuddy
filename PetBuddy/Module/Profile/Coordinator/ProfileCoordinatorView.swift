@@ -21,6 +21,9 @@ struct ProfileCoordinatorView: View {
 						AddPetCoordinatorView(
 							coordinator: coordinator.addPetCoordinator)
 					}
+                .navigationTitle("Profile")
+                .navigationBarTitleDisplayMode(.large)
+                .toolbar(.visible)
 		}
 	}
 }
