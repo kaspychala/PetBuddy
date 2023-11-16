@@ -23,7 +23,7 @@ class FoodLogViewModel: ObservableObject {
 	func getFoodCardModel(for pet: PetModel, and date: Date) -> FoodCardModel {
         // TODO: Move to FoodKcalResolver for better readability and cleaner code.
         guard let meals = mealRepository.getAll()?.filter({ meal in
-            return meal.petId == pet.id && meal.date == date
+            return meal.petId == pet.id
         }) else {
 			return FoodCardModel(
 				petName: pet.name,

@@ -11,8 +11,6 @@ import RealmSwift
 struct AddMealView: View {
     @ObservedObject var viewModel: AddMealViewModel
 
-    @State private var petId: String = ""
-    @State private var foodId: String = ""
     @State private var weight: String = ""
     @State private var date: String = ""
     @State private var selectedPet = PetModel()
@@ -38,8 +36,8 @@ struct AddMealView: View {
                 .textFieldStyle(.roundedBorder)
             Button("Add") {
                 let meal = MealModel()
-                meal.petId = petId
-                meal.foodId = foodId
+                meal.petId = selectedPet.id
+                meal.foodId = selectedFood.id
                 meal.weight = Double(weight) ?? 0.0
                 meal.date = Date()
                 viewModel.addMeal(meal: meal)

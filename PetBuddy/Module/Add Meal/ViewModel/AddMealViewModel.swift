@@ -19,6 +19,6 @@ class AddMealViewModel: ObservableObject {
     }
 
     func addMeal(meal: MealModel) {
-        // WIP
+        mealRepository.add(object: meal)
     }
 }

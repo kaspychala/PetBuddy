@@ -39,7 +39,7 @@ struct FoodLogView: View {
                         viewModel.coordinator?.shouldShowAddMeal.toggle()
                     }
                     Button("Add food") {
-                        print("TODO")
+                        viewModel.coordinator?.shouldShowAddFood.toggle()
                     }
                 } label: {
                     Image(systemName: "plus")
